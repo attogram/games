@@ -40,7 +40,12 @@ echo '
 
 </div>
 <div class="row hprow">
- <div class="col-sm-4 hpcol">coming soon...</div>
+
+ <div class="col-sm-4 hpcol" style="background-color:black;">
+  <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" width="125" height="114" alt="Particle Clicker"></a>
+  <br /><br /><a href="particle-clicker/"><small>Particle Clicker</small></a>
+ </div>
+
  <div class="col-sm-4 hpcol">coming soon...</div>
  <div class="col-sm-4 hpcol">coming soon...</div>
 </div>

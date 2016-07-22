@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 - Work in progress...
+- added **Particle Clicker** from <https://github.com/particle-clicker/particle-clicker>
 
 ## [v0.0.2] - 2016-07-22
 

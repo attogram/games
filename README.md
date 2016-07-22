@@ -23,12 +23,14 @@ composer create-project attogram/games modules/games
 
 * `actions/home.php` - Games Site Home Page
 * `actions/hextris.html` - Hextris game
+* `actions/particle-clicker.html` - Particle Clicker game
 * `actions/polybranch.html` - PolyBranch game
 * `actions/pond.html` - The Pond game
 
 ### Public Files
 
 * `public/hextris/*` - support files for Hextris game
+* `public/particle-clicker/*` - support files for Particle Clicker game
 * `public/polybranch/*` - support files for PolyBranch game
 * `public/pond/*` - support files for The Pond game
 
@@ -39,5 +41,6 @@ composer create-project attogram/games modules/games
 ### Licenses and Info
 
 * `license/hextris/*` - License and info for Hextris game
+* `license/particle-clicker/*` - License and info for Particle Clicker game
 * `license/polybranch/*` - License and info for PolyBranch game
 * `license/pond/*` - License and info for The Pond game

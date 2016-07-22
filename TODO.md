@@ -1,6 +1,5 @@
 # TODO
 
-* https://github.com/particle-clicker/particle-clicker
 * https://github.com/svenanders/jetmanjr
 * https://github.com/Octocarina/game-off-2012/
 * https://github.com/petarov/game-off-2012
