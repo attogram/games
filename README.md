@@ -20,8 +20,8 @@ composer create-project attogram/games modules/games
 ### Public Actions
 
 * `actions/home.php` - Games Site Home Page
-* `actions/pond.php` - The Pond game
-* `actions/hextris.php` - Hextris game
+* `actions/pond.html` - The Pond game
+* `actions/hextris.html` - Hextris game
 
 ### Public Files
 

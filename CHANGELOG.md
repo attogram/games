@@ -7,6 +7,7 @@
 
 - Work in progress...
 - added **Hextris** from <https://github.com/Hextris/hextris>
+- added **PolyBranch** from <https://github.com/gbatha/PolyBranch>
 
 ## [v0.0.1] - 2016-07-22
 
