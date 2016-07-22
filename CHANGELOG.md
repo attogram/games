@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 - Work in progress...
+- added **Hextris** from <https://github.com/Hextris/hextris>
 
 ## [v0.0.1] - 2016-07-22
 

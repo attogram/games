@@ -5,7 +5,7 @@ namespace Attogram;
 
 $this->pageHeader('Games');
 
-echo '<div class="container">';
+echo '<div class="container" style="background-color:#030303;">';
 
 echo '
 <style>
@@ -16,17 +16,23 @@ echo '
 .hpcol {
   padding:30px;
   margin:0px;
-  background-color:white ;
+  background-color:black;
   text-align: center;
 }
 </style>
 
 <div class="row hprow">
+
  <div class="col-sm-4 hpcol" style="background-color:black;">
-  <a href="pond/"><img src="web/pond/assets/logo-small.png" width="200" alt="The Pond"></a>
+  <a href="pond/"><img src="web/pond/assets/logo-small.png" width="180" alt="The Pond"></a>
   <br /><br /><a href="pond/"><small>A narrow fellow in the Pond</small></a>
  </div>
- <div class="col-sm-4 hpcol">coming soon...</div>
+
+ <div class="col-sm-4 hpcol" style="background-color:black;">
+  <a href="hextris/"><img src="web/hextris/images/logo_android.png" width="120" alt="Hextris"></a>
+  <br /><a href="hextris/"><small>Hextris</small></a>
+ </div>
+
  <div class="col-sm-4 hpcol">coming soon...</div>
 </div>
 <div class="row hprow">
