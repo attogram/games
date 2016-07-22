@@ -21,9 +21,11 @@ composer create-project attogram/games modules/games
 
 * `actions/home.php` - Games Site Home Page
 * `actions/pond.php` - The Pond game
+* `actions/hextris.php` - Hextris game
 
 ### Public Files
 
+* `public/hextris/*` - support files for Hextris game
 * `public/pond/*` - support files for The Pond game
 
 ### Configurations
@@ -32,4 +34,5 @@ composer create-project attogram/games modules/games
 
 ### Licenses and Info
 
+* `license/hextris/*` - License and info for Hextris game
 * `license/pond/*` - License and info for The Pond game
