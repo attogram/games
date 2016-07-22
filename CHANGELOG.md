@@ -6,6 +6,9 @@
 ## [Unreleased]
 
 - Work in progress...
+
+## [v0.0.2] - 2016-07-22
+
 - added **Hextris** from <https://github.com/Hextris/hextris>
 - added **PolyBranch** from <https://github.com/gbatha/PolyBranch>
 
@@ -18,6 +21,7 @@
 
 - Repo created: <https://github.com/attogram/games>
 
-[Unreleased]: https://github.com/attogram/games/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/attogram/games/compare/v0.0.2...HEAD
+[v0.0.2]: https://github.com/attogram/games/compare/v0.0.1...v0.0.2
 [v0.0.1]: https://github.com/attogram/games/compare/472107d...v0.0.1
 [v0.0.0]: https://github.com/attogram/games/tree/472107d
