@@ -1,0 +1,28 @@
+{
+  "name": "attogram/games",
+  "description": "Games Site Module for the Attogram Framework. Open Source gaming goodness.",
+  "type": "project",
+  "homepage": "https://github.com/attogram/games",
+  "license": "(MIT or GPL-3.0+)",
+  "require": {
+    "php": ">=5.3.3 || ^7.0"
+  },
+  "authors": [
+    {
+      "name": "Attogram Games Site Module Developers",
+      "homepage": "https://github.com/attogram/games"
+    }
+  ],
+  "suggest": {
+    "attogram/attogram-framework": "The Attogram Framework",
+    "attogram/attogram-modulemanager": "Module Manager for the Attogram Framework",
+    "attogram/attogram-database": "Database Module for the Attogram Framework",
+    "attogram/attogram-user": "User Module for the Attogram Framework",
+    "attogram/attogram-info": "Info Module for the Attogram Framework",
+    "attogram/attogram-contactform": "Contact Form Module for the Attogram Framework"
+  },
+  "keywords": [
+    "games",
+    "attogram"
+  ]
+}
