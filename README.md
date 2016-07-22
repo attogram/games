@@ -1,5 +1,7 @@
 # Games Site Module for the Attogram Framework v0.0.2
 
+![Games Site Module Homepage](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games-intro.png)
+
 This is the [Games Site Module](https://github.com/attogram/games)
 for the [Attogram Framework](https://github.com/attogram/attogram).
 
