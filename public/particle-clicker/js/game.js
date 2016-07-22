@@ -21,13 +21,9 @@ var Game = (function() {
     // make it work with Angular. If you know a way, let me know, and I'll
     // give you a beer. - Kevin
     this.research = Helpers.loadFile('../web/particle-clicker/json/research.json');
-    this.research = JSON.parse(this.research); // Attogram Fix
     this.workers = Helpers.loadFile('../web/particle-clicker/json/workers.json');
-    this.workers = JSON.parse(this.workers); // Attogram Fix
     this.upgrades = Helpers.loadFile('../web/particle-clicker/json/upgrades.json');
-    this.upgrades = JSON.parse(this.upgrades); // Attogram Fix
     this.achievements = Helpers.loadFile('../web/particle-clicker/json/achievements.json');
-    this.achievements = JSON.parse(this.achievements); // Attogram Fix
 
     // Turn JSON files into actual game objects and fill map of all objects
     var _this = this;
