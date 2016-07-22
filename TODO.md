@@ -1,9 +1,5 @@
 # TODO
 
-## Test
-
-* 
-
 ## lists
 
 * https://github.com/leereilly/games#user-content-browser-based
