@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Games Module - About v0.0.1
+// Attogram Framework - Games Module - About v0.0.2
 
 namespace Attogram;
 
@@ -12,7 +12,9 @@ echo '<h1><a href="/" class="hlite">',$this->siteName,' <small>',GAMES_SITE_VERS
 
 <h3>About</h3>
 
-<p>The Games Site is a collection of open source games, gathered together into an
+<p>The Games Site is a collection of
+<a href="https://opensource.org/">open source</a> web-based games,
+gathered together into an
 <a href="https://github.com/attogram/attogram">Attogram Framework</a> module.</p>
 
 <ul>
