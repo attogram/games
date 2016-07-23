@@ -6,7 +6,10 @@
 ## [Unreleased]
 
 - Work in progress...
-- added `about` page
+
+## [v0.0.6] - 2016-07-24
+
+- added [`about`](https://github.com/attogram/games/blob/master/actions/about.php) page
 - homepage design updates, and all logos 100x100
 
 ## [v0.0.5] - 2016-07-23
@@ -38,8 +41,9 @@
 
 - Repo created: <https://github.com/attogram/games>
 
-[Unreleased]: https://github.com/attogram/games/compare/v0.0.5...HEAD
-[v0.0.4]: https://github.com/attogram/games/compare/v0.0.4...v0.0.5
+[Unreleased]: https://github.com/attogram/games/compare/v0.0.6...HEAD
+[v0.0.6]: https://github.com/attogram/games/compare/v0.0.5...v0.0.6
+[v0.0.5]: https://github.com/attogram/games/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/attogram/games/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/attogram/games/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/attogram/games/compare/v0.0.1...v0.0.2
