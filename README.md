@@ -28,6 +28,7 @@ Filled with open source gaming goodness!
 ### Public Actions
 
 * [`actions/home.php`] - Games Site Home Page
+* [`actions/about.php`] - About the Games Site
 * [`actions/8queens.php`] - 8 Queens chess puzzle
 * [`actions/candyjam.html`] - Dental Defender: Saga of the Candy Horde game
 * [`actions/hextris.html`] - Hextris game
@@ -63,6 +64,7 @@ Filled with open source gaming goodness!
 * [`licenses/pond/*`] - License and info for The Pond game
 
 [`actions/home.php`]: https://github.com/attogram/games/blob/master/actions/home.php
+[`actions/about.php`]: https://github.com/attogram/games/blob/master/actions/about.php
 [`actions/8queens.php`]: https://github.com/attogram/games/blob/master/actions/8queens.php
 [`actions/candyjam.html`]: https://github.com/attogram/games/blob/master/actions/candyjam.html
 [`actions/hextris.html`]: https://github.com/attogram/games/blob/master/actions/hextris.html
