@@ -14,23 +14,25 @@ echo '<h1>',$this->siteName,' <small>',GAMES_SITE_VERSION,'</small></h1>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
   <a href="pond/"><img src="web/pond/logo.png" class="ihlite" width="100" height="100" alt="The Pond"></a>
-  <br /><br /><a href="pond/" class="hlite">The Pond &nbsp;
+  <br /><br /><a href="pond/" class="hlite">The Pond
   <br /><small>A narrow fellow in the Pond</small></a>
  </div>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
   <a href="hextris/"><img src="web/hextris/logo.png" class="ihlite" width="100" height="100" alt="Hextris"></a>
-  <br /><br /><a href="hextris/" class="hlite">Hextris</a>
+  <br /><br /><a href="hextris/" class="hlite">Hextris
+  <br /><small>Hexagonal tetris</small></a>
  </div>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
   <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" class="ihlite" width="100" height="100" alt="Particle Clicker"></a>
-  <br /><br /><a href="particle-clicker/" class="hlite">Particle Clicker</a>
+  <br /><br /><a href="particle-clicker/" class="hlite">Particle Clicker
+  <br /><small>Particle detector simulator</small></a>
  </div>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
   <a href="candyjam/"><img src="web/candyjam/logo.png" class="ihlite" width="100" width="100" alt="Candy Jam"></a>
-  <br /><br /><a href="candyjam/" class="hlite">Dental Defender &nbsp;
+  <br /><br /><a href="candyjam/" class="hlite">Dental Defender
   <br /><small>Saga of the Candy Horde</small></a>
  </div>
 
@@ -39,12 +41,13 @@ echo '<h1>',$this->siteName,' <small>',GAMES_SITE_VERSION,'</small></h1>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
   <a href="polybranch/"><img src="web/polybranch/logo.png" class="ihlite" width="100" height="100" alt="PolyBranch"></a>
-  <br /><br /><a href="polybranch/" class="hlite">PolyBranch</a>
+  <br /><br /><a href="polybranch/" class="hlite">PolyBranch
+  <br /><small>Fly through the branches</small></a>
  </div>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
   <a href="8queens/"><img src="web/8queens/logo.png" class="ihlite" width="100" height="100" alt="8 Queens"></a>
-  <br /><br /><a href="8queens/" class="hlite">8 Queens &nbsp;
+  <br /><br /><a href="8queens/" class="hlite">8 Queens
   <br /><small>Chess Puzzle</small></a>
  </div>
 
