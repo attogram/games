@@ -1,14 +1,17 @@
+/* Attogram Framework - Games Site Module - games.css v0.0.3 */
 body {
   background-color:#000000;
 }
-a:hover {
-  color:#000000;
-  background-color:#DDDD33;
+.hlite:hover {
+  color:#928849;
+  background-color:#222222;
   padding:7px;
   text-decoration:none;
 }
 img:hover {
-  background-color:#000000;
+  padding:10px;
+  border:1px solid #928849;
+  background-color:#222222;
 }
 h1 {
   padding:10px;
@@ -26,8 +29,8 @@ h1 {
   margin:0;
 }
 .hpcol {
-  padding:30px;
-  margin:0s;
+  padding:10px;
+  margin:0;
   background-color:black;
   text-align:center;
 }

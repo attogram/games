@@ -6,7 +6,11 @@
 ## [Unreleased]
 
 - Work in progress...
+
+## [v0.0.3] - ????-??-??
+
 - added **Dental Defender: Saga of the Candy Horde** from <https://github.com/cshepp/candyjam>
+- homepage design updates, padding, 4 columns
 
 ## [v0.0.3] - 2016-07-23
 
