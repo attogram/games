@@ -15,11 +15,6 @@
   ],
   "suggest": {
     "attogram/attogram-framework": "The Attogram Framework",
-    "attogram/attogram-modulemanager": "Module Manager for the Attogram Framework",
-    "attogram/attogram-database": "Database Module for the Attogram Framework",
-    "attogram/attogram-user": "User Module for the Attogram Framework",
-    "attogram/attogram-info": "Info Module for the Attogram Framework",
-    "attogram/attogram-contactform": "Contact Form Module for the Attogram Framework",
     "attogram/8queens": "8 Queens Chess Puzzle Module for the Attogram Framework"
   },
   "keywords": [
@@ -29,6 +24,8 @@
     "particle clicker",
     "the pond",
     "polybranch",
+    "dental defender",
+    "candyjam",
     "attogram"
   ]
 }
