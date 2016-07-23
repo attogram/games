@@ -13,7 +13,7 @@ echo '<h1>',$this->siteName,' <small>',GAMES_SITE_VERSION,'</small></h1>
 <div class="row hprow">
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
-  <a href="pond/"><img src="web/pond/logo.png" class="ihlite" width="150" height="84" alt="The Pond"></a>
+  <a href="pond/"><img src="web/pond/logo.png" class="ihlite" width="100" height="100" alt="The Pond"></a>
   <br /><br /><a href="pond/" class="hlite">The Pond &nbsp;
   <br /><small>A narrow fellow in the Pond</small></a>
  </div>
@@ -24,12 +24,12 @@ echo '<h1>',$this->siteName,' <small>',GAMES_SITE_VERSION,'</small></h1>
  </div>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
-  <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" class="ihlite" width="125" height="114" alt="Particle Clicker"></a>
+  <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" class="ihlite" width="100" height="100" alt="Particle Clicker"></a>
   <br /><br /><a href="particle-clicker/" class="hlite">Particle Clicker</a>
  </div>
 
  <div class="col-sm-3 hpcol" style="background-color:black;">
-  <a href="candyjam/"><img src="web/candyjam/logo.png" class="ihlite" width="150" width="119" alt="Candy Jam"></a>
+  <a href="candyjam/"><img src="web/candyjam/logo.png" class="ihlite" width="100" width="100" alt="Candy Jam"></a>
   <br /><br /><a href="candyjam/" class="hlite">Dental Defender &nbsp;
   <br /><small>Saga of the Candy Horde</small></a>
  </div>
