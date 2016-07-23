@@ -1,4 +1,4 @@
-/* Attogram Framework - Games Site Module - games.css v0.0.3 */
+/* Attogram Framework - Games Site Module - games.css v0.0.4 */
 body {
   background-color:#000000;
 }
@@ -25,11 +25,11 @@ h1 {
   background-color:#222222;
 }
 .hprow {
-  padding:10px;
+  padding:0;
   margin:0;
 }
 .hpcol {
-  padding:10px;
+  padding:20px 0 0 0;
   margin:0;
   background-color:black;
   text-align:center;
