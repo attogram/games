@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 - Work in progress...
+- added **Dental Defender: Saga of the Candy Horde** from <https://github.com/cshepp/candyjam>
 
 ## [v0.0.3] - 2016-07-23
 

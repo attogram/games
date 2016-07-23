@@ -1,0 +1,33 @@
+* {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html, body { 
+  background-color: #000;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#phaser-div{
+	width:1024px;
+	position:absolute;
+	left:50%;
+	margin: 0 0 0 -512px;
+}
+
+.info{
+  width: 1024px;
+  left:50%;
+  position:absolute;
+  margin:775px 0 0 -512px;
+  color:white;
+  font-family: "monospace";
+}
+
+.info a{
+  color:white;
+}

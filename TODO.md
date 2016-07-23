@@ -12,7 +12,7 @@
 * https://github.com/robertkleffner/mariohtml5
 * https://github.com/adityaravishankar/last-colony
 * https://github.com/voithos/elemental-one
-* https://github.com/cshepp/candyjam/
+
 
 ## lists
 
