@@ -6,6 +6,8 @@
 ## [Unreleased]
 
 - Work in progress...
+- added `about` page
+- homepage design updates, and all logos 100x100
 
 ## [v0.0.5] - 2016-07-23
 

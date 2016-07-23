@@ -3,9 +3,9 @@
 
 namespace Attogram;
 
-$this->pageHeader('Games');
+$this->pageHeader('Games Site');
 
-echo '<h1>',$this->siteName,' <small>',GAMES_SITE_VERSION,'</small></h1>
+echo '<h1><a href="about/" class="hlite">',$this->siteName,' <small>',GAMES_SITE_VERSION,'</small></a></h1>
 
 <div class="container-fluid" style="background-color:#030303;">
 
