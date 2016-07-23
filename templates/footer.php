@@ -1,14 +1,12 @@
 <?php
-// Attogram Framework - Games Site Module - Page Footer v0.0.1
+// Attogram Framework - Games Site Module - Page Footer v0.0.2
 
 namespace Attogram;
 
 $divider = '&nbsp;&nbsp; | &nbsp;&nbsp;';
 
 echo '<footer class="footer"><div class="container-fluid"><p><small>',
-    '<span style="white-space:nowrap"><a href="',
-    $this->getSiteUrl(),
-    '/">',
+    '<span style="white-space:nowrap"><a href="https://github.com/attogram/games">',
     $this->siteName,
     '</a></span>',
     $divider,
