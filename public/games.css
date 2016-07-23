@@ -5,10 +5,10 @@ body {
 .hlite:hover {
   color:#928849;
   background-color:#222222;
-  padding:7px;
+  padding:4px;
   text-decoration:none;
 }
-img:hover {
+.ihlite:hover {
   padding:10px;
   border:1px solid #928849;
   background-color:#222222;

@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Games Site Module - Page Header v0.0.3
+// Attogram Framework - Games Site Module - Page Header v0.0.4
 
 namespace Attogram;
 
@@ -17,5 +17,4 @@ echo '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">',
     //'<script src="'.$this->path.'/web/jquery.min.js"></script>',
     //'<script src="'.$this->path.'/web/bootstrap/js/bootstrap.min.js"></script>',
     '</head><body>',
-    '<noscript><div class="alert alert-danger">Please enable Javascript</div></noscript>',
-    '<h1>'.$this->siteName.' <small>'.GAMES_SITE_VERSION.'</small></h1>';
+    '<noscript><div class="alert alert-danger">Please enable Javascript</div></noscript>';
