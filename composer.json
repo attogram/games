@@ -1,6 +1,6 @@
 {
   "name": "attogram/games",
-  "description": "Games Site Module for the Attogram Framework. Open Source gaming goodness.",
+  "description": "Games Site Module for the Attogram Framework. Filled with open source gaming goodness!",
   "type": "project",
   "homepage": "https://github.com/attogram/games",
   "license": "(MIT or GPL-3.0+)",
@@ -19,10 +19,16 @@
     "attogram/attogram-database": "Database Module for the Attogram Framework",
     "attogram/attogram-user": "User Module for the Attogram Framework",
     "attogram/attogram-info": "Info Module for the Attogram Framework",
-    "attogram/attogram-contactform": "Contact Form Module for the Attogram Framework"
+    "attogram/attogram-contactform": "Contact Form Module for the Attogram Framework",
+    "attogram/8queens": "8 Queens Chess Puzzle Module for the Attogram Framework"
   },
   "keywords": [
+    "game",
     "games",
+    "hextris",
+    "particle clicker",
+    "the pond",
+    "polybranch",
     "attogram"
   ]
 }
