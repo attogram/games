@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Games Module - Home v0.0.1
+// Attogram Framework - Games Module - Home v0.0.2
 
 namespace Attogram;
 
@@ -19,20 +19,21 @@ echo '<div class="container-fluid" style="background-color:#030303;">
  </div>
 
  <div class="col-sm-4 hpcol" style="background-color:black;">
-  <a href="polybranch/"><img src="web/polybranch/logo.png" width="100" height="100" alt="PolyBranch"></a>
-  <br /><br /><a href="polybranch/">PolyBranch</a>
+  <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" width="125" height="114" alt="Particle Clicker"></a>
+  <br /><br /><a href="particle-clicker/">Particle Clicker</a>
  </div>
 
 </div>
 <div class="row hprow">
 
  <div class="col-sm-4 hpcol" style="background-color:black;">
-  <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" width="125" height="114" alt="Particle Clicker"></a>
-  <br /><br /><a href="particle-clicker/">Particle Clicker</a>
+  <a href="polybranch/"><img src="web/polybranch/logo.png" width="100" height="100" alt="PolyBranch"></a>
+  <br /><br /><a href="polybranch/">PolyBranch</a>
  </div>
 
  <div class="col-sm-4 hpcol">coming soon...</div>
  <div class="col-sm-4 hpcol">coming soon...</div>
+
 </div>
 ';
 
