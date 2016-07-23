@@ -7,6 +7,10 @@
 
 - Work in progress...
 
+## [v0.0.5] - 2016-07-23
+
+- added **8 Queens Chess Puzzle** from <https://github.com/attogram/8queens>
+
 ## [v0.0.4] - 2016-07-23
 
 - added **Dental Defender: Saga of the Candy Horde** from <https://github.com/cshepp/candyjam>
@@ -32,7 +36,8 @@
 
 - Repo created: <https://github.com/attogram/games>
 
-[Unreleased]: https://github.com/attogram/games/compare/v0.0.4...HEAD
+[Unreleased]: https://github.com/attogram/games/compare/v0.0.5...HEAD
+[v0.0.4]: https://github.com/attogram/games/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/attogram/games/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/attogram/games/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/attogram/games/compare/v0.0.1...v0.0.2

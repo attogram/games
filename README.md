@@ -28,6 +28,7 @@ Filled with open source gaming goodness!
 ### Public Actions
 
 * [`actions/home.php`] - Games Site Home Page
+* [`actions/8queens.php`] - 8 Queens chess puzzle
 * [`actions/candyjam.html`] - Dental Defender: Saga of the Candy Horde game
 * [`actions/hextris.html`] - Hextris game
 * [`actions/particle-clicker.html`] - Particle Clicker game
@@ -36,6 +37,7 @@ Filled with open source gaming goodness!
 
 ### Public Files
 * [`public/games.css`] - Global CSS for Games Site
+* [`public/8queens/*`] - support files for 8 Queens chess puzzla
 * [`public/candyjam/*`] - support files for Dental Defender game
 * [`public/hextris/*`] - support files for Hextris game
 * [`public/particle-clicker/*`] - support files for Particle Clicker game
@@ -53,6 +55,7 @@ Filled with open source gaming goodness!
 
 ### Licenses and Info
 
+* [`licenses/8queens/*`] - License and info for 8 Queens chess puzzle
 * [`licenses/candyjam/*`] - License and info for Dental Defender game
 * [`licenses/hextris/*`] - License and info for Hextris game
 * [`licenses/particle-clicker/*`] - License and info for Particle Clicker game
@@ -60,12 +63,14 @@ Filled with open source gaming goodness!
 * [`licenses/pond/*`] - License and info for The Pond game
 
 [`actions/home.php`]: https://github.com/attogram/games/blob/master/actions/home.php
+[`actions/8queens.php`]: https://github.com/attogram/games/blob/master/actions/8queens.php
 [`actions/candyjam.html`]: https://github.com/attogram/games/blob/master/actions/candyjam.html
 [`actions/hextris.html`]: https://github.com/attogram/games/blob/master/actions/hextris.html
 [`actions/particle-clicker.html`]: https://github.com/attogram/games/blob/master/actions/particle-clicker.html
 [`actions/polybranch.html`]: https://github.com/attogram/games/blob/master/actions/polybranch.html
 [`actions/pond.html`]: https://github.com/attogram/games/blob/master/actions/pond.html
 [`public/games.css`]: https://github.com/attogram/games/blob/master/public/games.css
+[`public/8queens/*`]: https://github.com/attogram/games/blob/master/public/8queens
 [`public/candyjam/*`]: https://github.com/attogram/games/blob/master/public/candyjam
 [`public/hextris/*`]: https://github.com/attogram/games/blob/master/public/hextris
 [`public/particle-clicker/*`]: https://github.com/attogram/games/blob/master/public/particle-clicker
@@ -74,6 +79,7 @@ Filled with open source gaming goodness!
 [`configs/games-config.php`]: https://github.com/attogram/games/blob/master/configs/games-config.php
 [`templates/header.php`]: https://github.com/attogram/games/blob/master/templates/header.php
 [`templates/footer.php`]: https://github.com/attogram/games/blob/master/templates/footer.php
+[`licenses/8queens/*`]: https://github.com/attogram/games/blob/master/licenses/8queens
 [`licenses/candyjam/*`]: https://github.com/attogram/games/blob/master/licenses/candyjam
 [`licenses/hextris/*`]: https://github.com/attogram/games/blob/master/licenses/hextris
 [`Licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
