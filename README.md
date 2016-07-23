@@ -11,36 +11,65 @@ Filled with open source gaming goodness!
 
 * You already installed the
   [Attogram Framework](https://github.com/attogram/attogram), didn't you?
-* Goto the top level of your install, then run:
 
-```
-composer create-project attogram/games modules/games
-```
+### Install via composer
+
+* You already installed [Composer](https://getcomposer.org/), didn't you?
+* Goto the top level of your Attogram install, then run:
+* `composer create-project attogram/games modules/games`
+
+### Install manually
+
+* [Download the Latest ZIP of Games Site Module](https://github.com/attogram/games/archive/master.zip)
+* unzip and move into your Attogram `modules/` directory
 
 ## Contents
 
 ### Public Actions
 
-* `actions/home.php` - Games Site Home Page
-* `actions/hextris.html` - Hextris game
-* `actions/particle-clicker.html` - Particle Clicker game
-* `actions/polybranch.html` - PolyBranch game
-* `actions/pond.html` - The Pond game
+* [`actions/home.php`] - Games Site Home Page
+* [`actions/hextris.html`] - Hextris game
+* [`actions/particle-clicker.html`] - Particle Clicker game
+* [`actions/polybranch.html`] - PolyBranch game
+* [`actions/pond.html`] - The Pond game
 
 ### Public Files
-
-* `public/hextris/*` - support files for Hextris game
-* `public/particle-clicker/*` - support files for Particle Clicker game
-* `public/polybranch/*` - support files for PolyBranch game
-* `public/pond/*` - support files for The Pond game
+* [`public/games.css`] - Global CSS for Games Site
+* [`public/hextris/*`] - support files for Hextris game
+* [`public/particle-clicker/*`] - support files for Particle Clicker game
+* [`public/polybranch/*`] - support files for PolyBranch game
+* [`public/pond/*`] - support files for The Pond game
 
 ### Configurations
 
-* `configs/games-config.php` - Attogram config for the Games Site
+* [`configs/games-config.php`] - Attogram config for the Games Site
+
+### Templates
+
+* [`templates/header.php`] - Global Page Header template
+* [`templates/footer.php`] - Global Page Footer template
 
 ### Licenses and Info
 
-* `license/hextris/*` - License and info for Hextris game
-* `license/particle-clicker/*` - License and info for Particle Clicker game
-* `license/polybranch/*` - License and info for PolyBranch game
-* `license/pond/*` - License and info for The Pond game
+* [`licenses/hextris/*`] - License and info for Hextris game
+* [`licenses/particle-clicker/*`] - License and info for Particle Clicker game
+* [`licenses/polybranch/*`] - License and info for PolyBranch game
+* [`licenses/pond/*`] - License and info for The Pond game
+
+[`actions/home.php`]: https://github.com/attogram/games/blob/master/actions/home.php
+[`actions/hextris.html`]: https://github.com/attogram/games/blob/master/actions/hextris.html
+[`actions/particle-clicker.html`]: https://github.com/attogram/games/blob/master/actions/particle-clicker.html
+[`actions/polybranch.html`]: https://github.com/attogram/games/blob/master/actions/polybranch.html
+[`actions/pond.html`]: https://github.com/attogram/games/blob/master/actions/pond.html
+[`public/games.css`]: https://github.com/attogram/games/blob/master/public/games.css
+[`public/hextris/*`]: https://github.com/attogram/games/blob/master/public/hextris
+[`public/particle-clicker/*`]: https://github.com/attogram/games/blob/master/public/particle-clicker
+[`public/polybranch/*`]: https://github.com/attogram/games/blob/master/public/polybranch
+[`public/pond/*`]: https://github.com/attogram/games/blob/master/public/pond
+[`configs/games-config.php`]: https://github.com/attogram/games/blob/master/configs/games-config.php
+[`templates/header.php`]: https://github.com/attogram/games/blob/master/templates/header.php
+[`templates/footer.php`]: https://github.com/attogram/games/blob/master/templates/footer.php
+[`licenses/hextris/*`]: https://github.com/attogram/games/blob/master/licenses/hextris
+[`Licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
+[`licenses/polybranch/*`]: https://github.com/attogram/games/blob/master/licenses/polybranch
+[`licenses/pond/*`]: https://github.com/attogram/games/blob/master/licenses/pond

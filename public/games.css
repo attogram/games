@@ -1,0 +1,33 @@
+body {
+  background-color:#000000;
+}
+a:hover {
+  color:#000000;
+  background-color:#DDDD33;
+  padding:7px;
+  text-decoration:none;
+}
+img:hover {
+  background-color:#000000;
+}
+h1 {
+  padding:10px;
+  margin:0;
+  color:#928849;
+  background-color:#222222;
+  text-align:center;
+}
+.footer {
+  color:#827839;
+  background-color:#222222;
+}
+.hprow {
+  padding:10px;
+  margin:0;
+}
+.hpcol {
+  padding:30px;
+  margin:0px;
+  background-color:black;
+  text-align:center;
+}

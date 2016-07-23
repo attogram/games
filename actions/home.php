@@ -5,37 +5,22 @@ namespace Attogram;
 
 $this->pageHeader('Games');
 
-echo '<div class="container" style="background-color:#030303;">';
-
-echo '
-<style>
-.hprow {
-  padding:0;
-  margin:0;
-}
-.hpcol {
-  padding:30px;
-  margin:0px;
-  background-color:black;
-  text-align: center;
-}
-</style>
-
+echo '<div class="container-fluid" style="background-color:#030303;">
 <div class="row hprow">
 
  <div class="col-sm-4 hpcol" style="background-color:black;">
   <a href="pond/"><img src="web/pond/logo.png" width="178" height="100" alt="The Pond"></a>
-  <br /><br /><a href="pond/"><small>A narrow fellow in the Pond</small></a>
+  <br /><br /><a href="pond/">A narrow fellow in the Pond</a>
  </div>
 
  <div class="col-sm-4 hpcol" style="background-color:black;">
   <a href="hextris/"><img src="web/hextris/logo.png" width="100" height="100" alt="Hextris"></a>
-  <br /><br /><a href="hextris/"><small>Hextris</small></a>
+  <br /><br /><a href="hextris/">Hextris</a>
  </div>
 
  <div class="col-sm-4 hpcol" style="background-color:black;">
   <a href="polybranch/"><img src="web/polybranch/logo.png" width="100" height="100" alt="PolyBranch"></a>
-  <br /><br /><a href="polybranch/"><small>PolyBranch</small></a>
+  <br /><br /><a href="polybranch/">PolyBranch</a>
  </div>
 
 </div>
@@ -43,7 +28,7 @@ echo '
 
  <div class="col-sm-4 hpcol" style="background-color:black;">
   <a href="particle-clicker/"><img src="web/particle-clicker/logo.png" width="125" height="114" alt="Particle Clicker"></a>
-  <br /><br /><a href="particle-clicker/"><small>Particle Clicker</small></a>
+  <br /><br /><a href="particle-clicker/">Particle Clicker</a>
  </div>
 
  <div class="col-sm-4 hpcol">coming soon...</div>
