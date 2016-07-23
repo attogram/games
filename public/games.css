@@ -2,12 +2,15 @@
 body {
   background-color:#000000;
 }
+img {
+  margin:10px;
+}
 .hlite:hover {
   color:#928849;
   text-decoration:none;
 }
 .ihlite:hover {
-  padding:10px;
+  padding:8px;
   border:1px solid #928849;
   background-color:#222222;
 }
