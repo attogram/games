@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Games Module - Home v0.0.6
+// Attogram Framework - Games Module - Home v0.0.7
 
 namespace Attogram;
 
@@ -32,13 +32,19 @@ echo '<h1><a href="about/" class="hlite">',$this->siteName,' <small>',GAMES_SITE
  </div>
 
  <div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
-  <a href="candyjam/"><img src="web/candyjam/logo.png" class="ihlite" width="100" width="100" alt="Candy Jam"></a>
-  <br /><a href="candyjam/" class="hlite">Dental Defender
-  <br /><small>Saga of the Candy Horde</small></a>
+  <a href="hexgl/"><img src="web/hexgl/logo.png" class="ihlite" width="100" height="100" alt="HexGL"></a>
+  <br /><a href="hexgl/" class="hlite">HexGL
+  <br /><small>racing</small></a>
  </div>
 
 </div>
 <div class="row hprow">
+
+ <div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
+  <a href="candyjam/"><img src="web/candyjam/logo.png" class="ihlite" width="100" width="100" alt="Candy Jam"></a>
+  <br /><a href="candyjam/" class="hlite">Dental Defender
+  <br /><small>Saga of the Candy Horde</small></a>
+ </div>
 
  <div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
   <a href="polybranch/"><img src="web/polybranch/logo.png" class="ihlite" width="100" height="100" alt="PolyBranch"></a>
@@ -46,14 +52,14 @@ echo '<h1><a href="about/" class="hlite">',$this->siteName,' <small>',GAMES_SITE
   <br /><small>Fly through the branches</small></a>
  </div>
 
+ <div class="clearfix visible-xs-block"></div>
+
  <div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
   <a href="8queens/"><img src="web/8queens/logo.png" class="ihlite" width="100" height="100" alt="8 Queens"></a>
   <br /><a href="8queens/" class="hlite">8 Queens
   <br /><small>Chess Puzzle</small></a>
  </div>
 
- <div class="clearfix visible-xs-block"></div>
- <div class="col-sm-3 col-xs-6 hpcol"></div>
  <div class="col-sm-3 col-xs-6 hpcol"></div>
 </div>
 

@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 - Work in progress...
+- added **HexGL** from * <https://github.com/BKcore/HexGL>
 
 ## [v0.0.6] - 2016-07-24
 

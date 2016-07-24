@@ -1,5 +1,8 @@
 # TODO
 
+
+* https://github.com/KrofDrakula/squirts
+
 * https://github.com/svenanders/jetmanjr
 * https://github.com/Octocarina/game-off-2012/
 * https://github.com/petarov/game-off-2012
@@ -12,16 +15,6 @@
 * https://github.com/robertkleffner/mariohtml5
 * https://github.com/adityaravishankar/last-colony
 * https://github.com/voithos/elemental-one
-
-
-## lists
-
-* https://github.com/leereilly/games#user-content-browser-
-* x https://github.com/blog/1337-github-game-off-winners
-* x http://openhtml5games.com/
-
-## review
-
 * https://sourceforge.net/projects/wolfeinstein3dhtml5/
 * https://github.com/adityaravishankar/command-and-conquer
 * https://github.com/cykod/AlienInvasion
@@ -29,3 +22,13 @@
 * https://github.com/mitallast/diablo-js
 * https://github.com/StrykerKKD/SpaceInvaders
 * https://github.com/eugenioclrc/circushtml5
+* https://github.com/ansal/spacewars
+* https://github.com/dmcinnes/HTML5-Asteroids
+* https://github.com/jaredsohn/mmospacewar
+* https://github.com/chriz001/Reacteroids
+
+## lists
+
+* https://github.com/leereilly/games#user-content-browser-
+* x https://github.com/blog/1337-github-game-off-winners
+* x http://openhtml5games.com/

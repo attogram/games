@@ -31,6 +31,7 @@ Filled with open source gaming goodness!
 * [`actions/about.php`] - About the Games Site
 * [`actions/8queens.php`] - 8 Queens chess puzzle
 * [`actions/candyjam.html`] - Dental Defender: Saga of the Candy Horde game
+* [`actions/hexgl.html`] - HexGL game
 * [`actions/hextris.html`] - Hextris game
 * [`actions/particle-clicker.html`] - Particle Clicker game
 * [`actions/polybranch.html`] - PolyBranch game
@@ -40,6 +41,7 @@ Filled with open source gaming goodness!
 * [`public/games.css`] - Global CSS for Games Site
 * [`public/8queens/*`] - support files for 8 Queens chess puzzla
 * [`public/candyjam/*`] - support files for Dental Defender game
+* [`public/hexgl/*`] - support files for HexGL game
 * [`public/hextris/*`] - support files for Hextris game
 * [`public/particle-clicker/*`] - support files for Particle Clicker game
 * [`public/polybranch/*`] - support files for PolyBranch game
@@ -58,6 +60,7 @@ Filled with open source gaming goodness!
 
 * [`licenses/8queens/*`] - License and info for 8 Queens chess puzzle
 * [`licenses/candyjam/*`] - License and info for Dental Defender game
+* [`licenses/hexgl/*`] - License and info for HexGL game
 * [`licenses/hextris/*`] - License and info for Hextris game
 * [`licenses/particle-clicker/*`] - License and info for Particle Clicker game
 * [`licenses/polybranch/*`] - License and info for PolyBranch game
@@ -67,6 +70,7 @@ Filled with open source gaming goodness!
 [`actions/about.php`]: https://github.com/attogram/games/blob/master/actions/about.php
 [`actions/8queens.php`]: https://github.com/attogram/games/blob/master/actions/8queens.php
 [`actions/candyjam.html`]: https://github.com/attogram/games/blob/master/actions/candyjam.html
+[`actions/hexgl.html`]: https://github.com/attogram/games/blob/master/actions/hexgl.html
 [`actions/hextris.html`]: https://github.com/attogram/games/blob/master/actions/hextris.html
 [`actions/particle-clicker.html`]: https://github.com/attogram/games/blob/master/actions/particle-clicker.html
 [`actions/polybranch.html`]: https://github.com/attogram/games/blob/master/actions/polybranch.html
@@ -74,6 +78,7 @@ Filled with open source gaming goodness!
 [`public/games.css`]: https://github.com/attogram/games/blob/master/public/games.css
 [`public/8queens/*`]: https://github.com/attogram/games/blob/master/public/8queens
 [`public/candyjam/*`]: https://github.com/attogram/games/blob/master/public/candyjam
+[`public/hexgl/*`]: https://github.com/attogram/games/blob/master/public/hexgl
 [`public/hextris/*`]: https://github.com/attogram/games/blob/master/public/hextris
 [`public/particle-clicker/*`]: https://github.com/attogram/games/blob/master/public/particle-clicker
 [`public/polybranch/*`]: https://github.com/attogram/games/blob/master/public/polybranch
@@ -83,6 +88,7 @@ Filled with open source gaming goodness!
 [`templates/footer.php`]: https://github.com/attogram/games/blob/master/templates/footer.php
 [`licenses/8queens/*`]: https://github.com/attogram/games/blob/master/licenses/8queens
 [`licenses/candyjam/*`]: https://github.com/attogram/games/blob/master/licenses/candyjam
+[`licenses/hexgl/*`]: https://github.com/attogram/games/blob/master/licenses/hexgl
 [`licenses/hextris/*`]: https://github.com/attogram/games/blob/master/licenses/hextris
 [`Licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
 [`licenses/polybranch/*`]: https://github.com/attogram/games/blob/master/licenses/polybranch
