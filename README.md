@@ -45,14 +45,14 @@ Filled with open source gaming goodness!
 * [`actions/pond.html`] - The Pond game
 
 ### Public Files
-* [`public/games.css`] - Global CSS for Games Site
-* [`public/8queens/*`] - support files for 8 Queens chess puzzla
-* [`public/candyjam/*`] - support files for Dental Defender game
-* [`public/hexgl/*`] - support files for HexGL game
-* [`public/hextris/*`] - support files for Hextris game
-* [`public/particle-clicker/*`] - support files for Particle Clicker game
-* [`public/polybranch/*`] - support files for PolyBranch game
-* [`public/pond/*`] - support files for The Pond game
+* [`public/games.css`] - Games Site Global CSS
+* [`public/8queens/*`] - 8 Queens chess puzzle support files
+* [`public/candyjam/*`] - Dental Defender support files
+* [`public/hexgl/*`] - HexGL support files
+* [`public/hextris/*`] - Hextris support files
+* [`public/particle-clicker/*`] - Particle Clicker support files
+* [`public/polybranch/*`] - PolyBranch support files
+* [`public/pond/*`] - The Pond support files
 
 ### Configurations
 
@@ -60,18 +60,18 @@ Filled with open source gaming goodness!
 
 ### Templates
 
-* [`templates/header.php`] - Global Page Header template
-* [`templates/footer.php`] - Global Page Footer template
+* [`templates/header.php`] - override Attogram Page Header template
+* [`templates/footer.php`] - override Attogram Page Footer template
 
 ### Licenses and Info
 
-* [`licenses/8queens/*`] - License and info for 8 Queens chess puzzle - MIT _or_ GPL-3+
-* [`licenses/candyjam/*`] - License and info for Dental Defender game - MIT
-* [`licenses/hexgl/*`] - License and info for HexGL game - MIT
-* [`licenses/hextris/*`] - License and info for Hextris game - GPL-3+
-* [`licenses/particle-clicker/*`] - License and info for Particle Clicker game
-* [`licenses/polybranch/*`] - License and info for PolyBranch game
-* [`licenses/pond/*`] - License and info for The Pond game - GPL-3+
+* [`licenses/8queens/*`] - 8 Queens chess puzzle info and license - MIT _or_ GPL-3+
+* [`licenses/candyjam/*`] - Dental Defender info and license - MIT
+* [`licenses/hexgl/*`] - HexGL info and license - MIT
+* [`licenses/hextris/*`] - Hextris info and license - GPL-3+
+* [`licenses/particle-clicker/*`] - Particle Clicker info and license - MIT
+* [`licenses/polybranch/*`] - PolyBranch info and license - OS
+* [`licenses/pond/*`] - The Pond info and license - GPL-3+
 
 [`CHANGELOG.md`]: https://github.com/attogram/games/blob/master/CHANGELOG.md
 [`LICENSE.md`]: https://github.com/attogram/games/blob/master/LICENSE.md
