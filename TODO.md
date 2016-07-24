@@ -1,8 +1,6 @@
 # TODO
 
-
 * https://github.com/KrofDrakula/squirts
-
 * https://github.com/svenanders/jetmanjr
 * https://github.com/Octocarina/game-off-2012/
 * https://github.com/petarov/game-off-2012
@@ -26,6 +24,8 @@
 * https://github.com/dmcinnes/HTML5-Asteroids
 * https://github.com/jaredsohn/mmospacewar
 * https://github.com/chriz001/Reacteroids
+* https://github.com/gabrielecirulli/2048
+* https://github.com/dionyziz/canvas-tetris
 
 ## lists
 

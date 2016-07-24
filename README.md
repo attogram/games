@@ -25,6 +25,13 @@ Filled with open source gaming goodness!
 
 ## Contents
 
+### Module info
+
+* [`CHANGELOG.md`] - Change log
+* [`LICENSE.md`] - Games Site LICENSE
+* [`README.md`] - This file!
+* [`TODO.md`] - Things to do
+
 ### Public Actions
 
 * [`actions/home.php`] - Games Site Home Page
@@ -66,6 +73,10 @@ Filled with open source gaming goodness!
 * [`licenses/polybranch/*`] - License and info for PolyBranch game
 * [`licenses/pond/*`] - License and info for The Pond game
 
+[`CHANGELOG.md`]: https://github.com/attogram/games/blob/master/CHANGELOG.md
+[`LICENSE.md`]: https://github.com/attogram/games/blob/master/LICENSE.md
+[`README.md`]: https://github.com/attogram/games/blob/master/README.md
+[`TODO.md`]: https://github.com/attogram/games/blob/master/TODO.md
 [`actions/home.php`]: https://github.com/attogram/games/blob/master/actions/home.php
 [`actions/about.php`]: https://github.com/attogram/games/blob/master/actions/about.php
 [`actions/8queens.php`]: https://github.com/attogram/games/blob/master/actions/8queens.php
