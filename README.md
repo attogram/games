@@ -65,13 +65,13 @@ Filled with open source gaming goodness!
 
 ### Licenses and Info
 
-* [`licenses/8queens/*`] - License and info for 8 Queens chess puzzle
-* [`licenses/candyjam/*`] - License and info for Dental Defender game
-* [`licenses/hexgl/*`] - License and info for HexGL game
-* [`licenses/hextris/*`] - License and info for Hextris game
+* [`licenses/8queens/*`] - License and info for 8 Queens chess puzzle - MIT _or_ GPL-3+
+* [`licenses/candyjam/*`] - License and info for Dental Defender game - MIT
+* [`licenses/hexgl/*`] - License and info for HexGL game - MIT
+* [`licenses/hextris/*`] - License and info for Hextris game - GPL-3+
 * [`licenses/particle-clicker/*`] - License and info for Particle Clicker game
 * [`licenses/polybranch/*`] - License and info for PolyBranch game
-* [`licenses/pond/*`] - License and info for The Pond game
+* [`licenses/pond/*`] - License and info for The Pond game - GPL-3+
 
 [`CHANGELOG.md`]: https://github.com/attogram/games/blob/master/CHANGELOG.md
 [`LICENSE.md`]: https://github.com/attogram/games/blob/master/LICENSE.md
