@@ -2,10 +2,9 @@
 
 ![Games Site Module Homepage](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games-intro.png)
 
-This is the [Games Site Module](https://github.com/attogram/games)
-for the [Attogram Framework](https://github.com/attogram/attogram).
-
-Filled with open source gaming goodness!
+The [Games Site Module](https://github.com/attogram/games)
+is a collection of open source web-based games, gathered together into an
+[Attogram Framework](https://github.com/attogram/attogram) module
 
 ## Install
 
@@ -63,7 +62,7 @@ Filled with open source gaming goodness!
 * [`templates/header.php`] - override Attogram Page Header template
 * [`templates/footer.php`] - override Attogram Page Footer template
 
-### Licenses and Info
+### Info and Licenses
 
 * [`licenses/8queens/*`] - 8 Queens chess puzzle info and license - MIT _or_ GPL-3+
 * [`licenses/candyjam/*`] - Dental Defender info and license - MIT
