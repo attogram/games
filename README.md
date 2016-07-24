@@ -27,7 +27,7 @@ is a collection of open source web-based games, gathered together into an
 ### Module info
 
 * [`CHANGELOG.md`] - Change log
-* [`LICENSE.md`] - Games Site License - MIT _or_ GPL-3+
+* [`LICENSE.md`] - Games Site License - MIT _or_ GPL-3.0+
 * [`README.md`] - This file!
 * [`TODO.md`] - Things to do
 
@@ -64,13 +64,13 @@ is a collection of open source web-based games, gathered together into an
 
 ### Info and Licenses
 
-* [`licenses/8queens/*`] - 8 Queens chess puzzle info and license - MIT _or_ GPL-3+
+* [`licenses/8queens/*`] - 8 Queens chess puzzle info and license - MIT _or_ GPL-3.0+
 * [`licenses/candyjam/*`] - Dental Defender info and license - MIT
 * [`licenses/hexgl/*`] - HexGL info and license - MIT
-* [`licenses/hextris/*`] - Hextris info and license - GPL-3+
+* [`licenses/hextris/*`] - Hextris info and license - GPL-3.0+
 * [`licenses/particle-clicker/*`] - Particle Clicker info and license - MIT
 * [`licenses/polybranch/*`] - PolyBranch info and license - OS
-* [`licenses/pond/*`] - The Pond info and license - GPL-3+
+* [`licenses/pond/*`] - The Pond info and license - GPL-3.0+
 
 [`CHANGELOG.md`]: https://github.com/attogram/games/blob/master/CHANGELOG.md
 [`LICENSE.md`]: https://github.com/attogram/games/blob/master/LICENSE.md
