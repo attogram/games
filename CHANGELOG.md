@@ -6,7 +6,11 @@
 ## [Unreleased]
 
 - Work in progress...
+
+## [v0.0.7] - 2016-07-25
+
 - added **HexGL** from * <https://github.com/BKcore/HexGL>
+- fix web path for images in particle-clicker info popups
 
 ## [v0.0.6] - 2016-07-24
 
@@ -42,7 +46,8 @@
 
 - Repo created: <https://github.com/attogram/games>
 
-[Unreleased]: https://github.com/attogram/games/compare/v0.0.6...HEAD
+[Unreleased]: https://github.com/attogram/games/compare/v0.0.7...HEAD
+[v0.0.7]: https://github.com/attogram/games/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/attogram/games/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/attogram/games/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/attogram/games/compare/v0.0.3...v0.0.4

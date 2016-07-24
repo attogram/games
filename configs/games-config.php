@@ -3,6 +3,6 @@
 
 global $config;
 
-const GAMES_SITE_VERSION = 'v0.0.6';
+const GAMES_SITE_VERSION = 'v0.0.7';
 
 $config['siteName'] = 'Games Site';
