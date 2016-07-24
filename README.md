@@ -28,7 +28,7 @@ Filled with open source gaming goodness!
 ### Module info
 
 * [`CHANGELOG.md`] - Change log
-* [`LICENSE.md`] - Games Site LICENSE
+* [`LICENSE.md`] - Games Site License - MIT _or_ GPL-3+
 * [`README.md`] - This file!
 * [`TODO.md`] - Things to do
 
