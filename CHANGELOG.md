@@ -9,12 +9,12 @@
 
 ## [v0.0.8] - 2016-07-28
 
-- added *HTML5 Asteroids** from <https://github.com/dmcinnes/HTML5-Asteroids>
+- added **HTML5 Asteroids** from <https://github.com/dmcinnes/HTML5-Asteroids>
 - changed `candyjam` to real name `dental-defender`
 
 ## [v0.0.7] - 2016-07-25
 
-- added **HexGL** from * <https://github.com/BKcore/HexGL>
+- added **HexGL** from <https://github.com/BKcore/HexGL>
 - fix web path for images in particle-clicker info popups
 
 ## [v0.0.6] - 2016-07-24
