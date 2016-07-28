@@ -1,13 +1,13 @@
-/* Attogram Framework - Games Site Module - games.css v0.0.5 */
+/* Attogram Framework - Games Site Module - games.css v0.0.6 */
 body {
   background-color:#000000;
-}
-img {
-  margin:10px;
 }
 .hlite:hover {
   color:#928849;
   text-decoration:none;
+}
+.ihlite {
+  margin:10px;
 }
 .ihlite:hover {
   padding:8px;
