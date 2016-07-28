@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 - Work in progress...
+- changed `candyjam` to real name `dental-defender`
 
 ## [v0.0.7] - 2016-07-25
 
@@ -23,7 +24,7 @@
 
 ## [v0.0.4] - 2016-07-23
 
-- added **Dental Defender: Saga of the Candy Horde** from <https://github.com/cshepp/candyjam>
+- added **Dental Defender: Saga of the Candy Horde** from <https://github.com/cshepp/dental-defender>
 - homepage design updates, padding, 4 columns, logos
 
 ## [v0.0.3] - 2016-07-23

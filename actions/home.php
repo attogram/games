@@ -41,8 +41,8 @@ echo '<h1><a href="about/" class="hlite">',$this->siteName,' <small>',GAMES_SITE
 <div class="row hprow">
 
  <div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
-  <a href="candyjam/"><img src="web/candyjam/logo.png" class="ihlite" width="100" width="100" alt="Candy Jam"></a>
-  <br /><a href="candyjam/" class="hlite">Dental Defender
+  <a href="dental-defender/"><img src="web/dental-defender/logo.png" class="ihlite" width="100" width="100" alt="Candy Jam"></a>
+  <br /><a href="dental-defender/" class="hlite">Dental Defender
   <br /><small>Saga of the Candy Horde</small></a>
  </div>
 

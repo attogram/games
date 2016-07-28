@@ -1,7 +1,7 @@
 Dental Defender: Saga of the Candy Horde
 ========
 
-An html5 shooter/tower defense game for the #candyjam
+An html5 shooter/tower defense game for the #dental-defender
 
 
 Placed #5 overall (out of ~450 games).

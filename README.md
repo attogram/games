@@ -36,7 +36,7 @@ is a collection of open source web-based games, gathered together into an
 * [`actions/home.php`] - Games Site Home Page
 * [`actions/about.php`] - About the Games Site
 * [`actions/8queens.php`] - 8 Queens chess puzzle
-* [`actions/candyjam.html`] - Dental Defender: Saga of the Candy Horde game
+* [`actions/dental-defender.html`] - Dental Defender: Saga of the Candy Horde game
 * [`actions/hexgl.html`] - HexGL game
 * [`actions/hextris.html`] - Hextris game
 * [`actions/particle-clicker.html`] - Particle Clicker game
@@ -46,7 +46,7 @@ is a collection of open source web-based games, gathered together into an
 ### Public Files
 * [`public/games.css`] - Games Site Global CSS
 * [`public/8queens/*`] - 8 Queens chess puzzle support files
-* [`public/candyjam/*`] - Dental Defender support files
+* [`public/dental-defender/*`] - Dental Defender support files
 * [`public/hexgl/*`] - HexGL support files
 * [`public/hextris/*`] - Hextris support files
 * [`public/particle-clicker/*`] - Particle Clicker support files
@@ -65,7 +65,7 @@ is a collection of open source web-based games, gathered together into an
 ### Info and Licenses
 
 * [`licenses/8queens/*`] - 8 Queens chess puzzle info and license - MIT _or_ GPL-3.0+
-* [`licenses/candyjam/*`] - Dental Defender info and license - MIT
+* [`licenses/dental-defender/*`] - Dental Defender info and license - MIT
 * [`licenses/hexgl/*`] - HexGL info and license - MIT
 * [`licenses/hextris/*`] - Hextris info and license - GPL-3.0+
 * [`licenses/particle-clicker/*`] - Particle Clicker info and license - MIT
@@ -79,7 +79,7 @@ is a collection of open source web-based games, gathered together into an
 [`actions/home.php`]: https://github.com/attogram/games/blob/master/actions/home.php
 [`actions/about.php`]: https://github.com/attogram/games/blob/master/actions/about.php
 [`actions/8queens.php`]: https://github.com/attogram/games/blob/master/actions/8queens.php
-[`actions/candyjam.html`]: https://github.com/attogram/games/blob/master/actions/candyjam.html
+[`actions/dental-defender.html`]: https://github.com/attogram/games/blob/master/actions/dental-defender.html
 [`actions/hexgl.html`]: https://github.com/attogram/games/blob/master/actions/hexgl.html
 [`actions/hextris.html`]: https://github.com/attogram/games/blob/master/actions/hextris.html
 [`actions/particle-clicker.html`]: https://github.com/attogram/games/blob/master/actions/particle-clicker.html
@@ -87,7 +87,7 @@ is a collection of open source web-based games, gathered together into an
 [`actions/pond.html`]: https://github.com/attogram/games/blob/master/actions/pond.html
 [`public/games.css`]: https://github.com/attogram/games/blob/master/public/games.css
 [`public/8queens/*`]: https://github.com/attogram/games/blob/master/public/8queens
-[`public/candyjam/*`]: https://github.com/attogram/games/blob/master/public/candyjam
+[`public/dental-defender/*`]: https://github.com/attogram/games/blob/master/public/dental-defender
 [`public/hexgl/*`]: https://github.com/attogram/games/blob/master/public/hexgl
 [`public/hextris/*`]: https://github.com/attogram/games/blob/master/public/hextris
 [`public/particle-clicker/*`]: https://github.com/attogram/games/blob/master/public/particle-clicker
@@ -97,7 +97,7 @@ is a collection of open source web-based games, gathered together into an
 [`templates/header.php`]: https://github.com/attogram/games/blob/master/templates/header.php
 [`templates/footer.php`]: https://github.com/attogram/games/blob/master/templates/footer.php
 [`licenses/8queens/*`]: https://github.com/attogram/games/blob/master/licenses/8queens
-[`licenses/candyjam/*`]: https://github.com/attogram/games/blob/master/licenses/candyjam
+[`licenses/dental-defender/*`]: https://github.com/attogram/games/blob/master/licenses/dental-defender
 [`licenses/hexgl/*`]: https://github.com/attogram/games/blob/master/licenses/hexgl
 [`licenses/hextris/*`]: https://github.com/attogram/games/blob/master/licenses/hextris
 [`Licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
