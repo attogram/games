@@ -18,7 +18,6 @@
 
 ### Asteroids
 
-* https://github.com/dmcinnes/HTML5-Asteroids
 * https://github.com/chriz001/Reacteroids
 * https://github.com/jaredsohn/mmospacewar
 * https://github.com/gre/behind-asteroids

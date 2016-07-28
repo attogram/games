@@ -6,6 +6,7 @@
 ## [Unreleased]
 
 - Work in progress...
+- added *HTML5 Asteroids** from <https://github.com/dmcinnes/HTML5-Asteroids>
 - changed `candyjam` to real name `dental-defender`
 
 ## [v0.0.7] - 2016-07-25

@@ -60,7 +60,12 @@ echo '<h1><a href="about/" class="hlite">',$this->siteName,' <small>',GAMES_SITE
   <br /><small>Chess Puzzle</small></a>
  </div>
 
- <div class="col-sm-3 col-xs-6 hpcol"></div>
+ <div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
+  <a href="html5-asteroids/"><img src="web/html5-asteroids/logo.png" class="ihlite" width="100" height="100" alt="HTML5 Asteroids"></a>
+  <br /><a href="html5-asteroids/" class="hlite">HTML5 Asteroids
+  <br /><small>retro asteroids</small></a>
+ </div>
+
 </div>
 
 ';
