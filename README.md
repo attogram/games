@@ -39,6 +39,7 @@ is a collection of open source web-based games, gathered together into an
 * [`actions/dental-defender.html`] - Dental Defender: Saga of the Candy Horde game
 * [`actions/hexgl.html`] - HexGL game
 * [`actions/hextris.html`] - Hextris game
+* [`actions/html5-asteroids.html`] - HTML5 Asteroids game
 * [`actions/particle-clicker.html`] - Particle Clicker game
 * [`actions/polybranch.html`] - PolyBranch game
 * [`actions/pond.html`] - The Pond game
@@ -48,6 +49,7 @@ is a collection of open source web-based games, gathered together into an
 * [`public/8queens/*`] - 8 Queens chess puzzle support files
 * [`public/dental-defender/*`] - Dental Defender support files
 * [`public/hexgl/*`] - HexGL support files
+* [`public/html5-asteroids/*`] - HTML5 Asteroids support files
 * [`public/hextris/*`] - Hextris support files
 * [`public/particle-clicker/*`] - Particle Clicker support files
 * [`public/polybranch/*`] - PolyBranch support files
@@ -67,6 +69,7 @@ is a collection of open source web-based games, gathered together into an
 * [`licenses/8queens/*`] - 8 Queens chess puzzle info and license - MIT _or_ GPL-3.0+
 * [`licenses/dental-defender/*`] - Dental Defender info and license - MIT
 * [`licenses/hexgl/*`] - HexGL info and license - MIT
+* [`licenses/html5-asteroids/*`] - HTML5 Asteroids info and license - MIT
 * [`licenses/hextris/*`] - Hextris info and license - GPL-3.0+
 * [`licenses/particle-clicker/*`] - Particle Clicker info and license - MIT
 * [`licenses/polybranch/*`] - PolyBranch info and license - OS
@@ -82,6 +85,7 @@ is a collection of open source web-based games, gathered together into an
 [`actions/dental-defender.html`]: https://github.com/attogram/games/blob/master/actions/dental-defender.html
 [`actions/hexgl.html`]: https://github.com/attogram/games/blob/master/actions/hexgl.html
 [`actions/hextris.html`]: https://github.com/attogram/games/blob/master/actions/hextris.html
+[`actions/html5-asteroids.html`]: https://github.com/attogram/games/blob/master/actions/html5-asteroids.html
 [`actions/particle-clicker.html`]: https://github.com/attogram/games/blob/master/actions/particle-clicker.html
 [`actions/polybranch.html`]: https://github.com/attogram/games/blob/master/actions/polybranch.html
 [`actions/pond.html`]: https://github.com/attogram/games/blob/master/actions/pond.html
@@ -90,6 +94,7 @@ is a collection of open source web-based games, gathered together into an
 [`public/dental-defender/*`]: https://github.com/attogram/games/blob/master/public/dental-defender
 [`public/hexgl/*`]: https://github.com/attogram/games/blob/master/public/hexgl
 [`public/hextris/*`]: https://github.com/attogram/games/blob/master/public/hextris
+[`public/html5-asteroids/*`]: https://github.com/attogram/games/blob/master/public/html5-asteroids
 [`public/particle-clicker/*`]: https://github.com/attogram/games/blob/master/public/particle-clicker
 [`public/polybranch/*`]: https://github.com/attogram/games/blob/master/public/polybranch
 [`public/pond/*`]: https://github.com/attogram/games/blob/master/public/pond
@@ -100,6 +105,7 @@ is a collection of open source web-based games, gathered together into an
 [`licenses/dental-defender/*`]: https://github.com/attogram/games/blob/master/licenses/dental-defender
 [`licenses/hexgl/*`]: https://github.com/attogram/games/blob/master/licenses/hexgl
 [`licenses/hextris/*`]: https://github.com/attogram/games/blob/master/licenses/hextris
-[`Licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
+[`licenses/html5-asteroids/*`]: https://github.com/attogram/games/blob/master/licenses/html5-asteroids
+[`licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
 [`licenses/polybranch/*`]: https://github.com/attogram/games/blob/master/licenses/polybranch
 [`licenses/pond/*`]: https://github.com/attogram/games/blob/master/licenses/pond
