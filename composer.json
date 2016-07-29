@@ -9,7 +9,7 @@
   },
   "authors": [
     {
-      "name": "Attogram Games Site Module Developers",
+      "name": "Attogram Framework Games Site Module Developers",
       "homepage": "https://github.com/attogram/games"
     }
   ],
@@ -25,9 +25,11 @@
     "hexgl",
     "particle clicker",
     "the pond",
+    "pond",
     "polybranch",
     "dental defender",
-    "dental-defender",
+    "asteroids",
+    "html5 asteroids",
     "attogram"
   ]
 }
