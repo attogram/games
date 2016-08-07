@@ -10,6 +10,7 @@
 ## [v0.0.9] - 2016-08-07
 
 - added **Raging Gardens** from <https://github.com/petarov/game-off-2012>
+- css fix for 8 Queens game
 
 ## [v0.0.8] - 2016-07-28
 
