@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Games Module - Home v0.0.7
+// Attogram Framework - Games Module - Home v0.0.9
 
 namespace Attogram;
 
@@ -67,7 +67,15 @@ echo '<h1><a href="about/" class="hlite">',$this->siteName,' <small>',GAMES_SITE
  </div>
 
 </div>
+<div class="row hprow">
 
+<div class="col-sm-3 col-xs-6 hpcol" style="background-color:black;">
+ <a href="raging-gardens/"><img src="web/raging-gardens//logo.png" class="ihlite" width="100" height="100" alt="HTML5 Asteroids"></a>
+ <br /><a href="raging-gardens//" class="hlite">Raging Gardens
+ <br /><small>farting ninja rabbits</small></a>
+</div>
+
+</div>
 ';
 
 echo '</div>';

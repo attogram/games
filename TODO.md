@@ -1,7 +1,5 @@
 # TODO
 
-* https://github.com/KrofDrakula/squirts
-* https://github.com/petarov/game-off-2012
 * https://github.com/EnclaveGames/Captain-Rogers
 * https://github.com/EnclaveGames/Cyber-Orb
 * https://github.com/adityaravishankar/last-colony

@@ -7,6 +7,10 @@
 
 - Work in progress...
 
+## [v0.0.9] - 2016-08-07
+
+- added **Raging Gardens** from <https://github.com/petarov/game-off-2012>
+
 ## [v0.0.8] - 2016-07-28
 
 - added **HTML5 Asteroids** from <https://github.com/dmcinnes/HTML5-Asteroids>
@@ -51,7 +55,8 @@
 
 - Repo created: <https://github.com/attogram/games>
 
-[Unreleased]: https://github.com/attogram/games/compare/v0.0.8...HEAD
+[Unreleased]: https://github.com/attogram/games/compare/v0.0.9...HEAD
+[v0.0.9]: https://github.com/attogram/games/compare/v0.0.8...v0.0.9
 [v0.0.8]: https://github.com/attogram/games/compare/v0.0.7...v0.0.8
 [v0.0.7]: https://github.com/attogram/games/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/attogram/games/compare/v0.0.5...v0.0.6

@@ -43,6 +43,7 @@ is a collection of open source web-based games, gathered together into an
 * [`actions/particle-clicker.html`] - Particle Clicker game
 * [`actions/polybranch.html`] - PolyBranch game
 * [`actions/pond.html`] - The Pond game
+* [`actions/raging-gardens.html`] - Raging Gardens game
 
 ### Public Files
 * [`public/games.css`] - Games Site Global CSS
@@ -54,6 +55,7 @@ is a collection of open source web-based games, gathered together into an
 * [`public/particle-clicker/*`] - Particle Clicker support files
 * [`public/polybranch/*`] - PolyBranch support files
 * [`public/pond/*`] - The Pond support files
+* [`public/raging-gardens/*`] - Raging Gardens support files
 
 ### Configurations
 
@@ -74,6 +76,7 @@ is a collection of open source web-based games, gathered together into an
 * [`licenses/particle-clicker/*`] - Particle Clicker info and license - MIT
 * [`licenses/polybranch/*`] - PolyBranch info and license - OS
 * [`licenses/pond/*`] - The Pond info and license - GPL-3.0+
+* [`licenses/raging-gardens/*`] - Raging Gardens info and license - MIT
 
 [`CHANGELOG.md`]: https://github.com/attogram/games/blob/master/CHANGELOG.md
 [`LICENSE.md`]: https://github.com/attogram/games/blob/master/LICENSE.md
@@ -89,6 +92,7 @@ is a collection of open source web-based games, gathered together into an
 [`actions/particle-clicker.html`]: https://github.com/attogram/games/blob/master/actions/particle-clicker.html
 [`actions/polybranch.html`]: https://github.com/attogram/games/blob/master/actions/polybranch.html
 [`actions/pond.html`]: https://github.com/attogram/games/blob/master/actions/pond.html
+[`actions/raging-gardens.html`]: https://github.com/attogram/games/blob/master/actions/raging-gardens.html
 [`public/games.css`]: https://github.com/attogram/games/blob/master/public/games.css
 [`public/8queens/*`]: https://github.com/attogram/games/blob/master/public/8queens
 [`public/dental-defender/*`]: https://github.com/attogram/games/blob/master/public/dental-defender
@@ -98,6 +102,7 @@ is a collection of open source web-based games, gathered together into an
 [`public/particle-clicker/*`]: https://github.com/attogram/games/blob/master/public/particle-clicker
 [`public/polybranch/*`]: https://github.com/attogram/games/blob/master/public/polybranch
 [`public/pond/*`]: https://github.com/attogram/games/blob/master/public/pond
+[`public/raging-gardens/*`]: https://github.com/attogram/games/blob/master/public/raging-gardens
 [`configs/games-config.php`]: https://github.com/attogram/games/blob/master/configs/games-config.php
 [`templates/header.php`]: https://github.com/attogram/games/blob/master/templates/header.php
 [`templates/footer.php`]: https://github.com/attogram/games/blob/master/templates/footer.php
@@ -109,3 +114,4 @@ is a collection of open source web-based games, gathered together into an
 [`licenses/particle-clicker/*`]: https://github.com/attogram/games/blob/master/licenses/particle-clicker
 [`licenses/polybranch/*`]: https://github.com/attogram/games/blob/master/licenses/polybranch
 [`licenses/pond/*`]: https://github.com/attogram/games/blob/master/licenses/pond
+[`licenses/raging-gardens/*`]: https://github.com/attogram/games/blob/master/licenses/raging-gardens

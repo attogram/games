@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html { 
+    /*overflow:hidden; */
+    background: #000 url('../art/stuz_bg.png');
+    font-family: Tahoma, Sans-serif, Helvetica;
+} 
+.safari {
+    text-align: center;
+    color: white;
+    font-size: 75%;
+    display: none;
+}
+.info{
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+#loading {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    z-index:3;
+    text-shadow: 1px 2px green;
+}
+/* so, wroooooong! */
+#msgs {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    text-align: center;
+    z-index: 2;
+}
+#logo {
+    background: transparent url('../art/logo.png') no-repeat;
+    margin: 0 auto; 
+    width: 159px;
+    height: 53px;
+    position: relative;
+}
+#gamemix {
+    margin: 0 auto; 
+    position: relative;
+    width:320px;
+    height:50px;
+}
+/* Menu */
+#version {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#menu {
+    position: absolute;
+    width: 768px;
+    left: 128px;
+    top: 666px;
+    z-index:3;
+}
+#menu>div {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px green;    
+    display: inline;
+    cursor: pointer;
+}
+#menu>div:hover {
+    color: #121212;
+    text-shadow: 1px 1px green; 
+}
+#dialog-howto>h1 {
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 4px 0;
+}
+#dialog-howto>p {
+    font-weight: normal;
+    font-size: 14px;
+}
+#dialog-howto>ul {
+    font-weight: normal;
+    list-style-type: none;
+    font-size: 14px;
+}
+#dialog-howto span.keys {
+    color: #12AA12;
+    font-weight: bold;
+}
+#dialog-score {
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: visible;
+    /*display: table;*/
+}
+#dialog-score>div {
+    width: 100%;
+    /*display: table-row;*/
+}
+#dialog-score>div>span {
+    padding-bottom: 5px;
+    display: table-cell;
+}
+#dialog-score>div>span.name {
+    width: 300px;
+}
+#dialog-score>div>span.score {
+    /*width: 250px;*/
+    text-align: right;
+}
+#dialog-score>div>span.u {
+    text-decoration: underline;
+}
+/* Game UI */
+#in-menu {
+    background-image: url('../art/interface03.png');  
+    background-repeat: no-repeat;    
+    background-position: right top;
+    position: absolute;
+    width: 96px;
+    height: 50px;
+    right: 32px;
+    top: 0;
+    z-index: 4;
+}
+#toggle-music {
+    background: url('../art/sound_on.png') no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 12px;
+    top: 6px;
+}
+#toggle-music:hover {
+    background: url('../art/sound_off.png') no-repeat;
+}
+#toggle-sfx {
+    background: url('../art/sound_on-05.png') no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 12px;
+    top: 6px;
+}
+#toggle-sfx:hover {
+    background: url('../art/sound_off-05.png') no-repeat;
+}
+#stats {
+    background-image: url('../art/menu.png');  
+    background-repeat: no-repeat;    
+    background-position: left top;
+    position: absolute;
+    width: 436px;
+    height: 76px;
+    left: 32px;
+    top: 0px;
+    z-index: 4;
+}
+#stats .left {
+    left: 0px;
+}
+#stats .timer {
+    right: 90px;
+    top: 8px;
+}
+#stats .carrots {
+    right: 355px;
+    top: 8px;
+}
+#stats .bottom {
+    bottom: -10px;
+    text-shadow: 1px 1px #121212;
+}
+#fps {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+div.text {
+    position: absolute;
+    line-height: 24px;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px #12AA12;
+}
+/* Splash UI */
+#wrapper {
+    margin: 0 auto; 
+    width: 1120px;
+    height: 780px;
+    overflow: hidden;
+}
+#stage { 
+    margin: 0 auto; 
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    /*border: solid 1px #231f20;*/
+}
+#left-frame {
+    background-image: url('../art/left_frame.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 780px;
+    width: 49px;
+    position: absolute;
+    margin-left: 24px;
+    top: 0;
+    z-index: 2;
+}
+#right-frame {
+    background-image: url('../art/right_frame.png');    
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 780px;
+    width: 48px;
+    position: absolute;
+    margin-left: 1046px;
+    top: 0;
+    z-index: 2;
+}
+#bottom-frame {
+    background-image: url('../art/bottom_frame.png');    
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 974px;
+    position: absolute;
+    top: 0;
+    margin-left: 72px;
+    margin-top: 732px;
+    z-index: 2;
+}
+
+/*
+    Mobile 
+
+@media (max-width: 1024px) {
+    #wrapper {
+        margin: 0 auto; 
+        width: 960px;
+        height: 704px;
+        overflow: hidden;
+        border: 2px solid blue;
+    }
+    #cr-stage { 
+        margin: 0 auto; 
+        position: absolute;
+        max-width: 960px;
+        max-height: 704px;
+        border: 2px solid red;
+    }   
+}
+*/
