@@ -3,6 +3,14 @@
 * https://github.com/EnclaveGames/Captain-Rogers
 * https://github.com/EnclaveGames/Cyber-Orb
 * https://github.com/adityaravishankar/last-colony
+* https://github.com/lostdecade/onslaught_arena
+* https://github.com/kayahr/xgalaga-js
+* https://github.com/Ernir/robotron
+* https://github.com/sharkdp/cube-composer
+* https://github.com/jakesgordon/javascript-boulderdash
+* https://github.com/JulesWang/BattleCity.AI
+* https://github.com/jakesgordon/javascript-delta
+* https://github.com/sztamas/mastermind
 
 ## Classic clones
 
@@ -31,8 +39,6 @@
 
 ## ?
 
-
-* https://github.com/juliangarnier/3D-Hartwig-chess-set
 * https://github.com/mitallast/diablo-js
 * https://github.com/gabrielecirulli/2048
 * https://github.com/svenanders/jetmanjr

@@ -4,7 +4,20 @@
 
 The [Games Site Module](https://github.com/attogram/games)
 is a collection of open source web-based games, gathered together into an
-[Attogram Framework](https://github.com/attogram/attogram) module
+[Attogram Framework](https://github.com/attogram/attogram) module.
+
+Games:
+
+* **The Pond** - <https://github.com/Zolmeister/pond>
+* **Hextris** - <https://github.com/Hextris/Hextris>
+* **Particle Clicker** - <https://github.com/particle-clicker/particle-clicker/>
+* **HexGL** - <https://github.com/BKcore/HexGL>
+* Dental Defender
+* PolyBranch
+* 8 Queens
+* HTML5 Asteroids
+* Raging Gardens
+
 
 ## Install
 
