@@ -15,7 +15,7 @@ for more information.
 
 ## Attogram Framework Games Site Module - MIT License
 
-Copyright (c) 2016 Attogram Framework Games Site Module Developers <https://github.com/attogram/games>
+Copyright (c) 2017 Attogram Framework Games Site Module Developers <https://github.com/attogram/games>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@ THE SOFTWARE.
 
 ## Attogram Framework Games Site Module - GNU General Public License
 
-Copyright (C) 2016 Attogram Framework Games Site Module Developers <https://github.com/attogram/games>
+Copyright (C) 2017 Attogram Framework Games Site Module Developers <https://github.com/attogram/games>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
