@@ -92,8 +92,15 @@ $games = [
     'phaser-piano' => [
         'name'    => 'Piano',
         'tag'     => 'ting ting',
-        'git'     => 'https://github.com/wasi0013/Phaser-Piano',
+        'git'     => 'https://github.com/wasi0013/Phaser-Piano.git',
         'index'   => 'Ting%20Ting/index.html',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    'classic-pool' => [
+        'name'    => 'Pool',
+        'tag'     => 'classic 8-ball',
+        'git'     => 'https://github.com/henshmi/Classic-Pool-Game.git',
         'mobile'  => false,
         'desktop' => true,
     ],

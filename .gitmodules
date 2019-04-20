@@ -34,3 +34,6 @@
 [submodule "phaser-piano"]
 	path = phaser-piano
 	url = https://github.com/wasi0013/Phaser-Piano
+[submodule "classic-pool"]
+	path = classic-pool
+	url = https://github.com/henshmi/Classic-Pool-Game.git

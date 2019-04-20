@@ -4,7 +4,7 @@
  * Build Script
  */
 
-const VERSION = '1.0.1';
+const VERSION = '1.0.2';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
