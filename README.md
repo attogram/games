@@ -1,5 +1,7 @@
 # Games Website v1.0.0
 
+[![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
+
 Your own games website, filled with open source goodness!
 
 ## Installation
