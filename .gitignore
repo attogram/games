@@ -1,9 +1,2 @@
 .idea/
-hexgl/
-hextris/
-html5-asteroids/
-pacman/
-particle-clicker/
-polybranch/
-pond/
-raging-gardens/
+vendor/

@@ -1,24 +1,28 @@
 # Games Website v1.0.0
 
-Your own games website,
-filled with open source goodness!
-
-## The Games:
-
-* ![HexGL](logos/hexgl.png "HexGL") HexGL 
-* ![Hextris](logos/hextris.png "Hextris") Hextris 
-* ![HTML5 Asteroids](logos/html5-asteroids.png "HTML5 Asteroids") HTML5 Asteroids 
-* ![pacman](logos/pacman.png "pacman") pacman 
-* ![Particle Clicker](logos/particle-clicker.png "Particle Clicker") Particle Clicker 
-* ![Polybranch](logos/polybranch.png "Polybranch") Polybranch 
-* ![The Pond](logos/pond.png "The Pond") The Pond 
-* ![Hextris](logos/raging-gardens.png "Raging Gardens") Raging Gardens 
+Your own games website, filled with open source goodness!
 
 ## Installation
 
-* install ``git``, if you don't already have it
-* On Windows, run: `install.bat`
-* Unix install: ...coming soon...
+* Install the Games Website into a web accessible directory.
+* Open the new directory in your web browser and enjoy playing the games!
+
+## Building
+
+* Feel the urge to mod?  Rebuilding is easy.
+* Building the Games Website requires `php` and `git` installed.
+* Add/delete/modify a game, edit the file `build/games.php`
+* Modify the index page header, edit the file `build/header.html`
+* Modify the index page footer, edit the file `build/footer.html`
+* (optional) Delete any game directories that need re-cloning
+* Rebuild the Games Website, run: `php build/build.php`
+* open the new `index.html` in your browser and enjoy playing the games!
+
+## License
+
+* The Games Website is an open source project licensed under the MIT License.
+* The Games Website includes many open source games, each with its own license.   
+* See each games directory for more information.
 
 ## More Info
 
