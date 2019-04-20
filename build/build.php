@@ -23,12 +23,16 @@ print "Logo directory: $logoDirectory\n\n";
 print "Building index.html header\n\n";
 $page = file_get_contents($buildDirectory . 'header.html');
 
+clearstatcache();
+
 foreach ($games as $index => $game) {
-    if (!file_exists($homeDirectory . $index)) {
-        print 'Installing: ' . $game['name'] . ": $homeDirectory$index\n";
-        system('git clone --recursive ' . $game['git'] . ' ' . $index);
+    $gameDirectory = $homeDirectory . $index;
+    print 'Checking submodule: ' . $game['name'] . ": $gameDirectory\n";
+    if (!is_dir($gameDirectory)) {
+        print 'Installing submodule: ' . $game['name'] . ": $gameDirectory\n";
+        system('git submodule add ' . $game['git'] . ' ' . $index);
     }
-    print 'Updating: ' . $game['name'] . ": $homeDirectory$index\n";
+    print 'Updating submodule: ' . $game['name'] . ": $gameDirectory\n";
     system('git submodule update --init --recursive');
 
     print "Building index.html menu: " . $game['name'] . "\n\n";
