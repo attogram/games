@@ -4,7 +4,7 @@
  * Build Script
  */
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -34,12 +34,15 @@ foreach ($games as $index => $game) {
     }
 
     print "Building index.html menu: " . $game['name'] . "\n\n";
-    $link = $game['indext'] ?? $index . '/';
-    $page .= '<div class="game"><a href="' . $index . '/"><img src="'
-        . (
-            is_readable($logoDirectory . $index . '.png')
-                ? 'logos/' . $index . '.png'
-                : 'logos/game.png'
+
+    $link = $index . '/';
+    if (!empty($game['index'])) {
+        $link .= $game['index'];
+    }
+    $page .= '<div class="game"><a href="' . $link . '"><img src="logos/'
+        . (is_readable($logoDirectory . $index . '.png')
+            ? $index . '.png'
+            : 'game.png'
         )
         . '" width="100" height="100" alt="' . $game['name'] . '"></a><br /><a href="'
         . $link . '">' . $game['name'] . '<br /><small>' . $game['tag'] . '</small></a></div>';
