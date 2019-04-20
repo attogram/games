@@ -17,7 +17,7 @@ $games = [
         'git'  => 'https://github.com/Zolmeister/pond.git',
     ],
     'html5-asteroids' => [
-        'name' => 'HTML5 Asteroids',
+        'name' => 'Asteroids',
         'tag'  => 'retro asteroids',
         'git'  => 'https://github.com/dmcinnes/HTML5-Asteroids.git',
     ],

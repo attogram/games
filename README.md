@@ -1,12 +1,12 @@
-# Games Website v1.0.0
-
-[![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
+# Attogram Games Website
 
 Your own games website, filled with open source goodness!
 
+[![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
+
 ## Installation
 
-* Install the Games Website into a web accessible directory.
+* Install the Games Website into a web accessible directory:
 * Open the new directory in your web browser and enjoy playing the games!
 
 ## Building
