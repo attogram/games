@@ -12,6 +12,7 @@ Your own games website, filled with open source goodness!
 * Feel the urge to mod?  Rebuilding is easy.
 * Building the Games Website requires `php` and `git` installed.
 * Add/delete/modify a game, edit the file `build/games.php`
+* Modify the menu ordering, edit the ordering in file `build/games.php`
 * Modify the index page header, edit the file `build/header.html`
 * Modify the index page footer, edit the file `build/footer.html`
 * (optional) Delete any game directories that need re-cloning
