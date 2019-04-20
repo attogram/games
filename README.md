@@ -4,6 +4,8 @@ Your own games website, filled with open source goodness!
 
 [![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
 
+Live Demo: **<https://fosiper.com/games/>**
+
 ## Installation
 
 * Install the Games Website into a web accessible directory:
