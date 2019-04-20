@@ -5,6 +5,7 @@ set  git[0]=https://github.com/Hextris/hextris.git
 
 set name[1]=hexgl
 set  git[1]=https://github.com/BKcore/HexGL.git
+REM hexgl setup - some servers error on .htaccess ExpiresByType settings
 
 set name[2]=particle-clicker
 set  git[2]=https://github.com/particle-clicker/particle-clicker.git
