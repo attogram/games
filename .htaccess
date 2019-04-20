@@ -1,6 +1,9 @@
 <Files ".gitignore">
   Require all denied
 </Files>
+<Files ".gitmodules">
+  Require all denied
+</Files>
 <Files "LICENSE">
   Require all denied
 </Files>

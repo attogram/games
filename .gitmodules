@@ -1,0 +1,30 @@
+[submodule "hextris"]
+	path = hextris
+	url = https://github.com/Hextris/hextris.git
+[submodule "particle-clicker"]
+	path = particle-clicker
+	url = https://github.com/particle-clicker/particle-clicker.git
+[submodule "pond"]
+	path = pond
+	url = https://github.com/Zolmeister/pond.git
+[submodule "html5-asteroids"]
+	path = html5-asteroids
+	url = https://github.com/dmcinnes/HTML5-Asteroids.git
+[submodule "raging-gardens"]
+	path = raging-gardens
+	url = https://github.com/alunix/RagingGardensFB.git
+[submodule "polybranch"]
+	path = polybranch
+	url = https://github.com/gbatha/PolyBranch
+[submodule "pacman"]
+	path = pacman
+	url = https://github.com/mumuy/pacman.git
+[submodule "chess"]
+	path = chess
+	url = https://github.com/kbjorklu/chess.git
+[submodule "dead-valley"]
+	path = dead-valley
+	url = https://github.com/dmcinnes/dead-valley.git
+[submodule "hexgl"]
+	path = hexgl
+	url = https://github.com/BKcore/HexGL.git
