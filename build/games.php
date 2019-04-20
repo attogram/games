@@ -50,7 +50,7 @@ $games = [
     ],
     '2048' => [
         'name' => '2048',
-        'tag'  => '2, 4, 6...',
+        'tag'  => '2, 4, 6, 8, swipe',
         'git'  => 'https://github.com/gabrielecirulli/2048',
     ],
     'hexgl' => [

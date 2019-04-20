@@ -4,6 +4,9 @@
 <Files ".gitmodules">
   Require all denied
 </Files>
+<Files "composer.json">
+  Require all denied
+</Files>
 <Files "LICENSE">
   Require all denied
 </Files>
