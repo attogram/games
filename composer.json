@@ -1,0 +1,19 @@
+{
+  "name": "attogram/games",
+  "description": "Your own games website, filled with open source goodness!",
+  "homepage": "https://github.com/attogram/games",
+  "support": {
+    "docs": "https://fosiper.com/games/",
+    "issues": "https://www.patreon.com/attogram"
+  },
+  "authors": [{
+    "name": "Attogram Project",
+    "homepage": "https://github.com/attogram",
+    "role": "Developer"
+  }],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^5.0"
+  }
+}
