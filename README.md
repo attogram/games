@@ -8,6 +8,7 @@ filled with open source goodness!
 * ![HexGL](logos/hexgl.png "HexGL") HexGL 
 * ![Hextris](logos/hextris.png "Hextris") Hextris 
 * ![HTML5 Asteroids](logos/html5-asteroids.png "HTML5 Asteroids") HTML5 Asteroids 
+* ![pacman](logos/pacman.png "pacman") pacman 
 * ![Particle Clicker](logos/particle-clicker.png "Particle Clicker") Particle Clicker 
 * ![Polybranch](logos/polybranch.png "Polybranch") Polybranch 
 * ![The Pond](logos/pond.png "The Pond") The Pond 

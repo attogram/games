@@ -22,10 +22,13 @@ set  git[5]=https://github.com/alunix/RagingGardensFB.git
 set name[6]=polybranch
 set  git[6]=https://github.com/gbatha/PolyBranch
 
+set name[7]=pacman
+set  git[7]=https://github.com/mumuy/pacman.git
+
 REM set name[x]=dental-defender
 REM set  git[x]=?.git
 
-for /L %%x in (0,1,6) do (
+for /L %%x in (0,1,7) do (
     call echo ------------------------------------------------
     call echo Installing: %%name[%%x]%%
     call git clone %%git[%%x]%% %%name[%%x]%%
