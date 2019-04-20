@@ -1,4 +1,4 @@
-# Games Site v1.0.0
+# Games Website v1.0.0
 
 Your own games website,
 filled with open source goodness!
