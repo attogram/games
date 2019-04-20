@@ -7,17 +7,28 @@
     <title>Games</title>
     <style>
         body {
+            background-color: slategrey;
             margin: 40px;
         }
-        a {
+        a, a:visited {
             text-decoration: none;
+            color: darkblue;
+        }
+        a:hover {
+            background-color: yellow;
+            color: black;
+        }
+        footer {
+            background-color: lightslategray;
+            font-family: monospace;
         }
         .list {
             display: flex;
             flex-wrap: wrap;
         }
         .game {
-            border: 1px solid darkgreen;
+            background-color: white;
+            border: 1px solid black;
             margin: 10px;
             padding: 10px;
             text-align: center;
@@ -98,5 +109,13 @@
         </a>
     </div>
 </div>
+<br />
+<br />
+<br />
+<footer>
+    Powered by
+    <a href="https://github.com/attogram/games">attogram/games</a>
+    v1.0.0
+</footer>
 </body>
 </html>
