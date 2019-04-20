@@ -32,10 +32,9 @@ foreach ($games as $index => $game) {
         print 'Installing submodule: ' . $game['name'] . ": $gameDirectory\n";
         system('git submodule add ' . $game['git'] . ' ' . $index);
     }
-    print 'Updating submodule: ' . $game['name'] . ": $gameDirectory\n";
-    system('git submodule update --init --recursive');
 
     print "Building index.html menu: " . $game['name'] . "\n\n";
+    $link = $game['indext'] ?? $index . '/';
     $page .= '<div class="game"><a href="' . $index . '/"><img src="'
         . (
             is_readable($logoDirectory . $index . '.png')
@@ -43,8 +42,11 @@ foreach ($games as $index => $game) {
                 : 'logos/game.png'
         )
         . '" width="100" height="100" alt="' . $game['name'] . '"></a><br /><a href="'
-        . $index . '/">' . $game['name'] . '<br /><small>' . $game['tag'] . '</small></a></div>';
+        . $link . '">' . $game['name'] . '<br /><small>' . $game['tag'] . '</small></a></div>';
 }
+
+print "Updating submodules\n\n";
+system('git submodule update --init --recursive');
 
 print "Building index.html footer\n\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');

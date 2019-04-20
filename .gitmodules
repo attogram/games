@@ -28,3 +28,6 @@
 [submodule "hexgl"]
 	path = hexgl
 	url = https://github.com/BKcore/HexGL.git
+[submodule "2048"]
+	path = 2048
+	url = https://github.com/gabrielecirulli/2048
