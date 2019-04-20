@@ -41,10 +41,10 @@ foreach ($games as $index => $game) {
 print "Building index.html - add footer\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');
 
-print "Writing $homeDirectory/index.html\n";
+print "Writing {$homeDirectory}index.html\n";
 $indexWrote = file_put_contents($homeDirectory . 'index.html', $page);
 if (!$indexWrote) {
-    print "ERROR writing /index.html\n";
+    print "ERROR writing {$homeDirectory}index.html\n";
 }
 print "Wrote $indexWrote characters\n";
 
