@@ -1,10 +1,8 @@
 <?php
-/**
- * Games Website
- * Build Script
- */
+// Attogram Games Website
+// Build Script
 
-const VERSION = '1.0.2';
+const VERSION = '1.0.3';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -22,6 +20,10 @@ print "Logo directory: $logoDirectory\n\n";
 
 print "Building index.html header\n\n";
 $page = file_get_contents($buildDirectory . 'header.html');
+$htmlTitle = $title ?? 'Attogram Games Website';
+$page = str_replace('{{TITLE}}', $htmlTitle, $page);
+$H1headline = $headline ?? 'Attogram Games Website';
+$page = str_replace('{{HEADLINE}}', $H1headline, $page);
 
 clearstatcache();
 
@@ -53,6 +55,7 @@ system('git submodule update --init --recursive');
 
 print "Building index.html footer\n\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');
+$page = str_replace('{{VERSION}}', VERSION, $page);
 
 print "Writing {$homeDirectory}index.html\n\n";
 $indexWrote = file_put_contents($homeDirectory . 'index.html', $page);

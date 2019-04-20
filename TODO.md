@@ -1,7 +1,6 @@
 # Future Developments
 
-* customizable index page title
-* customizable index page headline
+* add npm ability to build script
 
 ## Possible new games
 
