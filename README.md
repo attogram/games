@@ -7,6 +7,9 @@ Your own games website, filled with open source goodness!
 ## Installation
 
 * Install the Games Website into a web accessible directory:
+  * `git clone https://github.com/attogram/games.git games`
+  * `cd games`
+  * `git submodule update --init --recursive`
 * Open the new directory in your web browser and enjoy playing the games!
 
 ## Building
