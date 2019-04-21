@@ -61,7 +61,7 @@ foreach ($games as $index => $game) {
 }
 
 print "Updating submodules\n\n";
-//system('git submodule update --init --recursive');
+system('git submodule update --init --recursive');
 
 print "Building index.html footer\n\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');

@@ -49,7 +49,7 @@ $games = [
     ],
     'particle-clicker' => [
         'name'    => 'Particle Clicker',
-        'tag'     => 'be like cern',
+        'tag'     => 'be like CERN',
         'git'     => 'https://github.com/particle-clicker/particle-clicker.git',
         'mobile'  => true,
         'desktop' => true,

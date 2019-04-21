@@ -1,54 +1,48 @@
-[submodule "hextris"]
-	path = hextris
-	url = https://github.com/Hextris/hextris.git
-[submodule "particle-clicker"]
-	path = particle-clicker
-	url = https://github.com/particle-clicker/particle-clicker.git
-[submodule "pond"]
-	path = pond
-	url = https://github.com/Zolmeister/pond.git
-[submodule "html5-asteroids"]
-	path = html5-asteroids
-	url = https://github.com/dmcinnes/HTML5-Asteroids.git
-[submodule "raging-gardens"]
-	path = raging-gardens
-	url = https://github.com/alunix/RagingGardensFB.git
-[submodule "polybranch"]
-	path = polybranch
-	url = https://github.com/gbatha/PolyBranch
-[submodule "pacman"]
-	path = pacman
-	url = https://github.com/mumuy/pacman.git
-[submodule "chess"]
-	path = chess
-	url = https://github.com/kbjorklu/chess.git
-[submodule "dead-valley"]
-	path = dead-valley
-	url = https://github.com/dmcinnes/dead-valley.git
-[submodule "hexgl"]
-	path = hexgl
-	url = https://github.com/BKcore/HexGL.git
 [submodule "2048"]
 	path = 2048
 	url = https://github.com/gabrielecirulli/2048
-[submodule "phaser-piano"]
-	path = phaser-piano
-	url = https://github.com/wasi0013/Phaser-Piano
+[submodule "chess"]
+	path = chess
+	url = https://github.com/kbjorklu/chess.git
 [submodule "classic-pool"]
 	path = classic-pool
 	url = https://github.com/henshmi/Classic-Pool-Game.git
-[submodule "taptaptap"]
-	path = taptaptap
-	url = https://github.com/MahdiF/taptaptap.git
-[submodule "taptaptap"]
-	path = taptaptap
-	url = https://github.com/MahdiF/taptaptap.git
-[submodule "twisty-polyhedra"]
-	path = twisty-polyhedra
-	url = https://github.com/aditya-r-m/twisty-polyhedra.git
+[submodule "dead-valley"]
+	path = dead-valley
+	url = https://github.com/dmcinnes/dead-valley.git
+[submodule "hextris"]
+	path = hextris
+	url = https://github.com/Hextris/hextris.git
+[submodule "html5-asteroids"]
+	path = html5-asteroids
+	url = https://github.com/dmcinnes/HTML5-Asteroids.git
 [submodule "klotski"]
 	path = klotski
 	url = https://github.com/SimonHung/Klotski
 [submodule "loderunner_totalrecall"]
 	path = loderunner_totalrecall
 	url = https://github.com/SimonHung/LodeRunner_TotalRecall.git
+[submodule "pacman"]
+	path = pacman
+	url = https://github.com/mumuy/pacman.git
+[submodule "particle-clicker"]
+	path = particle-clicker
+	url = https://github.com/particle-clicker/particle-clicker.git
+[submodule "phaser-piano"]
+	path = phaser-piano
+	url = https://github.com/wasi0013/Phaser-Piano
+[submodule "polybranch"]
+	path = polybranch
+	url = https://github.com/gbatha/PolyBranch
+[submodule "pond"]
+	path = pond
+	url = https://github.com/Zolmeister/pond.git
+[submodule "raging-gardens"]
+	path = raging-gardens
+	url = https://github.com/alunix/RagingGardensFB.git
+[submodule "taptaptap"]
+	path = taptaptap
+	url = https://github.com/MahdiF/taptaptap.git
+[submodule "twisty-polyhedra"]
+	path = twisty-polyhedra
+	url = https://github.com/aditya-r-m/twisty-polyhedra.git
