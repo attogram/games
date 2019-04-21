@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.0.5';
+const VERSION = '1.0.6';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -12,7 +12,7 @@ print 'Loaded ' . count($games) . " games\n";
 
 $buildDirectory = __DIR__ . DIRECTORY_SEPARATOR;
 $homeDirectory = realpath($buildDirectory . '..') . DIRECTORY_SEPARATOR;
-$logoDirectory = $homeDirectory . 'logos' . DIRECTORY_SEPARATOR;
+$logoDirectory = $homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
 
 print "Build directory: $buildDirectory\n";
 print "Home directory: $homeDirectory\n";
@@ -49,7 +49,7 @@ foreach ($games as $index => $game) {
     if (!empty($game['desktop'])) {
         $desktop = '⌨'; // ⌨ 🖥️
     }
-    $page .= '<a href="' . $link . '"><div class="game"><img src="logos/'
+    $page .= '<a href="' . $link . '"><div class="game"><img src="_logo/'
         . (is_readable($logoDirectory . $index . '.png')
             ? $index . '.png'
             : 'game.png'

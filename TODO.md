@@ -8,7 +8,6 @@
 
 ## New games
 
-* https://github.com/bwhmather/missile-game
 * https://github.com/hakimel/Core
 * https://github.com/jalbam/yasminoku
 * https://github.com/luxedo/pong-almost-from-scratch

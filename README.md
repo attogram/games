@@ -18,12 +18,12 @@ Live Demo: **<https://fosiper.com/games/>**
 
 * Feel the urge to mod?  Rebuilding is easy.
 * Building the Games Website requires `php` and `git` installed.
-* Add/delete/modify a game, edit the file `build/games.php`
-* Modify the menu ordering, edit the ordering in file `build/games.php`
-* Modify the index page header, edit the file `build/header.html`
-* Modify the index page footer, edit the file `build/footer.html`
+* Add/delete/modify a game, edit the file `_build/games.php`
+* Modify the menu ordering, edit the ordering in file `_build/games.php`
+* Modify the index page header, edit the file `_build/header.html`
+* Modify the index page footer, edit the file `_build/footer.html`
 * (optional) Delete any game directories that need re-cloning
-* Rebuild the Games Website, run: `php build/build.php`
+* Rebuild the Games Website, run: `php _build/build.php`
 * open the new `index.html` in your browser and enjoy playing the games!
 
 ## License

@@ -136,4 +136,11 @@ $games = [
         'mobile'  => false,
         'desktop' => true,
     ],
+    'missile-game' => [
+        'name'    => 'Missile Game',
+        'tag'     => 'fly thru',
+        'git'     => 'https://github.com/bwhmather/missile-game',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
 ];
