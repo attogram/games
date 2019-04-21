@@ -40,3 +40,15 @@
 [submodule "taptaptap"]
 	path = taptaptap
 	url = https://github.com/MahdiF/taptaptap.git
+[submodule "taptaptap"]
+	path = taptaptap
+	url = https://github.com/MahdiF/taptaptap.git
+[submodule "twisty-polyhedra"]
+	path = twisty-polyhedra
+	url = https://github.com/aditya-r-m/twisty-polyhedra.git
+[submodule "klotski"]
+	path = klotski
+	url = https://github.com/SimonHung/Klotski
+[submodule "loderunner_totalrecall"]
+	path = loderunner_totalrecall
+	url = https://github.com/SimonHung/LodeRunner_TotalRecall.git
