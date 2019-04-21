@@ -87,7 +87,7 @@ $games = [
         'tag'     => 'racing pod',
         'git'     => 'https://github.com/BKcore/HexGL.git',
         'mobile'  => false,
-        'desktop' => false,
+        'desktop' => true,
     ],
     'phaser-piano' => [
         'name'    => 'Piano',
@@ -101,6 +101,14 @@ $games = [
         'name'    => 'Pool',
         'tag'     => 'classic 8-ball',
         'git'     => 'https://github.com/henshmi/Classic-Pool-Game.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    'taptaptap' => [
+        'name'    => 'Tap Tap Tap',
+        'tag'     => 'lotta tapping',
+        'git'     => 'https://github.com/MahdiF/taptaptap.git',
+        'index'   => 'play/index.html',
         'mobile'  => false,
         'desktop' => true,
     ],

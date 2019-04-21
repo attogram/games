@@ -37,3 +37,6 @@
 [submodule "classic-pool"]
 	path = classic-pool
 	url = https://github.com/henshmi/Classic-Pool-Game.git
+[submodule "taptaptap"]
+	path = taptaptap
+	url = https://github.com/MahdiF/taptaptap.git

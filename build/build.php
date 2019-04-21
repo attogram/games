@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.0.3';
+const VERSION = '1.0.4';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -41,13 +41,23 @@ foreach ($games as $index => $game) {
     if (!empty($game['index'])) {
         $link .= $game['index'];
     }
-    $page .= '<div class="game"><a href="' . $link . '"><img src="logos/'
+
+    $mobile = $desktop = '';
+    if (!empty($game['mobile'])) {
+        $mobile = '📱';
+    }
+    if (!empty($game['desktop'])) {
+        $desktop = '⌨'; // ⌨ 🖥️
+    }
+    $page .= '<a href="' . $link . '"><div class="game"><img src="logos/'
         . (is_readable($logoDirectory . $index . '.png')
             ? $index . '.png'
             : 'game.png'
         )
-        . '" width="100" height="100" alt="' . $game['name'] . '"></a><br /><a href="'
-        . $link . '">' . $game['name'] . '<br /><small>' . $game['tag'] . '</small></a></div>';
+        . '" width="100" height="100" alt="' . $game['name'] . '"><br />' . $game['name']
+        . '<br /><small>' . $game['tag'] . '</small>'
+        . '<br /><div class="platform">' . $desktop . ' ' . $mobile . '</div>'
+        . '</div></a>';
 }
 
 print "Updating submodules\n\n";
@@ -55,7 +65,7 @@ system('git submodule update --init --recursive');
 
 print "Building index.html footer\n\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');
-$page = str_replace('{{VERSION}}', VERSION, $page);
+$page = str_replace('{{VERSION}}', 'v' . VERSION, $page);
 
 print "Writing {$homeDirectory}index.html\n\n";
 $indexWrote = file_put_contents($homeDirectory . 'index.html', $page);
