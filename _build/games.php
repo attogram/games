@@ -9,6 +9,14 @@ $headline = 'Attogram Games Website';
 
 // The Ordered List of Games
 $games = [
+//    '8queens' => [
+//        'name'     => '8 Queens',
+//        'tag'      => 'chess puzzle',
+//        'git'      => 'https://github.com/attogram/8queens.git',
+//        'composer' => true,
+//        'mobile'   => false,
+//        'desktop'  => true,
+//    ],
     'hextris' => [
         'name'    => 'Hextris',
         'tag'     => 'hexagonal tetris',
@@ -123,7 +131,7 @@ $games = [
     ],
     'twisty-polyhedra' => [
         'name'    => 'Twisty P',
-        'tag'     => 'polyhedra twist',
+        'tag'     => 'polyhedra turning',
         'git'     => 'https://github.com/aditya-r-m/twisty-polyhedra.git',
         'mobile'  => false,
         'desktop' => true,
@@ -139,7 +147,7 @@ $games = [
     'missile-game' => [
         'name'    => 'Missile Game',
         'tag'     => 'fly thru',
-        'git'     => 'https://github.com/bwhmather/missile-game',
+        'git'     => 'https://github.com/bwhmather/missile-game.git',
         'mobile'  => false,
         'desktop' => true,
     ],

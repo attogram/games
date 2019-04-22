@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.0.6';
+const VERSION = '1.1.0';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -11,11 +11,12 @@ require_once 'games.php';
 print 'Loaded ' . count($games) . " games\n";
 
 $buildDirectory = __DIR__ . DIRECTORY_SEPARATOR;
-$homeDirectory = realpath($buildDirectory . '..') . DIRECTORY_SEPARATOR;
-$logoDirectory = $homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
-
 print "Build directory: $buildDirectory\n";
+
+$homeDirectory = realpath($buildDirectory . '..') . DIRECTORY_SEPARATOR;
 print "Home directory: $homeDirectory\n";
+
+$logoDirectory = $homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
 print "Logo directory: $logoDirectory\n\n";
 
 print "Building index.html header\n\n";
@@ -25,23 +26,37 @@ $page = str_replace('{{TITLE}}', $htmlTitle, $page);
 $H1headline = $headline ?? 'Attogram Games Website';
 $page = str_replace('{{HEADLINE}}', $H1headline, $page);
 
+print "Clearing stat cache\n\n";
 clearstatcache();
 
 foreach ($games as $index => $game) {
     $gameDirectory = $homeDirectory . $index;
+
     print 'Checking submodule: ' . $game['name'] . ": $gameDirectory\n";
+
     if (!is_dir($gameDirectory)) {
-        print 'Installing submodule: ' . $game['name'] . ": $gameDirectory\n";
+        print 'Installing git submodule: ' . $game['git'] . "\n";
         system('git submodule add ' . $game['git'] . ' ' . $index);
     }
 
-    print "Building index.html menu: " . $game['name'] . "\n\n";
+    if (!@chdir($gameDirectory)) {
+        print "\nERROR: can not change directory to: $gameDirectory\n\n";
+        continue;
+    }
 
+    if (!empty($game['composer']) && $game['composer']) {
+        print "Composer install in: $gameDirectory\n";
+        system('composer install');
+    }
+
+    print "Updating: git pull $gameDirectory\n";
+    system('git pull');
+
+    print "Building index.html menu: " . $game['name'] . "\n\n";
     $link = $index . '/';
     if (!empty($game['index'])) {
         $link .= $game['index'];
     }
-
     $mobile = $desktop = '';
     if (!empty($game['mobile'])) {
         $mobile = '📱';
@@ -60,7 +75,7 @@ foreach ($games as $index => $game) {
         . '</div></a>';
 }
 
-print "Updating submodules\n\n";
+print "Updating all submodules\n\n";
 system('git submodule update --init --recursive');
 
 print "Building index.html footer\n\n";
@@ -69,9 +84,9 @@ $page = str_replace('{{VERSION}}', 'v' . VERSION, $page);
 
 print "Writing {$homeDirectory}index.html\n\n";
 $indexWrote = file_put_contents($homeDirectory . 'index.html', $page);
-if (!$indexWrote) {
-    print "ERROR writing {$homeDirectory}index.html\n";
-}
 print "Wrote $indexWrote characters\n\n";
 
-print "DONE!\n\n";
+if (!$indexWrote) {
+    print "ERROR writing to {$homeDirectory}index.html\n";
+    print "DUMPING index.html\n\n\n";
+}
