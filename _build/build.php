@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.2.1';
+const VERSION = '1.2.2';
 
 $title = 'Attogram Games Website';
 print  "$title " . VERSION . " - Build Script\n";

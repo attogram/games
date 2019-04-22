@@ -17,6 +17,13 @@ $games = [
         'desktop' => true,
 
     ],
+    'hyperspace-garbage-collection' => [
+        'name'    => 'Hyperspace G',
+        'tag'     => 'collect garbage',
+        'git'     => 'https://github.com/razh/game-off-2013',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
     'pond' => [
         'name'    => 'The Pond',
         'tag'     => 'eat, swim, love',
@@ -148,13 +155,6 @@ $games = [
         'tag'     => 'run, dig, old style',
         'git'     => 'https://github.com/SimonHung/LodeRunner_TotalRecall.git',
         'index'   => 'lodeRunner.html',
-        'mobile'  => false,
-        'desktop' => true,
-    ],
-    'hyperspace-garbage-collection' => [
-        'name'    => 'Hyperspace G',
-        'tag'     => 'collect garbage',
-        'git'     => 'https://github.com/razh/game-off-2013',
         'mobile'  => false,
         'desktop' => true,
     ],
