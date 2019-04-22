@@ -10,19 +10,17 @@ Live Demo: **<https://fosiper.com/games/>**
 
 * Install the Games Website into a web accessible directory:
   * `git clone https://github.com/attogram/games.git games`
-  * `cd games`
-  * `git submodule update --init --recursive`
+  * `cd games/_build`
+  * `php build.php`
 * Open the new directory in your web browser and enjoy playing the games!
 
 ## Building
 
-* Feel the urge to mod?  Rebuilding is easy.
-* Building the Games Website requires `php` and `git` installed.
+* Feel the urge to mod?  It's easy.
 * Add/delete/modify a game, edit the file `_build/games.php`
 * Modify the menu ordering, edit the ordering in file `_build/games.php`
 * Modify the index page header, edit the file `_build/header.html`
 * Modify the index page footer, edit the file `_build/footer.html`
-* (optional) Delete any game directories that need re-cloning
 * Rebuild the Games Website, run: `php _build/build.php`
 * open the new `index.html` in your browser and enjoy playing the games!
 

@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.1.2';
+const VERSION = '1.1.3-pre';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -88,6 +88,7 @@ print "Wrote $indexWrote characters\n\n";
 if (!$indexWrote) {
     print "ERROR writing to {$homeDirectory}index.html\n";
     print "DUMPING index.html\n\n\n";
+    print $page . "\n\n\n";
 }
 
 
