@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.1.1';
+const VERSION = '1.1.2';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
