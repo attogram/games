@@ -151,4 +151,11 @@ $games = [
         'mobile'  => false,
         'desktop' => true,
     ],
+    'hyperspace-garbage-collection' => [
+        'name'    => 'Hyperspace G',
+        'tag'     => 'collect garbage',
+        'git'     => 'https://github.com/razh/game-off-2013',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
 ];
