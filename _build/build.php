@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 
 print 'The Games Website ' . VERSION . "\n\n";
 
@@ -35,8 +35,9 @@ foreach ($games as $index => $game) {
     print 'Checking submodule: ' . $game['name'] . ": $gameDirectory\n";
 
     if (!is_dir($gameDirectory)) {
-        print 'Installing git submodule: ' . $game['git'] . "\n";
-        system('git submodule add ' . $game['git'] . ' ' . $index);
+        $command = 'git submodule add ' . $game['git'] . ' ' . $index;
+        print "Installing git submodule: $command\n";
+        system($command);
     }
 
     if (!@chdir($gameDirectory)) {
@@ -49,8 +50,9 @@ foreach ($games as $index => $game) {
         system('composer install');
     }
 
-    print "Updating: git pull $gameDirectory\n";
-    system('git pull');
+    $command = 'git pull origin master';
+    print "Updating: $command\n";
+    system($command);
 
     print "Building index.html menu: " . $game['name'] . "\n\n";
     $link = $index . '/';
@@ -75,8 +77,14 @@ foreach ($games as $index => $game) {
         . '</div></a>';
 }
 
-print "Updating all submodules\n\n";
-system('git submodule update --init --recursive');
+chdir($homeDirectory);
+$command = 'git submodule update --init --recursive';
+print "Updating All: $command\n\n";
+system($command);
+
+
+
+
 
 print "Building index.html footer\n\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');

@@ -49,3 +49,6 @@
 [submodule "twisty-polyhedra"]
 	path = twisty-polyhedra
 	url = https://github.com/aditya-r-m/twisty-polyhedra.git
+[submodule "8queens"]
+	path = 8queens
+	url = https://github.com/attogram/8queens.git
