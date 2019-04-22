@@ -11,7 +11,7 @@ $enableGit = true;
 $enableComposer = true;
 
 require_once 'games.php';
-print 'Loaded ' . count($games) . " games\n";
+print 'Loading ' . count($games) . " games\n";
 
 $buildDirectory = __DIR__ . DIRECTORY_SEPARATOR;
 print "Build directory: $buildDirectory\n";
@@ -36,24 +36,22 @@ $page = str_replace('{{HEADLINE}}', $H1headline, $page);
 
 clearstatcache();
 
-if ($enableGit) {
-    syscall('git submodule update --init --recursive');
-}
-
 foreach ($games as $index => $game) {
     $gameDirectory = $homeDirectory . $index;
 
     print 'Game: ' . $game['name'] . ": $gameDirectory\n";
 
     if (!is_dir($gameDirectory)) {
-        syscall('git submodule add ' . $game['git'] . ' ' . $index);
-        syscall('git submodule init');
+        chdir($homeDirectory);
+        syscall('git clone ' . $game['git'] . ' ' . $index);
     }
 
     if (!@chdir($gameDirectory)) {
         print "\nERROR: can not change directory to: $gameDirectory\n\n";
         continue;
     }
+
+    syscall('git pull');
 
     if (!empty($game['composer']) && $game['composer'] && $enableComposer) {
         syscall('composer install');
@@ -78,12 +76,6 @@ foreach ($games as $index => $game) {
         . '<br /><small>' . $game['tag'] . '</small>'
         . '<br /><div class="platform">' . $desktop . ' ' . $mobile . '</div>'
         . '</div></a>';
-}
-
-chdir($homeDirectory);
-if ($enableGit) {
-    syscall('git submodule update --init --recursive');
-    //syscall('git submodule foreach git pull origin master');
 }
 
 $page .= file_get_contents($buildDirectory . 'footer.html');

@@ -54,6 +54,13 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'missile-game' => [
+        'name'    => 'Missile Game',
+        'tag'     => 'fly thru',
+        'git'     => 'https://github.com/bwhmather/missile-game.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
     'chess' => [
         'name'    => 'Chess',
         'tag'     => 'e2 to e4',
@@ -141,13 +148,6 @@ $games = [
         'tag'     => 'run, dig, old style',
         'git'     => 'https://github.com/SimonHung/LodeRunner_TotalRecall.git',
         'index'   => 'lodeRunner.html',
-        'mobile'  => false,
-        'desktop' => true,
-    ],
-    'missile-game' => [
-        'name'    => 'Missile Game',
-        'tag'     => 'fly thru',
-        'git'     => 'https://github.com/bwhmather/missile-game.git',
         'mobile'  => false,
         'desktop' => true,
     ],
