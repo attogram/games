@@ -9,14 +9,6 @@ $headline = 'Attogram Games Website';
 
 // The Ordered List of Games
 $games = [
-    '8queens' => [
-        'name'     => '8 Queens',
-        'tag'      => 'chess puzzle',
-        'git'      => 'https://github.com/attogram/8queens.git',
-        'composer' => true,
-        'mobile'   => false,
-        'desktop'  => true,
-    ],
     'hextris' => [
         'name'    => 'Hextris',
         'tag'     => 'hexagonal tetris',
@@ -69,6 +61,14 @@ $games = [
         'index'   => 'chess.html',
         'mobile'  => true,
         'desktop' => true,
+    ],
+    '8queens' => [
+        'name'     => '8 Queens',
+        'tag'      => 'chess puzzle',
+        'git'      => 'https://github.com/attogram/8queens.git',
+        'composer' => true,
+        'mobile'   => false,
+        'desktop'  => true,
     ],
     'html5-asteroids' => [
         'name'    => 'Asteroids',

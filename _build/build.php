@@ -35,9 +35,9 @@ foreach ($games as $index => $game) {
     print 'Checking submodule: ' . $game['name'] . ": $gameDirectory\n";
 
     if (!is_dir($gameDirectory)) {
-        $command = 'git submodule add ' . $game['git'] . ' ' . $index;
-        print "Installing git submodule: $command\n";
-        system($command);
+        print "Installing game\n";
+        syscall('git submodule add ' . $game['git'] . ' ' . $index);
+        syscall('git submodule init');
     }
 
     if (!@chdir($gameDirectory)) {
@@ -46,13 +46,8 @@ foreach ($games as $index => $game) {
     }
 
     if (!empty($game['composer']) && $game['composer']) {
-        print "Composer install in: $gameDirectory\n";
-        system('composer install');
+        syscall('composer install');
     }
-
-    $command = 'git pull origin master';
-    print "Updating: $command\n";
-    system($command);
 
     print "Building index.html menu: " . $game['name'] . "\n\n";
     $link = $index . '/';
@@ -78,12 +73,8 @@ foreach ($games as $index => $game) {
 }
 
 chdir($homeDirectory);
-$command = 'git submodule update --init --recursive';
-print "Updating All: $command\n\n";
-system($command);
-
-
-
+syscall('git submodule update --init --recursive');
+syscall('git submodule foreach git pull origin master');
 
 
 print "Building index.html footer\n\n";
@@ -97,4 +88,13 @@ print "Wrote $indexWrote characters\n\n";
 if (!$indexWrote) {
     print "ERROR writing to {$homeDirectory}index.html\n";
     print "DUMPING index.html\n\n\n";
+}
+
+
+/**
+ * @param string $command
+ */
+function syscall(string $command) {
+    print "Command: $command\n";
+    system($command);
 }

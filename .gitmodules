@@ -1,3 +1,6 @@
+[submodule "8queens"]
+	path = 8queens
+	url = https://github.com/attogram/8queens.git
 [submodule "2048"]
 	path = 2048
 	url = https://github.com/gabrielecirulli/2048
@@ -49,6 +52,3 @@
 [submodule "twisty-polyhedra"]
 	path = twisty-polyhedra
 	url = https://github.com/aditya-r-m/twisty-polyhedra.git
-[submodule "8queens"]
-	path = 8queens
-	url = https://github.com/attogram/8queens.git
