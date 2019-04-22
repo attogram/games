@@ -2,11 +2,14 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.1.3';
+const VERSION = '1.1.4';
 
-print 'Attogram Games Website Build Script ' . VERSION . "\n";
+$title = 'Attogram Games Website';
+print  "$title " . VERSION . " - Build Script\n";
 
-//print "Loading Games list\n";
+$enableGit = true;
+$enableComposer = true;
+
 require_once 'games.php';
 print 'Loaded ' . count($games) . " games\n";
 
@@ -25,17 +28,17 @@ if (!@chdir($homeDirectory)) {
 $logoDirectory = $homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
 print "Logo directory: $logoDirectory\n";
 
-//print "Building index.html header\n\n";
 $page = file_get_contents($buildDirectory . 'header.html');
-$htmlTitle = $title ?? 'Attogram Games Website';
+$htmlTitle = $title ?? $title;
 $page = str_replace('{{TITLE}}', $htmlTitle, $page);
-$H1headline = $headline ?? 'Attogram Games Website';
+$H1headline = $headline ?? $title;
 $page = str_replace('{{HEADLINE}}', $H1headline, $page);
 
-//print "Clearing stat cache\n\n";
 clearstatcache();
 
-syscall('git submodule update --init --recursive');
+if ($enableGit) {
+    syscall('git submodule update --init --recursive');
+}
 
 foreach ($games as $index => $game) {
     $gameDirectory = $homeDirectory . $index;
@@ -43,7 +46,6 @@ foreach ($games as $index => $game) {
     print 'Game: ' . $game['name'] . ": $gameDirectory\n";
 
     if (!is_dir($gameDirectory)) {
-        print "Installing game\n";
         syscall('git submodule add ' . $game['git'] . ' ' . $index);
         syscall('git submodule init');
     }
@@ -53,11 +55,10 @@ foreach ($games as $index => $game) {
         continue;
     }
 
-    if (!empty($game['composer']) && $game['composer']) {
+    if (!empty($game['composer']) && $game['composer'] && $enableComposer) {
         syscall('composer install');
     }
 
-    //print "Building index.html menu: " . $game['name'] . "\n\n";
     $link = $index . '/';
     if (!empty($game['index'])) {
         $link .= $game['index'];
@@ -67,13 +68,12 @@ foreach ($games as $index => $game) {
         $mobile = '📱';
     }
     if (!empty($game['desktop'])) {
-        $desktop = '⌨'; // ⌨ 🖥️
+        $desktop = '⌨';
     }
-    $page .= '<a href="' . $link . '"><div class="game"><img src="_logo/'
-        . (is_readable($logoDirectory . $index . '.png')
-            ? $index . '.png'
-            : 'game.png'
-        )
+    $logo = is_readable($logoDirectory . $index . '.png')
+        ? $index . '.png'
+        : 'game.png';
+    $page .= '<a href="' . $link . '"><div class="game"><img src="_logo/' . $logo
         . '" width="100" height="100" alt="' . $game['name'] . '"><br />' . $game['name']
         . '<br /><small>' . $game['tag'] . '</small>'
         . '<br /><div class="platform">' . $desktop . ' ' . $mobile . '</div>'
@@ -81,11 +81,11 @@ foreach ($games as $index => $game) {
 }
 
 chdir($homeDirectory);
-syscall('git submodule update --init --recursive');
-//syscall('git submodule foreach git pull origin master');
+if ($enableGit) {
+    syscall('git submodule update --init --recursive');
+    //syscall('git submodule foreach git pull origin master');
+}
 
-
-//print "Building index.html footer\n\n";
 $page .= file_get_contents($buildDirectory . 'footer.html');
 $page = str_replace('{{VERSION}}', 'v' . VERSION, $page);
 
@@ -99,11 +99,10 @@ if (!$indexWrote) {
     print $page . "\n\n\n";
 }
 
-
 /**
  * @param string $command
  */
 function syscall(string $command) {
-    print "Command: $command\n";
+    print "SYSTEM: $command\n";
     system($command);
 }
