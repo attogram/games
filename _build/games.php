@@ -9,10 +9,10 @@ $headline = 'Attogram Games Website';
 
 // The Ordered List of Games
 $games = [
-    'hextris' => [
+    'hextris-lite' => [
         'name'    => 'Hextris',
         'tag'     => 'hexagonal tetris',
-        'git'     => 'https://github.com/Hextris/hextris.git',
+        'git'     => 'https://github.com/attogram/hextris-lite.git',
         'mobile'  => true,
         'desktop' => true,
 
