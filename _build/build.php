@@ -2,7 +2,7 @@
 // Attogram Games Website
 // Build Script
 
-const VERSION = '1.2.2';
+const VERSION = '1.2.3-pre';
 
 $title = 'Attogram Games Website';
 print  "$title " . VERSION . " - Build Script\n";
@@ -11,13 +11,13 @@ $enableGit = true;
 $enableComposer = true;
 
 require_once 'games.php';
-print 'Loading ' . count($games) . " games\n";
+print 'LOADING ' . count($games) . " GAMES\n";
 
 $buildDirectory = __DIR__ . DIRECTORY_SEPARATOR;
-print "Build directory: $buildDirectory\n";
+print "BUILD DIRECTORY: $buildDirectory\n";
 
 $homeDirectory = realpath($buildDirectory . '..') . DIRECTORY_SEPARATOR;
-print "Home directory: $homeDirectory\n";
+print "HOME DIRECTORY: $homeDirectory\n";
 
 if (!@chdir($homeDirectory)) {
     print "\nERROR: can not change directory to: $homeDirectory\n\n";
@@ -26,7 +26,7 @@ if (!@chdir($homeDirectory)) {
 }
 
 $logoDirectory = $homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
-print "Logo directory: $logoDirectory\n";
+print "LOGO DIRECTORY: $logoDirectory\n";
 
 $page = file_get_contents($buildDirectory . 'header.html');
 $htmlTitle = $title ?? $title;
@@ -39,7 +39,7 @@ clearstatcache();
 foreach ($games as $index => $game) {
     $gameDirectory = $homeDirectory . $index;
 
-    print 'Game: ' . $game['name'] . ": $gameDirectory\n";
+    print 'GAME: ' . $game['name'] . ": $gameDirectory\n";
 
     if (!is_dir($gameDirectory)) {
         chdir($homeDirectory);
@@ -81,12 +81,12 @@ foreach ($games as $index => $game) {
 $page .= file_get_contents($buildDirectory . 'footer.html');
 $page = str_replace('{{VERSION}}', 'v' . VERSION, $page);
 
-print "Writing {$homeDirectory}index.html\n";
+print "WRITING {$homeDirectory}index.html\n";
 $indexWrote = file_put_contents($homeDirectory . 'index.html', $page);
-print "Wrote $indexWrote characters\n\n";
+print "WROTE $indexWrote CHARACTERS\n\n";
 
 if (!$indexWrote) {
-    print "ERROR writing to {$homeDirectory}index.html\n";
+    print "ERROR WRITING TO {$homeDirectory}index.html\n";
     print "DUMPING index.html\n\n\n";
     print $page . "\n\n\n";
 }
