@@ -158,4 +158,12 @@ $games = [
         'mobile'  => false,
         'desktop' => true,
     ],
+    'underrun' => [
+        'name'    => 'Underrun',
+        'tag'     => 'run &amp; fight',
+        'git'     => 'https://github.com/phoboslab/underrun',
+        'index'   => 'index-debug.html',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
 ];
