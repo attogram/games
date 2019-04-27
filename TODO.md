@@ -4,6 +4,7 @@
 * also export embeddable html menu
 * add npm ability to build script
 * add yarn ability to build script
+* add bower ability to build script
 
 ## More Info
 

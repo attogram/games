@@ -8,6 +8,7 @@ hexgl/
 hextris-lite/
 html5-asteroids/
 hyperspace-garbage-collection/
+javascript-piano/
 klotski/
 loderunner_totalrecall/
 missile-game/
@@ -21,5 +22,6 @@ taptaptap/
 twisty-polyhedra/
 underrun/
 vendor/
+virtual-piano/
 wolf3d/
 .idea/
