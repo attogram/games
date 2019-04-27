@@ -10,7 +10,7 @@ $headline = 'Attogram Games Website';
 // The Ordered List of Games
 $games = [
     'hextris-lite' => [
-        'name'    => 'Hextris',
+        'name'    => 'Hextris Lite',
         'tag'     => 'hexagonal tetris',
         'git'     => 'https://github.com/attogram/hextris-lite.git',
         'mobile'  => true,
@@ -170,6 +170,20 @@ $games = [
         'tag'     => 'run &amp; fight',
         'git'     => 'https://github.com/phoboslab/underrun',
         'index'   => 'index-debug.html',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    'wolf3d' => [
+        'name'    => 'Wolf3d',
+        'tag'     => 'classic FPS',
+        'git'     => 'https://github.com/jseidelin/wolf3d.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    '3d.city' => [
+        'name'    => '3d.city',
+        'tag'     => 'be the mayor',
+        'git'     => 'https://github.com/lo-th/3d.city.git',
         'mobile'  => false,
         'desktop' => true,
     ],
