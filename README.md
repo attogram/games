@@ -20,6 +20,7 @@ of the following games:
 * 8 Queens - <https://github.com/attogram/8queens> _(requires php, composer)_
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
+* Clumsy Bird - <https://github.com/ellisonleao/clumsy-bird>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
 * HexGL Lite - <https://github.com/attogram/HexGL-lite>
 * Hextris Lite - <https://github.com/attogram/hextris-lite>
@@ -29,6 +30,7 @@ of the following games:
 * Klotski - <https://github.com/SimonHung/Klotski>
 * Life - <https://github.com/copy/life.git>
 * Lode Runner Total Recall - <https://github.com/SimonHung/LodeRunner_TotalRecall>
+* Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * pacman - <https://github.com/mumuy/pacman>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>

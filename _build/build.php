@@ -7,19 +7,19 @@
  *      php build.php <options>
  *
  *      options:
- *          nogit     - Disable git clone, Disable git pull
- *          nogitpull - Enable  git clone, Disable git pull
- *          embed     - Enable build of embeddable games.html menu
+ *          nogit  - Disable git clone, Disable git pull
+ *          nopull - Enable  git clone, Disable git pull
+ *          embed  - Enable build of embeddable games.html menu
  *
  */
 
-const VERSION = '2.1.0';
+const VERSION = '2.1.1';
 
 $buildTitle = 'Attogram Games Website';
 print  "$buildTitle Builder v" . VERSION . "\n";
 
 $enableGitClone = in_array('nogit', $argv) ? false : true;
-$enableGitPull = in_array('nogit', $argv) || in_array('nogitpull', $argv) ? false : true;
+$enableGitPull = in_array('nogit', $argv) || in_array('nopull', $argv) ? false : true;
 $writeEmbed = in_array('embed', $argv) ? true : false;
 
 $buildDirectory = __DIR__ . DIRECTORY_SEPARATOR;
@@ -75,6 +75,7 @@ foreach ($games as $index => $game) {
         print "\nERROR: GAME DIRECTORY NOT FOUND: $gameDirectory\n\n";
         continue;
     }
+
     if ($enableGitPull) {
         syscall('git pull');
     }

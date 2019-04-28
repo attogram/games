@@ -126,6 +126,13 @@ $games = [
         'mobile'  => false,
         'desktop' => true,
     ],
+    'clumsy-bird' => [
+        'name'    => 'Clumsy Bird',
+        'tag'     => 'flappy happy',
+        'git'     => 'https://github.com/ellisonleao/clumsy-bird.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
     'raging-gardens' => [
         'name'    => 'Raging Gardens',
         'tag'     => 'farting ninja rabbits',
@@ -196,6 +203,13 @@ $games = [
         'name'    => 'Hearts',
         'tag'     => 'card game',
         'git'     => 'https://github.com/yyjhao/html5-hearts.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    'mah-jongg' => [
+        'name'    => 'Mah-jongg',
+        'tag'     => 'Tianjin 天津麻将',
+        'git'     => 'https://github.com/tiansh/tjmj.git',
         'mobile'  => false,
         'desktop' => true,
     ],
