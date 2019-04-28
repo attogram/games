@@ -1,10 +1,10 @@
 <?php
 // Attogram Games Website Configuration
 
-// HTML <title>
+// <title> - text only, no HTML
 $title = 'Attogram Games Website';
 
-// HTML <h1>
+// <h1> - text and/or HTML
 $headline = 'Attogram Games Website';
 
 // The Ordered List of Games

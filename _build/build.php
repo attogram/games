@@ -15,16 +15,19 @@ if (!is_dir($buildDirectory)) {
     exit("\nFATAL ERROR: Build Directory Not Found: $buildDirectory\n\n");
 }
 
-$games = [];
-$title = '';
-$headline = '';
+print "LOADING GAMES CONFIG\n";
 $gamesList = $buildDirectory . 'games.php';
 if (!is_readable($gamesList)) {
     exit("\nFATAL ERROR: $gamesList NOT FOUND\n\n");
 }
+$games = [];
+$title = '';
+$headline = '';
 /** @noinspection PhpIncludeInspection */
 require_once $gamesList;
-print 'LOADING ' . count($games) . " GAMES\n";
+print '# GAMES: ' . count($games) . "\n";
+print "TITLE: $title\n";
+print "HEADLINE: " . htmlentities($headline) . "\n";
 
 $homeDirectory = realpath($buildDirectory . '..') . DIRECTORY_SEPARATOR;
 print "HOME DIRECTORY: $homeDirectory\n";
