@@ -18,7 +18,7 @@ of the following games:
 
 * 2048 - <https://github.com/gabrielecirulli/2048>
 * 3d.city - <https://github.com/lo-th/3d.city>
-* 8 Queens - <https://github.com/attogram/8queens>
+* 8 Queens - <https://github.com/attogram/8queens> (requires composer)
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
@@ -31,7 +31,7 @@ of the following games:
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * pacman - <https://github.com/mumuy/pacman>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
-* Phaser Cat - <https://github.com/DaxChen/phaser-cat>
+* Phaser Cat - <https://github.com/DaxChen/phaser-cat> (requires npm)
 * PolyBranch - <https://github.com/gbatha/PolyBranch>
 * The Pond - <https://github.com/Zolmeister/pond>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
