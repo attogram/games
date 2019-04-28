@@ -13,7 +13,7 @@
  *
  */
 
-const VERSION = '2.1.1';
+const VERSION = '2.1.2';
 
 $buildTitle = 'Attogram Games Website';
 print  "$buildTitle Builder v" . VERSION . "\n";

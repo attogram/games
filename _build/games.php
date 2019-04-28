@@ -24,10 +24,10 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
-    '2048' => [
-        'name'    => '2048',
+    '2048-lite' => [
+        'name'    => '2048 Lite',
         'tag'     => '2, 4, 8, swipe',
-        'git'     => 'https://github.com/gabrielecirulli/2048',
+        'git'     => 'https://github.com/attogram/2048-lite.git',
         'mobile'  => true,
         'desktop' => true,
     ],
@@ -130,7 +130,7 @@ $games = [
         'name'    => 'Clumsy Bird',
         'tag'     => 'flappy happy',
         'git'     => 'https://github.com/ellisonleao/clumsy-bird.git',
-        'mobile'  => false,
+        'mobile'  => true,
         'desktop' => true,
     ],
     'raging-gardens' => [

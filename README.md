@@ -15,7 +15,7 @@ Live Demo: **<https://fosiper.com/games/>**
 The Attogram Games Website builder automates the installation
 of the following games:
 
-* 2048 - <https://github.com/gabrielecirulli/2048>
+* 2048 Lite - <https://github.com/attogram/2048-lite>
 * 3d.city - <https://github.com/lo-th/3d.city>
 * 8 Queens - <https://github.com/attogram/8queens> _(requires php, composer)_
 * Chess - <https://github.com/attogram/chess>
