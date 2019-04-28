@@ -4,8 +4,7 @@ Your own games website, filled with open source goodness!
 
 [![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
 
-The Attogram Games Website builder is an easy way to setup a
-complete games website.
+The Attogram Games Website builder is an easy way to setup a complete games website.
 
 Every game included is open source and free to play!
 
@@ -18,7 +17,7 @@ of the following games:
 
 * 2048 - <https://github.com/gabrielecirulli/2048>
 * 3d.city - <https://github.com/lo-th/3d.city>
-* 8 Queens - <https://github.com/attogram/8queens> (requires composer)
+* 8 Queens - <https://github.com/attogram/8queens> _(requires composer)_
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
@@ -31,10 +30,11 @@ of the following games:
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * pacman - <https://github.com/mumuy/pacman>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
-* Phaser Cat - <https://github.com/DaxChen/phaser-cat> (requires npm)
+* Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires npm)_
 * PolyBranch - <https://github.com/gbatha/PolyBranch>
 * The Pond - <https://github.com/Zolmeister/pond>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
+* Snakisms - <https://github.com/pippinbarr/SNAKISMS>
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
 * Underrun - <https://github.com/phoboslab/underrun>
@@ -42,6 +42,7 @@ of the following games:
 
 and some web musical instruments:
 
+* Chordomatic - <https://github.com/kiprobinson/chordomatic>
 * Javascript Piano - <https://github.com/mrcoles/javascript-piano>
 * Phaser Piano - <https://github.com/wasi0013/Phaser-Piano>
 * Virtual Piano - <https://github.com/otanim/virtual-piano>
@@ -57,7 +58,7 @@ and some web musical instruments:
   * `php build.php`
 * Open the new `index.html` and enjoy playing the games!
 
-## Building
+## Modding
 
 * Feel the urge to mod?  It's easy.
 * Add/delete/modify a game, edit the file `_build/games.php`
@@ -70,8 +71,7 @@ and some web musical instruments:
 ## License
 
 * The Games Website is an open source project licensed under the MIT License.
-* The Games Website automates the inclusion of many open source games,
-  each with its own license.
+* The Games Website automates the inclusion of many open source games, each with its own license.
 * See each individual game directory for more information.
 
 ## More Info

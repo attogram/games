@@ -1,5 +1,5 @@
 body { background-color: lightslategray; font-family: sans-serif; margin: 20px; }
-a, a:visited { text-decoration: none; color: darkblue; }
+a, a:visited { color: darkblue; text-decoration: none; }
 a:hover { background-color: greenyellow; color: black; }
 footer { font-size: small; margin-top: 40px; }
 img { border: 1px solid darkgrey; }

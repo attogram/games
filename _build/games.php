@@ -178,6 +178,13 @@ $games = [
         'mobile'  => false,
         'desktop' => true,
     ],
+    'snakisms' => [
+        'name'    => 'Snakisms',
+        'tag'     => 'philosophy snake',
+        'git'     => 'https://github.com/pippinbarr/SNAKISMS.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
     'javascript-piano' => [
         'name'    => 'Piano J',
         'tag'     => 'synthy javascript',
@@ -197,6 +204,14 @@ $games = [
         'tag'     => 'ting ting',
         'git'     => 'https://github.com/wasi0013/Phaser-Piano.git',
         'index'   => 'Ting%20Ting/index.html',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    'chordomatic' => [
+        'name'    => 'Chordomatic',
+        'tag'     => 'guitar strumming',
+        'git'     => 'https://github.com/kiprobinson/chordomatic.git',
+        'index'   => 'app/chord-player.html',
         'mobile'  => false,
         'desktop' => true,
     ],

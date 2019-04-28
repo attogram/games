@@ -1,7 +1,7 @@
 <?php
 // Attogram Games Website Builder - https://github.com/attogram/games
 
-const VERSION = '2.0.2';
+const VERSION = '2.0.3';
 
 $buildTitle = 'Attogram Games Website';
 print  "$buildTitle Builder v" . VERSION . "\n";
