@@ -1,13 +1,26 @@
 <?php
-// Attogram Games Website Builder - https://github.com/attogram/games
+/**
+ * Attogram Games Website Builder
+ * https://github.com/attogram/games
+ *
+ * usage:
+ *      php build.php <options>
+ *
+ *      options:
+ *          nogit     - Disable git clone, Disable git pull
+ *          nogitpull - Enable  git clone, Disable git pull
+ *          embed     - Enable build of embeddable games.html menu
+ *
+ */
 
-const VERSION = '2.0.3';
+const VERSION = '2.1.0';
 
 $buildTitle = 'Attogram Games Website';
 print  "$buildTitle Builder v" . VERSION . "\n";
 
-$enableGit  = true;  // Enable git clone, git pull
-$writeEmbed = false; // write an embeddable HTML menu of games
+$enableGitClone = in_array('nogit', $argv) ? false : true;
+$enableGitPull = in_array('nogit', $argv) || in_array('nogitpull', $argv) ? false : true;
+$writeEmbed = in_array('embed', $argv) ? true : false;
 
 $buildDirectory = __DIR__ . DIRECTORY_SEPARATOR;
 print "BUILD DIRECTORY: $buildDirectory\n";
@@ -47,7 +60,7 @@ clearstatcache();
 foreach ($games as $index => $game) {
     $gameDirectory = $homeDirectory . $index;
     print "GAME: {$game['name']} $gameDirectory {$game['git']}\n";
-    if ($enableGit && !is_dir($gameDirectory)) {
+    if ($enableGitClone && !is_dir($gameDirectory)) {
         chdir($homeDirectory);
         syscall('git clone ' . $game['git'] . ' ' . $index);
 
@@ -62,7 +75,7 @@ foreach ($games as $index => $game) {
         print "\nERROR: GAME DIRECTORY NOT FOUND: $gameDirectory\n\n";
         continue;
     }
-    if ($enableGit) {
+    if ($enableGitPull) {
         syscall('git pull');
     }
     $menu .= getGameMenu($index, $game, $logoDirectory);

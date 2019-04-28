@@ -17,15 +17,17 @@ of the following games:
 
 * 2048 - <https://github.com/gabrielecirulli/2048>
 * 3d.city - <https://github.com/lo-th/3d.city>
-* 8 Queens - <https://github.com/attogram/8queens> _(requires composer)_
+* 8 Queens - <https://github.com/attogram/8queens> _(requires php, composer)_
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
 * HexGL Lite - <https://github.com/attogram/HexGL-lite>
 * Hextris Lite - <https://github.com/attogram/hextris-lite>
 * HTML5 Asteroids - <https://github.com/dmcinnes/HTML5-Asteroids>
+* HTML5 Hearts - <https://github.com/yyjhao/html5-hearts.git>
 * Hyperspace Garbage Collection - <https://github.com/razh/game-off-2013>
 * Klotski - <https://github.com/SimonHung/Klotski>
+* Life - <https://github.com/copy/life.git>
 * Lode Runner Total Recall - <https://github.com/SimonHung/LodeRunner_TotalRecall>
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * pacman - <https://github.com/mumuy/pacman>
@@ -44,7 +46,6 @@ and some web musical instruments:
 
 * Chordomatic - <https://github.com/kiprobinson/chordomatic>
 * Javascript Piano - <https://github.com/mrcoles/javascript-piano>
-* Phaser Piano - <https://github.com/wasi0013/Phaser-Piano>
 * Virtual Piano - <https://github.com/otanim/virtual-piano>
 
 ## Installation

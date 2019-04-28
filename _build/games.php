@@ -54,6 +54,13 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'life' => [
+        'name'    => 'Life',
+        'tag'     => 'conway\'s game',
+        'git'     => 'https://github.com/copy/life.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
     'missile-game' => [
         'name'    => 'Missile Game',
         'tag'     => 'fly thru it',
@@ -182,6 +189,13 @@ $games = [
         'name'    => 'Snakisms',
         'tag'     => 'philosophy snake',
         'git'     => 'https://github.com/pippinbarr/SNAKISMS.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
+    'html5-hearts' => [
+        'name'    => 'Hearts',
+        'tag'     => 'card game',
+        'git'     => 'https://github.com/yyjhao/html5-hearts.git',
         'mobile'  => false,
         'desktop' => true,
     ],
@@ -194,17 +208,9 @@ $games = [
     ],
     'virtual-piano' => [
         'name'    => 'Piano V',
-        'tag'     => 'keyboard',
+        'tag'     => 'virtually classic',
         'git'     => 'https://github.com/otanim/virtual-piano',
         'mobile'  => true,
-        'desktop' => true,
-    ],
-    'phaser-piano' => [
-        'name'    => 'Piano P',
-        'tag'     => 'ting ting',
-        'git'     => 'https://github.com/wasi0013/Phaser-Piano.git',
-        'index'   => 'Ting%20Ting/index.html',
-        'mobile'  => false,
         'desktop' => true,
     ],
     'chordomatic' => [
@@ -212,7 +218,7 @@ $games = [
         'tag'     => 'guitar strumming',
         'git'     => 'https://github.com/kiprobinson/chordomatic.git',
         'index'   => 'app/chord-player.html',
-        'mobile'  => false,
+        'mobile'  => true,
         'desktop' => true,
     ],
 ];
