@@ -5,7 +5,7 @@ Your own games website, filled with open source goodness!
 [![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
 
 The Attogram Games Website builder is an easy way to setup a
-complete games website.  
+complete games website.
 
 Every game included is open source and free to play!
 
@@ -13,7 +13,7 @@ Live Demo: **<https://fosiper.com/games/>**
 
 ## The Games
 
-The Attogram Games Website builder automates the installation 
+The Attogram Games Website builder automates the installation
 of the following games:
 
 * 2048 - <https://github.com/gabrielecirulli/2048>
@@ -54,7 +54,7 @@ and some web musical instruments:
   * `git clone https://github.com/attogram/games.git games`
 * Run the build script:
   * `cd games/_build`
-  * `php build.php`  
+  * `php build.php`
 * Open the new `index.html` and enjoy playing the games!
 
 ## Building
@@ -71,7 +71,7 @@ and some web musical instruments:
 
 * The Games Website is an open source project licensed under the MIT License.
 * The Games Website automates the inclusion of many open source games,
-  each with its own license.   
+  each with its own license.
 * See each individual game directory for more information.
 
 ## More Info

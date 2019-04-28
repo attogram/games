@@ -1,7 +1,7 @@
 <?php
 // Attogram Games Website Builder - https://github.com/attogram/games
 
-const VERSION = '2.0.1';
+const VERSION = '2.0.2';
 
 $buildTitle = 'Attogram Games Website';
 print  "$buildTitle Builder v" . VERSION . "\n";
@@ -15,6 +15,9 @@ if (!is_dir($buildDirectory)) {
     exit("\nFATAL ERROR: Build Directory Not Found: $buildDirectory\n\n");
 }
 
+$games = [];
+$title = '';
+$headline = '';
 $gamesList = $buildDirectory . 'games.php';
 if (!is_readable($gamesList)) {
     exit("\nFATAL ERROR: $gamesList NOT FOUND\n\n");
@@ -73,7 +76,8 @@ if ($writeEmbed) {
 /**
  * @param string $command
  */
-function syscall(string $command) {
+function syscall(string $command)
+{
     print "SYSTEM: $command\n";
     system($command);
 }
@@ -144,9 +148,9 @@ function getHeader(
 ) {
     $header = file_get_contents($buildDirectory . 'header.html');
     $htmlTitle = $title ?? $buildTitle;
-    $H1headline = $headline ?? $htmlTitle;
+    $h1headline = $headline ?? $htmlTitle;
     $header = str_replace('{{TITLE}}', $htmlTitle, $header);
-    $header = str_replace('{{HEADLINE}}', $H1headline, $header);
+    $header = str_replace('{{HEADLINE}}', $h1headline, $header);
     $header = str_replace('{{CSS}}', "<style>$css</style>", $header);
 
     return $header ?? '';
