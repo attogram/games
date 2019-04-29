@@ -74,7 +74,8 @@ and some web musical instruments:
 ## License
 
 * The Games Website is an open source project licensed under the MIT License.
-* The Games Website automates the inclusion of many open source games, each with its own license.
+* The Games Website automates the inclusion of many open source games,
+  each with its own license.
 * See each individual game directory for more information.
 
 ## More Info

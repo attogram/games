@@ -45,7 +45,9 @@ class AttogramGames
         $this->initOptions();
         $this->initDirectories();
         $this->initGamesList();
-        $this->installGames();
+        if ($this->enableGitClone) {
+            $this->installGames();
+        }
         $this->updateGames();
         $this->initTemplates();
         $this->buildMenu();
@@ -121,9 +123,6 @@ class AttogramGames
 
     private function installGames()
     {
-        if (!$this->enableGitClone) {
-            return;
-        }
         foreach ($this->games as $gameIndex => $game) {
             $gameDirectory = $this->homeDirectory . $gameIndex;
             if (is_dir($gameDirectory)) {
@@ -132,7 +131,7 @@ class AttogramGames
             $this->verbose("INSTALLING: $gameIndex: $gameDirectory");
 
             chdir($this->homeDirectory);
-            syscall('git clone ' . $game['git'] . ' ' . $gameIndex);
+            $this->syscall('git clone ' . $game['git'] . ' ' . $gameIndex);
 
             if (!empty($game['build'])) {
                 if (!chdir($gameDirectory)) {
@@ -140,7 +139,7 @@ class AttogramGames
                     continue;
                 }
                 foreach ($game['build'] as $build) {
-                    syscall($build);
+                    $this->syscall($build);
                 }
             }
         }
@@ -151,7 +150,7 @@ class AttogramGames
         if (!$this->enableGitPull) {
             return;
         }
-        foreach ($this->games as $gameIndex => $game) {
+        foreach (array_keys($this->games) as $gameIndex) {
             $gameDirectory = $this->homeDirectory . $gameIndex;
             $this->verbose('UPDATING: ' . $gameIndex);
             if (!chdir($gameDirectory)) {
@@ -186,7 +185,7 @@ class AttogramGames
 
     private function buildMenu()
     {
-        $this->menu = '<div class="list">';;
+        $this->menu = '<div class="list">';
         foreach ($this->games as $gameIndex => $game) {
             $this->menu .= $this->getGameMenu($gameIndex, $game);
         }

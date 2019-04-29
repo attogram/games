@@ -1,6 +1,11 @@
 {
   "name": "attogram/games",
   "description": "Your own games website, filled with open source goodness!",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^7.0"
+  },
   "homepage": "https://github.com/attogram/games",
   "support": {
     "docs": "https://fosiper.com/games/",
@@ -11,9 +16,9 @@
     "homepage": "https://github.com/attogram",
     "role": "Developer"
   }],
-  "type": "library",
-  "license": "MIT",
-  "require": {
-    "php": "^7.0"
+  "autoload": {
+    "psr-4": {
+      "Attogram\\Games\\": "_build/src/"
+    }
   }
 }
