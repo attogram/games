@@ -5,7 +5,7 @@ namespace Attogram\Games;
 
 class AttogramGames
 {
-    const VERSION = '3.0.0';
+    const VERSION = '3.0.1';
 
     /** @var string */
     private $title;

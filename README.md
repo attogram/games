@@ -17,7 +17,7 @@ of the following games:
 
 * 2048 Lite - <https://github.com/attogram/2048-lite>
 * 3d.city - <https://github.com/lo-th/3d.city>
-* 8 Queens - <https://github.com/attogram/8queens> _(requires php, composer)_
+* 8 Queens - <https://github.com/attogram/8queens> _(requires composer)_
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Clumsy Bird - <https://github.com/ellisonleao/clumsy-bird>
@@ -34,7 +34,7 @@ of the following games:
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * pacman - <https://github.com/mumuy/pacman>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
-* Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires npm)_
+* Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires yarn)_
 * PolyBranch - <https://github.com/gbatha/PolyBranch>
 * The Pond - <https://github.com/Zolmeister/pond>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
@@ -53,23 +53,13 @@ and some web musical instruments:
 ## Installation
 
 * You'll need `git` and `php` to install the Games Website
-* You'll optionally need `composer`, `npm` and/or `yarn`
+* You'll optionally need `composer` and `yarn` to install a few of the games
 * Install the Games Website into a web accessible directory:
   * `git clone https://github.com/attogram/games.git games`
 * Run the build script:
   * `cd games/_build`
   * `php build.php`
 * Open the new `index.html` and enjoy playing the games!
-
-## Modding
-
-* Feel the urge to mod?  It's easy.
-* Add/delete/modify a game, edit the file `_build/games.php`
-* Modify the menu ordering, edit the ordering in file `_build/games.php`
-* Modify the index page header, edit the file `_build/header.html`
-* Modify the index page footer, edit the file `_build/footer.html`
-* Rebuild the Games Website, run: `php _build/build.php`
-* open the new `index.html` in your browser and enjoy playing the games!
 
 ## License
 
