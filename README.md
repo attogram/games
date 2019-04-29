@@ -40,6 +40,7 @@ of the following games:
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
 * Snakisms - <https://github.com/pippinbarr/SNAKISMS>
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
+* Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
 * Underrun - <https://github.com/phoboslab/underrun>
 * Wolf3d - <https://github.com/jseidelin/wolf3d>

@@ -61,6 +61,13 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'tower' => [
+        'name'    => 'Tower',
+        'tag'     => 'build up',
+        'git'     => 'https://github.com/iamkun/tower_game.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
     'missile-game' => [
         'name'    => 'Missile Game',
         'tag'     => 'fly thru it',
