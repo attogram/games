@@ -6,6 +6,7 @@ namespace Attogram\Games;
 use function array_keys;
 use function chdir;
 use function count;
+use Exception;
 use function file_get_contents;
 use function file_put_contents;
 use function htmlentities;
@@ -20,7 +21,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.0.2';
+    const VERSION = '3.0.3';
 
     /** @var string */
     private $title;
@@ -53,6 +54,10 @@ class AttogramGames
     /* @var string */
     private $footer;
 
+    /**
+     * AttogramGames constructor.
+     * @throws Exception
+     */
     public function __construct()
     {
         $this->title = 'Attogram Games Website';
@@ -85,12 +90,15 @@ class AttogramGames
         $this->verbose('WRITE EMBED: ' . ($this->enableEmbed ? 'Enabled' : 'Disabled'));
     }
 
+    /**
+     * @throws Exception
+     */
     private function initDirectories()
     {
         $this->buildDirectory = realpath(__DIR__ . DIRECTORY_SEPARATOR . '..') . DIRECTORY_SEPARATOR;
         $this->verbose('BUILD: ' . $this->buildDirectory);
         if (!is_dir($this->buildDirectory)) {
-            $this->fatal('BUILD DIRECTORY NOT FOUND: ' . $this->buildDirectory);
+            throw new Exception('BUILD DIRECTORY NOT FOUND: ' . $this->buildDirectory);
         }
 
         $this->templatesDirectory = $this->buildDirectory . 'templates' . DIRECTORY_SEPARATOR;
@@ -102,13 +110,16 @@ class AttogramGames
         $this->homeDirectory = realpath($this->buildDirectory . '..') . DIRECTORY_SEPARATOR;
         $this->verbose('HOME: ' . $this->homeDirectory);
         if (!is_dir($this->homeDirectory)) {
-            $this->fatal('HOME DIRECTORY NOT FOUND: ' . $this->homeDirectory);
+            throw new Exception('HOME DIRECTORY NOT FOUND: ' . $this->homeDirectory);
         }
 
         $this->logoDirectory = $this->homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
         $this->verbose('LOGO: ' . $this->logoDirectory);
     }
 
+    /**
+     * @throws Exception
+     */
     private function initGamesList()
     {
         global $games, $title, $headline;
@@ -119,7 +130,7 @@ class AttogramGames
             : $this->buildDirectory . $gamesFile;
         $this->verbose('GAMES CONFIG: ' . $gamesConfigFile);
         if (!is_readable($gamesConfigFile)) {
-            $this->fatal('GAMES CONFIG NOT FOUND: ' . $gamesConfigFile);
+            throw new Exception('GAMES CONFIG NOT FOUND: ' . $gamesConfigFile);
         }
         /** @noinspection PhpIncludeInspection */
         require_once $gamesConfigFile;
@@ -223,7 +234,7 @@ class AttogramGames
     {
         $link = empty($game['index'])
             ? $gameIndex . '/'
-            : $game['index'];
+            : $gameIndex . '/' . $game['index'];
         $mobile = empty($game['mobile'])
             ? ''
             : '&#128241;'; // 📱
@@ -279,10 +290,5 @@ class AttogramGames
     private function verbose(string $message)
     {
         print $message . "\n";
-    }
-
-    private function fatal(string $message)
-    {
-        die("FATAL ERROR: $message\n");
     }
 }
