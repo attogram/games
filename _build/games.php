@@ -142,6 +142,18 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'paint-run2' => [
+        'name'    => 'Paint Run 2',
+        'tag'     => 'make it all blue',
+        'git'     => 'https://github.com/ahl389/paint-run2.git',
+        'build'   => [
+            'yarn',
+            'yarn run build',
+        ],
+        'index'   => 'build/',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
     'raging-gardens' => [
         'name'    => 'Raging Gardens',
         'tag'     => 'farting ninja rabbits',
@@ -219,21 +231,6 @@ $games = [
         'name'    => 'Mah-jongg',
         'tag'     => 'Tianjin 天津麻将',
         'git'     => 'https://github.com/tiansh/tjmj.git',
-        'mobile'  => false,
-        'desktop' => true,
-    ],
-    'paint-run2' => [
-        'name'    => 'Paint Run 2',
-        'tag'     => 'do the blue',
-        'git'     => 'https://github.com/ahl389/paint-run2.git',
-        'build'   => [
-            'yarn',
-            'set PUBLIC_URL=.',    // Windows
-            'PUBLIC_URL=.',        // Unix
-            'export PUBLIC_URL=.', // Unix
-            'yarn run build',
-        ],
-        'index'   => 'build/',
         'mobile'  => false,
         'desktop' => true,
     ],

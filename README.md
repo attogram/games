@@ -60,8 +60,17 @@ and some web musical instruments:
   * `git clone https://github.com/attogram/games.git games`
 * Run the build script:
   * `cd games/_build`
-  * `php build.php`
+  * `php build.php install`
 * Open the new `index.html` and enjoy playing the games!
+
+## How to customize
+
+* Optional customization is easy with the `_build/custom/` directory
+* Customize games list: copy `_build/games.php` to `_build/custom/games.php` and edit
+* Customize page header: copy `_build/templates/header.php` to `_build/custom/header.php` and edit
+* Customize page footer: copy `_build/templates/footer.php` to `_build/custom/footer.php` and edit
+* Customize CSS: copy `_build/templates/css.css` to `_build/custom/css.css` and edit
+* Rebuild with `php build.php install`
 
 ## License
 

@@ -7,9 +7,9 @@
  *      php build.php <options>
  *
  *      options:
- *          nogit  - Disable git clone, Disable git pull
- *          nopull - Enable  git clone, Disable git pull
- *          embed  - Enable build of embeddable games.html menu
+ *          install - Install games (git clone, build steps)
+ *          update  - Update games (git update, build steps)
+ *          embed   - Enable build of embeddable games.html menu
  */
 
 use Attogram\Games\AttogramGames;

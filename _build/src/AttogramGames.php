@@ -22,16 +22,16 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.0.4';
+    const VERSION = '3.1.0';
 
     /** @var string */
     private $title;
     /** @var string */
     private $headline;
     /** @var bool */
-    private $enableGitClone;
+    private $enableInstall;
     /** @var bool */
-    private $enableGitPull;
+    private $enableUpdate;
     /** @var bool */
     private $enableEmbed;
     /** @var string */
@@ -61,15 +61,28 @@ class AttogramGames
      */
     public function __construct()
     {
+        global $argc;
+
         $this->title = 'Attogram Games Website';
         $this->verbose("\n{$this->title} Builder v" . self::VERSION);
+
+        if ($argc === 1) {
+            $this->verbose('Usage: php build.php [options]');
+            $this->verbose('Options:');
+            $this->verbose('    install  - Install games (git clone, build steps, write index.html)');
+            $this->verbose('    update   - Update games (git pull, build steps, write index.html)');
+            $this->verbose('    embed    - Also write embeddable menu file games.html');
+
+            return;
+        }
+
         $this->initOptions();
         $this->initDirectories();
         $this->initGamesList();
-        if ($this->enableGitClone) {
+        if ($this->enableInstall) {
             $this->installGames();
         }
-        if ($this->enableGitPull) {
+        if ($this->enableUpdate) {
             $this->updateGames();
         }
         $this->initTemplates();
@@ -81,11 +94,11 @@ class AttogramGames
     {
         global $argv;
 
-        $this->enableGitClone = in_array('nogit', $argv) ? false : true;
-        $this->verbose('GIT CLONE: ' . ($this->enableGitClone ? 'Enabled' : 'Disabled'));
+        $this->enableInstall = in_array('install', $argv) ? true : false;
+        $this->verbose('INSTALL: ' . ($this->enableInstall ? 'Enabled' : 'Disabled'));
 
-        $this->enableGitPull = in_array('nogit', $argv) || in_array('nopull', $argv) ? false : true;
-        $this->verbose('GIT PULL: ' . ($this->enableGitPull ? 'Enabled' : 'Disabled'));
+        $this->enableUpdate = in_array('update', $argv) ? true : false;
+        $this->verbose('GIT PULL: ' . ($this->enableUpdate ? 'Enabled' : 'Disabled'));
 
         $this->enableEmbed = in_array('embed', $argv) ? true : false;
         $this->verbose('WRITE EMBED: ' . ($this->enableEmbed ? 'Enabled' : 'Disabled'));
@@ -155,28 +168,39 @@ class AttogramGames
         foreach ($this->games as $gameIndex => $game) {
             $gameDirectory = $this->homeDirectory . $gameIndex;
             if (is_dir($gameDirectory)) {
+                $this->verbose("INSTALLED: $gameIndex: $gameDirectory");
                 continue;
             }
             $this->verbose("INSTALLING: $gameIndex: $gameDirectory");
-
             chdir($this->homeDirectory);
             $this->syscall('git clone ' . $game['git'] . ' ' . $gameIndex);
+            $this->buildSteps($gameIndex, $game);
+        }
+    }
 
-            if (!empty($game['build'])) {
-                if (!chdir($gameDirectory)) {
-                    $this->verbose('ERROR: GAME DIRECTORY NOT FOUND: ' . $gameDirectory);
-                    continue;
-                }
-                foreach ($game['build'] as $build) {
-                    $this->syscall($build);
-                }
-            }
+    /**
+     * @param string $gameIndex
+     * @param array $game
+     */
+    private function buildSteps(string $gameIndex, array $game)
+    {
+        $gameDirectory = $this->homeDirectory . $gameIndex;
+        if (!chdir($gameDirectory)) {
+            $this->verbose('ERROR: GAME DIRECTORY NOT FOUND: ' . $gameDirectory);
+
+            return;
+        }
+        if (empty($game['build'])) {
+            return;
+        }
+        foreach ($game['build'] as $step) {
+            $this->syscall($step);
         }
     }
 
     private function updateGames()
     {
-        foreach (array_keys($this->games) as $gameIndex) {
+        foreach ($this->games as $gameIndex => $game) {
             $gameDirectory = $this->homeDirectory . $gameIndex;
             $this->verbose('UPDATING: ' . $gameIndex);
             if (!chdir($gameDirectory)) {
@@ -184,6 +208,7 @@ class AttogramGames
                 continue;
             }
             $this->syscall('git pull');
+            $this->buildSteps($gameIndex, $game);
         }
     }
 
@@ -276,12 +301,12 @@ class AttogramGames
      */
     private function write(string $filename, string $contents)
     {
-        print "WRITING $filename\n";
+        $this->verbose("WRITING $filename");
         $wrote = file_put_contents($filename, $contents);
-        print "WROTE $wrote CHARACTERS\n";
+        $this->verbose("WROTE $wrote CHARACTERS");
         if (!$wrote) {
-            print "ERROR WRITING TO $filename\n";
-            print "DUMPING:\n\n\n$contents\n\n\n";
+            $this->verbose("ERROR WRITING TO $filename");
+            $this->verbose("DUMPING:\n\n$contents\n\n");
         }
     }
 
