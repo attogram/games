@@ -228,8 +228,9 @@ $games = [
         'git'     => 'https://github.com/ahl389/paint-run2.git',
         'build'   => [
             'yarn',
-            'set PUBLIC_URL=.', // Windows
-            'PUBLIC_URL=.', // Unix
+            'set PUBLIC_URL=.',    // Windows
+            'PUBLIC_URL=.',        // Unix
+            'export PUBLIC_URL=.', // Unix
             'yarn run build',
         ],
         'index'   => 'build/',
