@@ -3,9 +3,24 @@ declare(strict_types = 1);
 
 namespace Attogram\Games;
 
+use function array_keys;
+use function chdir;
+use function count;
+use function file_get_contents;
+use function file_put_contents;
+use function htmlentities;
+use function in_array;
+use function is_dir;
+use function is_readable;
+use function is_string;
+use function realpath;
+use function str_replace;
+use function strlen;
+use function system;
+
 class AttogramGames
 {
-    const VERSION = '3.0.1';
+    const VERSION = '3.0.2';
 
     /** @var string */
     private $title;
@@ -48,7 +63,9 @@ class AttogramGames
         if ($this->enableGitClone) {
             $this->installGames();
         }
-        $this->updateGames();
+        if ($this->enableGitPull) {
+            $this->updateGames();
+        }
         $this->initTemplates();
         $this->buildMenu();
         $this->buildIndex();
@@ -73,7 +90,7 @@ class AttogramGames
         $this->buildDirectory = realpath(__DIR__ . DIRECTORY_SEPARATOR . '..') . DIRECTORY_SEPARATOR;
         $this->verbose('BUILD: ' . $this->buildDirectory);
         if (!is_dir($this->buildDirectory)) {
-            die('FATAL ERROR: Build Directory Not Found: ' . $this->buildDirectory);
+            $this->fatal('BUILD DIRECTORY NOT FOUND: ' . $this->buildDirectory);
         }
 
         $this->templatesDirectory = $this->buildDirectory . 'templates' . DIRECTORY_SEPARATOR;
@@ -85,7 +102,7 @@ class AttogramGames
         $this->homeDirectory = realpath($this->buildDirectory . '..') . DIRECTORY_SEPARATOR;
         $this->verbose('HOME: ' . $this->homeDirectory);
         if (!is_dir($this->homeDirectory)) {
-            exit('FATAL ERROR: Home Directory Not Found: ' . $this->homeDirectory);
+            $this->fatal('HOME DIRECTORY NOT FOUND: ' . $this->homeDirectory);
         }
 
         $this->logoDirectory = $this->homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
@@ -102,7 +119,7 @@ class AttogramGames
             : $this->buildDirectory . $gamesFile;
         $this->verbose('GAMES CONFIG: ' . $gamesConfigFile);
         if (!is_readable($gamesConfigFile)) {
-            die('FATAL ERROR: GAMES CONFIG NOT FOUND: ' . $gamesConfigFile);
+            $this->fatal('GAMES CONFIG NOT FOUND: ' . $gamesConfigFile);
         }
         /** @noinspection PhpIncludeInspection */
         require_once $gamesConfigFile;
@@ -147,9 +164,6 @@ class AttogramGames
 
     private function updateGames()
     {
-        if (!$this->enableGitPull) {
-            return;
-        }
         foreach (array_keys($this->games) as $gameIndex) {
             $gameDirectory = $this->homeDirectory . $gameIndex;
             $this->verbose('UPDATING: ' . $gameIndex);
@@ -265,5 +279,10 @@ class AttogramGames
     private function verbose(string $message)
     {
         print $message . "\n";
+    }
+
+    private function fatal(string $message)
+    {
+        die("FATAL ERROR: $message\n");
     }
 }
