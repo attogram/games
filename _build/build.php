@@ -29,4 +29,3 @@ try {
 } catch (Throwable $error) {
     print 'Fatal Error: ' . $error->getMessage() . "\n";
 }
-

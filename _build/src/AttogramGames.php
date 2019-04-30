@@ -3,10 +3,11 @@ declare(strict_types = 1);
 
 namespace Attogram\Games;
 
+use Exception;
+
 use function array_keys;
 use function chdir;
 use function count;
-use Exception;
 use function file_get_contents;
 use function file_put_contents;
 use function htmlentities;
@@ -21,7 +22,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.0.3';
+    const VERSION = '3.0.4';
 
     /** @var string */
     private $title;

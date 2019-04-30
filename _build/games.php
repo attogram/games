@@ -35,7 +35,7 @@ $games = [
         'name'    => 'Tap Tap Tap',
         'tag'     => 'tap the blue',
         'git'     => 'https://github.com/MahdiF/taptaptap.git',
-        'index'   => 'play/index.html',
+        'index'   => 'play/',
         'mobile'  => true,
         'desktop' => true,
     ],
@@ -153,7 +153,7 @@ $games = [
         'name'    => 'PolyBranch',
         'tag'     => 'fly thru trees',
         'git'     => 'https://github.com/gbatha/PolyBranch',
-        'index'   => 'polybranchweb/index.html',
+        'index'   => 'polybranchweb/',
         'mobile'  => false,
         'desktop' => true,
     ],
@@ -219,6 +219,20 @@ $games = [
         'name'    => 'Mah-jongg',
         'tag'     => 'Tianjin 天津麻将',
         'git'     => 'https://github.com/tiansh/tjmj.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
+    'paint-run2' => [
+        'name'    => 'Paint Run 2',
+        'tag'     => 'do the blue',
+        'git'     => 'https://github.com/ahl389/paint-run2.git',
+        'build'   => [
+            'yarn',
+            'set PUBLIC_URL=.', // Windows
+            'PUBLIC_URL=.', // Unix
+            'yarn run build',
+        ],
+        'index'   => 'build/',
         'mobile'  => false,
         'desktop' => true,
     ],
