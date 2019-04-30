@@ -5,7 +5,6 @@ namespace Attogram\Games;
 
 use Exception;
 
-use function array_keys;
 use function chdir;
 use function count;
 use function file_get_contents;
@@ -22,7 +21,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.1.0';
+    const VERSION = '3.1.1';
 
     /** @var string */
     private $title;
@@ -65,7 +64,6 @@ class AttogramGames
 
         $this->title = 'Attogram Games Website';
         $this->verbose("\n{$this->title} Builder v" . self::VERSION);
-
         if ($argc === 1) {
             $this->verbose('Usage: php build.php [options]');
             $this->verbose('Options:');
@@ -75,7 +73,6 @@ class AttogramGames
 
             return;
         }
-
         $this->initOptions();
         $this->initDirectories();
         $this->initGamesList();
@@ -95,11 +92,9 @@ class AttogramGames
         global $argv;
 
         $this->enableInstall = in_array('install', $argv) ? true : false;
-        $this->verbose('INSTALL: ' . ($this->enableInstall ? 'Enabled' : 'Disabled'));
-
+        $this->verbose('INSTALLS: ' . ($this->enableInstall ? 'Enabled' : 'Disabled'));
         $this->enableUpdate = in_array('update', $argv) ? true : false;
-        $this->verbose('GIT PULL: ' . ($this->enableUpdate ? 'Enabled' : 'Disabled'));
-
+        $this->verbose('UPDATES: ' . ($this->enableUpdate ? 'Enabled' : 'Disabled'));
         $this->enableEmbed = in_array('embed', $argv) ? true : false;
         $this->verbose('WRITE EMBED: ' . ($this->enableEmbed ? 'Enabled' : 'Disabled'));
     }

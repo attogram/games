@@ -2,14 +2,6 @@
 /**
  * Attogram Games Website Builder
  * https://github.com/attogram/games
- *
- * usage:
- *      php build.php <options>
- *
- *      options:
- *          install - Install games (git clone, build steps)
- *          update  - Update games (git update, build steps)
- *          embed   - Enable build of embeddable games.html menu
  */
 
 use Attogram\Games\AttogramGames;
