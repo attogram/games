@@ -21,7 +21,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.1.2';
+    const VERSION = '3.2.0';
 
     /** @var string */
     private $title;
@@ -169,6 +169,10 @@ class AttogramGames
             $this->verbose("INSTALLING: $gameIndex: $gameDirectory");
             chdir($this->homeDirectory);
             $this->syscall('git clone ' . $game['git'] . ' ' . $gameIndex);
+            if (!empty($game['branch'])) {
+                chdir($gameDirectory);
+                $this->syscall('git checkout ' . $game['branch']);
+            }
             $this->buildSteps($gameIndex, $game);
         }
     }

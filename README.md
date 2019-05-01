@@ -34,7 +34,7 @@ of the following games:
 * Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * pacman - <https://github.com/mumuy/pacman>
-* Paint Run 2 - <https://github.com/ahl389/paint-run2> _(requires yarn)_
+* Paint Run 2 - <https://github.com/ahl389/paint-run2>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
 * Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires yarn)_
 * PolyBranch - <https://github.com/gbatha/PolyBranch>
