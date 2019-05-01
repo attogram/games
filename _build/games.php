@@ -146,10 +146,8 @@ $games = [
         'name'    => 'Paint Run 2',
         'tag'     => 'make it all blue',
         'git'     => 'https://github.com/ahl389/paint-run2.git',
-        'build'   => [
-            'yarn',
-            'yarn run build',
-        ],
+        'require' => ['yarn'],
+        'build'   => ['yarn', 'yarn run build'],
         'index'   => 'build/',
         'mobile'  => false,
         'desktop' => true,
