@@ -1,10 +1,10 @@
-# Attogram Games Website
+# Attogram Games website builder
 
 Your own games website, filled with open source goodness!
 
 [![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
 
-The Attogram Games Website builder is an easy way to setup a complete games website.
+The Attogram Games website builder is an easy way to setup a complete games website.
 
 Every game included is open source and free to play!
 
@@ -12,7 +12,7 @@ Live Demo: **<https://fosiper.com/games/>**
 
 ## The Games
 
-The Attogram Games Website builder automates the installation
+The Attogram Games website builder automates the installation
 of the following games:
 
 * 2048 Lite - <https://github.com/attogram/2048-lite>
@@ -22,13 +22,14 @@ of the following games:
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Clumsy Bird - <https://github.com/ellisonleao/clumsy-bird>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
+* Fire 'n Ice - <https://github.com/eugenioenko/fire-n-ice>
 * HexGL Lite - <https://github.com/attogram/HexGL-lite>
 * Hextris Lite - <https://github.com/attogram/hextris-lite>
 * HTML5 Asteroids - <https://github.com/dmcinnes/HTML5-Asteroids>
 * HTML5 Hearts - <https://github.com/yyjhao/html5-hearts.git>
 * Hyperspace Garbage Collection - <https://github.com/razh/game-off-2013>
 * Klotski - <https://github.com/SimonHung/Klotski>
-* Life - <https://github.com/copy/life.git>
+* Life - <https://github.com/copy/life>
 * Lode Runner Total Recall - <https://github.com/SimonHung/LodeRunner_TotalRecall>
 * Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
@@ -74,8 +75,8 @@ and some web musical instruments:
 
 ## License
 
-* The Games Website is an open source project licensed under the MIT License.
-* The Games Website automates the inclusion of many open source games,
+* The Attogram Games website builder is an open source project licensed under the MIT License.
+* The Attogram Games website builder automates the inclusion of many open source games,
   each with its own license.
 * See each individual game directory for more information.
 
