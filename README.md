@@ -26,7 +26,7 @@ of the following games:
 * HexGL Lite - <https://github.com/attogram/HexGL-lite>
 * Hextris Lite - <https://github.com/attogram/hextris-lite>
 * HTML5 Asteroids - <https://github.com/dmcinnes/HTML5-Asteroids>
-* HTML5 Hearts - <https://github.com/yyjhao/html5-hearts.git>
+* HTML5 Hearts - <https://github.com/yyjhao/html5-hearts>
 * Hyperspace Garbage Collection - <https://github.com/razh/game-off-2013>
 * Klotski - <https://github.com/SimonHung/Klotski>
 * Life - <https://github.com/copy/life>
