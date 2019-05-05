@@ -141,11 +141,11 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
-    'pacman' => [
-        'name'    => 'pacman',
-        'tag'     => 'eat the dots',
-        'git'     => 'https://github.com/mumuy/pacman.git',
-        'mobile'  => false,
+    'pacman-lite' => [
+        'name'    => 'pacman lite',
+        'tag'     => 'another pacman',
+        'git'     => 'https://github.com/attogram/pacman-lite.git',
+        'mobile'  => true,
         'desktop' => true,
     ],
     'dead-valley' => [
@@ -227,14 +227,6 @@ $games = [
         'tag'     => 'fly thru it',
         'git'     => 'https://github.com/bwhmather/missile-game.git',
         'mobile'  => true,
-        'desktop' => true,
-    ],
-    'polybranch' => [
-        'name'    => 'PolyBranch',
-        'tag'     => 'fly thru trees',
-        'git'     => 'https://github.com/gbatha/PolyBranch.git',
-        'index'   => 'polybranchweb/',
-        'mobile'  => false,
         'desktop' => true,
     ],
     'javascript-piano' => [

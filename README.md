@@ -33,11 +33,10 @@ of the following games:
 * Lode Runner Total Recall - <https://github.com/SimonHung/LodeRunner_TotalRecall>
 * Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
-* pacman - <https://github.com/mumuy/pacman>
+* pacman-lite - <https://github.com/attogram/pacman-lite>
 * Paint Run 2 - <https://github.com/ahl389/paint-run2>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
 * Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires yarn)_
-* PolyBranch - <https://github.com/gbatha/PolyBranch>
 * The Pond - <https://github.com/Zolmeister/pond>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
 * Snakisms - <https://github.com/pippinbarr/SNAKISMS>

@@ -21,7 +21,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.2.0';
+    const VERSION = '3.2.1';
 
     /** @var string */
     private $title;
