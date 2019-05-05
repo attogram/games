@@ -20,7 +20,7 @@ $games = [
     'pond' => [
         'name'    => 'The Pond',
         'tag'     => 'eat, swim, love',
-        'git'     => 'https://github.com/Zolmeister/pond.git',
+        'git'     => 'https://github.com/attogram/pond-lite.git',
         'mobile'  => true,
         'desktop' => true,
     ],
