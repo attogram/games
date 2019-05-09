@@ -10,12 +10,11 @@ $headline = 'Attogram Games';
 // The Ordered List of Games
 $games = [
     'hextris-lite' => [
-        'name'    => 'Hextris Lite',
+        'name'    => 'Hextris',
         'tag'     => 'hexagonal tetris',
         'git'     => 'https://github.com/attogram/hextris-lite.git',
         'mobile'  => true,
         'desktop' => true,
-
     ],
     'pond' => [
         'name'    => 'The Pond',
@@ -25,7 +24,7 @@ $games = [
         'desktop' => true,
     ],
     '2048-lite' => [
-        'name'    => '2048 Lite',
+        'name'    => '2048',
         'tag'     => '2, 4, 8, swipe',
         'git'     => 'https://github.com/attogram/2048-lite.git',
         'mobile'  => true,
@@ -195,7 +194,7 @@ $games = [
     'snakisms' => [
         'name'    => 'Snakisms',
         'tag'     => 'philosophy snake',
-        'git'     => 'https://github.com/pippinbarr/SNAKISMS.git',
+        'git'     => 'https://github.com/attogram/SNAKISMS-lite.git',
         'mobile'  => true,
         'desktop' => true,
     ],
