@@ -5,6 +5,15 @@ declare(strict_types = 1);
 // Preserved here for possible later use
 
 $retiredGames = [
+    '8queens' => [
+        'name'    => '8 Queens',
+        'tag'     => 'chess puzzle',
+        'git'     => 'https://github.com/attogram/8queens.git',
+        'require' => ['composer'],
+        'build'   => ['composer install'],
+        'mobile'  => false,
+        'desktop' => true,
+    ],
     'pacman' => [
         'name' => 'pacman',
         'tag' => 'eat the dots',

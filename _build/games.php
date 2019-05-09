@@ -10,12 +10,11 @@ $headline = 'Attogram Games';
 // The Ordered List of Games
 $games = [
     'hextris-lite' => [
-        'name'    => 'Hextris Lite',
+        'name'    => 'Hextris',
         'tag'     => 'hexagonal tetris',
         'git'     => 'https://github.com/attogram/hextris-lite.git',
         'mobile'  => true,
         'desktop' => true,
-
     ],
     'pond' => [
         'name'    => 'The Pond',
@@ -25,7 +24,7 @@ $games = [
         'desktop' => true,
     ],
     '2048-lite' => [
-        'name'    => '2048 Lite',
+        'name'    => '2048',
         'tag'     => '2, 4, 8, swipe',
         'git'     => 'https://github.com/attogram/2048-lite.git',
         'mobile'  => true,
@@ -68,20 +67,19 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'EightQueens' => [
+        'name'    => 'Eight Queens',
+        'tag'     => 'chess puzzle',
+        'git'     => 'https://github.com/attogram/EightQueens.git',
+        'branch'  => 'gh-pages',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
     'chess' => [
         'name'    => 'Chess',
         'tag'     => 'e2 to e4',
         'git'     => 'https://github.com/attogram/chess.git',
         'mobile'  => true,
-        'desktop' => true,
-    ],
-    '8queens' => [
-        'name'    => '8 Queens',
-        'tag'     => 'chess puzzle',
-        'git'     => 'https://github.com/attogram/8queens.git',
-        'require' => ['composer'],
-        'build'   => ['composer install'],
-        'mobile'  => false,
         'desktop' => true,
     ],
     'hexgl-lite' => [
@@ -195,7 +193,7 @@ $games = [
     'snakisms' => [
         'name'    => 'Snakisms',
         'tag'     => 'philosophy snake',
-        'git'     => 'https://github.com/pippinbarr/SNAKISMS.git',
+        'git'     => 'https://github.com/attogram/SNAKISMS-lite.git',
         'mobile'  => true,
         'desktop' => true,
     ],

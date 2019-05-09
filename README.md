@@ -17,11 +17,11 @@ of the following games:
 
 * 2048 Lite - <https://github.com/attogram/2048-lite>
 * 3d.city - <https://github.com/lo-th/3d.city>
-* 8 Queens - <https://github.com/attogram/8queens> _(requires composer)_
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Clumsy Bird - <https://github.com/ellisonleao/clumsy-bird>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
+* Eight Queens - <https://github.com/attogram/EightQueens>
 * Fire 'n Ice - <https://github.com/eugenioenko/fire-n-ice>
 * HexGL Lite - <https://github.com/attogram/HexGL-lite>
 * Hextris Lite - <https://github.com/attogram/hextris-lite>
@@ -39,7 +39,7 @@ of the following games:
 * Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires yarn)_
 * The Pond Lite - <https://github.com/attogram/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
-* Snakisms - <https://github.com/pippinbarr/SNAKISMS>
+* Snakisms - <https://github.com/attogram/SNAKISMS-lite>
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
 * Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
