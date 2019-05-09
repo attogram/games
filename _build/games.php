@@ -67,10 +67,11 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
-        'EightQueens' => [
+    'EightQueens' => [
         'name'    => 'Eight Queens',
         'tag'     => 'chess puzzle',
         'git'     => 'https://github.com/attogram/EightQueens.git',
+        'branch'  => 'gh-pages',
         'mobile'  => true,
         'desktop' => true,
     ],
