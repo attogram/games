@@ -140,7 +140,7 @@ $games = [
         'desktop' => true,
     ],
     'pacman-lite' => [
-        'name'    => 'pacman lite',
+        'name'    => 'pacman',
         'tag'     => 'another pacman',
         'git'     => 'https://github.com/attogram/pacman-lite.git',
         'mobile'  => true,
