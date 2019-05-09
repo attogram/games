@@ -67,20 +67,18 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+        'EightQueens' => [
+        'name'    => 'Eight Queens',
+        'tag'     => 'chess puzzle',
+        'git'     => 'https://github.com/attogram/EightQueens.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
     'chess' => [
         'name'    => 'Chess',
         'tag'     => 'e2 to e4',
         'git'     => 'https://github.com/attogram/chess.git',
         'mobile'  => true,
-        'desktop' => true,
-    ],
-    '8queens' => [
-        'name'    => '8 Queens',
-        'tag'     => 'chess puzzle',
-        'git'     => 'https://github.com/attogram/8queens.git',
-        'require' => ['composer'],
-        'build'   => ['composer install'],
-        'mobile'  => false,
         'desktop' => true,
     ],
     'hexgl-lite' => [
