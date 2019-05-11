@@ -193,7 +193,8 @@ $games = [
     'snakisms' => [
         'name'    => 'Snakisms',
         'tag'     => 'philosophy snake',
-        'git'     => 'https://github.com/attogram/SNAKISMS-lite.git',
+        'git'     => 'https://github.com/pippinbarr/SNAKISMS.git',
+        'branch'  => 'clean',
         'mobile'  => true,
         'desktop' => true,
     ],

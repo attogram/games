@@ -39,7 +39,7 @@ of the following games:
 * Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires yarn)_
 * The Pond Lite - <https://github.com/attogram/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
-* Snakisms - <https://github.com/attogram/SNAKISMS-lite>
+* Snakisms - <https://github.com/pippinbarr/SNAKISMS.git> _(branch: clean)_
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
 * Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
@@ -55,7 +55,6 @@ and some web musical instruments:
 ## Installation
 
 * You'll need `git` and `php` to install the Games Website
-* You'll optionally need `composer` and `yarn` to install a few of the games
 * Install the Games Website into a web accessible directory:
   * `git clone https://github.com/attogram/games.git games`
 * Run the build script:
