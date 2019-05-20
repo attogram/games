@@ -239,7 +239,7 @@ $games = [
         'name'    => 'NS-Shaft',
         'tag'     => 'fall safely',
         'git'     => 'https://github.com/iPel/NS-SHAFT.git',
-        'mobile'  => false,
+        'mobile'  => true,
         'desktop' => true,
     ],
     'javascript-piano' => [
