@@ -235,6 +235,13 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'ns-shaft' => [
+        'name'    => 'NS-Shaft',
+        'tag'     => 'fall safely',
+        'git'     => 'https://github.com/iPel/NS-SHAFT.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
     'javascript-piano' => [
         'name'    => 'Piano J',
         'tag'     => 'synthy javascript',
