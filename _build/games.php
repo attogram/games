@@ -22,6 +22,7 @@ $games = [
         'git'     => 'https://github.com/attogram/pond-lite.git',
         'mobile'  => true,
         'desktop' => true,
+        // @TODO - use local copy of kik cards.js
     ],
     '2048-lite' => [
         'name'    => '2048',
@@ -37,6 +38,7 @@ $games = [
         'index'   => 'play/',
         'mobile'  => true,
         'desktop' => true,
+        // @TODO - need clean repo fork - rm google analytics and tags
     ],
     'klotski' => [
         'name'    => 'Klotski',
@@ -52,6 +54,7 @@ $games = [
         'git'     => 'https://github.com/particle-clicker/particle-clicker.git',
         'mobile'  => true,
         'desktop' => true,
+        // @TODO - need clean repo fork - rm google analytics
     ],
     'life' => [
         'name'    => 'Life',
@@ -66,6 +69,7 @@ $games = [
         'git'     => 'https://github.com/iamkun/tower_game.git',
         'mobile'  => true,
         'desktop' => true,
+        // @TODO - need clean repo fork - rm google analytics
     ],
     'EightQueens' => [
         'name'    => 'Eight Queens',
@@ -88,6 +92,7 @@ $games = [
         'git'     => 'https://github.com/attogram/HexGL-lite.git',
         'mobile'  => false,
         'desktop' => true,
+        // @TODO - need clean repo fork - rm google analytics, use local favicons
     ],
     'html5-asteroids' => [
         'name'    => 'Asteroids',
@@ -181,8 +186,9 @@ $games = [
         'git'     => 'https://github.com/alunix/RagingGardensFB.git',
         'mobile'  => false,
         'desktop' => true,
+        // @TODO - need clean repo - rm facebook calls
     ],
-    'underrun' => [
+        'underrun' => [
         'name'    => 'Underrun',
         'tag'     => 'run &amp; fight',
         'git'     => 'https://github.com/phoboslab/underrun.git',
@@ -213,6 +219,7 @@ $games = [
         'git'     => 'https://github.com/yyjhao/html5-hearts.git',
         'mobile'  => false,
         'desktop' => true,
+        // @TODO - need clean repo fork - rm google analytics
     ],
     'mah-jongg' => [
         'name'    => 'Mah-jongg',
@@ -234,6 +241,7 @@ $games = [
         'git'     => 'https://github.com/mrcoles/javascript-piano.git',
         'mobile'  => true,
         'desktop' => true,
+        // @TODO - need clean repo fork - rm twitter codes
     ],
     'virtual-piano' => [
         'name'    => 'Piano V',
