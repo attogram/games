@@ -224,6 +224,13 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'the-house' => [
+        'name'    => 'The House',
+        'tag'     => 'Explore your home',
+        'git'     => 'https://github.com/arturkot/the-house-game.git',
+        'mobile'  => false,
+        'desktop' => true,
+    ],
     'javascript-piano' => [
         'name'    => 'Piano J',
         'tag'     => 'synthy javascript',

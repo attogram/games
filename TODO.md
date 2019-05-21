@@ -11,5 +11,5 @@
 * tower @TODO - clean repo - rm google analytics
 * particle-clicker @TODO - clean repo - rm google analytics
 * taptaptap @TODO - clean repo - rm google analytics, google tags
-* pond - @TODO - rm or use local copy of kik cards.js
-
+* pond @TODO - rm or use local copy of kik cards.js
+* the-house @TODO - clean repo - rm google analytics
