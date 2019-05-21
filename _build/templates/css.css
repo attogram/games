@@ -1,10 +1,10 @@
-body { background-color: lightslategray; font-family: sans-serif; margin: 20px; }
+body { background-color: lightslategray; font-family: sans-serif; margin: 0; }
 a, a:visited { color: darkblue; text-decoration: none; }
 a:hover { background-color: greenyellow; color: black; }
-footer { font-size: small; margin-top: 40px; }
 img { border: 1px solid darkgrey; }
-h1 { color: whitesmoke; font-size: 130%; margin-bottom: 10px; }
-.list { display: flex; flex-wrap: wrap; }
+.headline { background-color: black; color: honeydew; font-size: 145%; font-weight: bold; margin: 0; text-align: center; }
+.list { display: flex; flex-wrap: wrap; margin: 10px; }
 .game { background-color: white; border: 1px solid black; margin: 5px; padding: 10px 5px 0 5px; text-align: center; width: 118px;}
 .game:hover{ background-color: greenyellow; }
 .platform { background-color: transparent; color: grey; font-size: small; padding: 2px; text-align: right; }
+footer { color: darkslategrey; font-family: monospace; font-size: small; font-style: italic; padding: 20px; }

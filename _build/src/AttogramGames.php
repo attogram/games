@@ -7,6 +7,7 @@ declare(strict_types = 1);
 
 namespace Attogram\Games;
 
+use DateTime;
 use Exception;
 
 use function chdir;
@@ -25,7 +26,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.3.1';
+    const VERSION = '4.0.0';
 
     /** @var string */
     private $title;
@@ -242,6 +243,9 @@ class AttogramGames
         }
     }
 
+    /**
+     * @throws Exception
+     */
     private function initTemplates()
     {
         $cssFile = 'css.css';
@@ -253,15 +257,29 @@ class AttogramGames
         $this->header = is_readable($this->customDirectory . $headerFile)
             ? file_get_contents($this->customDirectory . $headerFile)
             : file_get_contents($this->templatesDirectory . $headerFile);
-        $this->header = str_replace('{{CSS}}', "<style>{$this->css}</style>", $this->header);
-        $this->header = str_replace('{{TITLE}}', $this->title, $this->header);
-        $this->header = str_replace('{{HEADLINE}}', $this->headline, $this->header);
+        $this->header = $this->transposeTemplate($this->header);
 
         $footerFile = 'footer.html';
         $this->footer = is_readable($this->customDirectory . $footerFile)
             ? file_get_contents($this->customDirectory . $footerFile)
             : file_get_contents($this->templatesDirectory . $footerFile);
-        $this->footer = str_replace('{{VERSION}}', 'v' . self::VERSION, $this->footer);
+        $this->footer = $this->transposeTemplate($this->footer);
+    }
+
+    /**
+     * @param string $template
+     * @return string
+     * @throws Exception
+     */
+    private function transposeTemplate(string $template)
+    {
+        $template = str_replace('{{CSS}}', $this->css, $template);
+        $template = str_replace('{{TITLE}}', $this->title, $template);
+        $template = str_replace('{{HEADLINE}}', $this->headline, $template);
+        $template = str_replace('{{VERSION}}', 'v' . self::VERSION, $template);
+        $template = str_replace('{{DATETIME_UTC}}', gmdate('Y-m-d H:i:s'), $template);
+
+        return $template;
     }
 
     private function buildMenu()
