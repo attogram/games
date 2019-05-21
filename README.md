@@ -8,7 +8,7 @@ The Attogram Games website builder is an easy way to setup
 a complete games website.  Every game included is open source
 and free to play!
 
-* Demo: **<https://fosiper.com/games/>**
+* Live Demo: **<https://fosiper.com/games/>**
 
 * Main Repository: **<https://github.com/attogram/games>**
 
@@ -41,7 +41,7 @@ of the following web games:
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
 * The Pond Lite - <https://github.com/attogram/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
-* Snakisms - <https://github.com/pippinbarr/SNAKISMS.git> _<sup>(branch: clean)</sup>_
+* Snakisms - <https://github.com/pippinbarr/SNAKISMS> _<sup>(branch: clean)</sup>_
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
 * Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>

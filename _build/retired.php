@@ -2,7 +2,7 @@
 /**
  * Retired Games
  *
- * Games that used to be on the main Games List
+ * Games that used to be on the main list
  * preserved here for possible future use
  */
 
