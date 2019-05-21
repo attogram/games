@@ -22,7 +22,6 @@ $games = [
         'git'     => 'https://github.com/attogram/pond-lite.git',
         'mobile'  => true,
         'desktop' => true,
-        // @TODO - use local copy of kik cards.js
     ],
     '2048-lite' => [
         'name'    => '2048',

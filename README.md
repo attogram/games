@@ -4,16 +4,18 @@ Your own games website, filled with open source goodness!
 
 [![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
 
-The Attogram Games website builder is an easy way to setup a complete games website.
+The Attogram Games website builder is an easy way to setup
+a complete games website.  Every game included is open source
+and free to play!
 
-Every game included is open source and free to play!
+* Demo: **<https://fosiper.com/games/>**
 
-Live Demo: **<https://fosiper.com/games/>**
+* Main Repository: **<https://github.com/attogram/games>**
 
 ## The Games
 
 The Attogram Games website builder automates the installation
-of the following games:
+of the following web games:
 
 * 2048 Lite - <https://github.com/attogram/2048-lite>
 * 3d.city - <https://github.com/lo-th/3d.city>
@@ -21,7 +23,7 @@ of the following games:
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Clumsy Bird - <https://github.com/ellisonleao/clumsy-bird>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
-* Eight Queens - <https://github.com/attogram/EightQueens>
+* Eight Queens - <https://github.com/attogram/EightQueens> _<sup>(branch: gh-pages)</sup>_
 * Fire 'n Ice - <https://github.com/eugenioenko/fire-n-ice>
 * HexGL Lite - <https://github.com/attogram/HexGL-lite>
 * Hextris Lite - <https://github.com/attogram/hextris-lite>
@@ -35,11 +37,11 @@ of the following games:
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * NS-Shaft - <https://github.com/iPel/NS-SHAFT>
 * pacman-lite - <https://github.com/attogram/pacman-lite>
-* Paint Run 2 - <https://github.com/ahl389/paint-run2>
+* Paint Run 2 - <https://github.com/ahl389/paint-run2> _<sup>(branch: gh-pages)</sup>_
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
 * The Pond Lite - <https://github.com/attogram/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
-* Snakisms - <https://github.com/pippinbarr/SNAKISMS.git> _(branch: clean)_
+* Snakisms - <https://github.com/pippinbarr/SNAKISMS.git> _<sup>(branch: clean)</sup>_
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
 * Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
@@ -54,7 +56,7 @@ and some web musical instruments:
 
 ## Installation
 
-* You'll need `git` and `php` to install the Games Website
+* You need `git` and `php` to install the Games Website
 * Install the Games Website into a web accessible directory:
   * `git clone https://github.com/attogram/games.git games`
 * Run the build script:
@@ -78,6 +80,7 @@ and some web musical instruments:
   each with its own license.
 * See each individual game directory for more information.
 
-## More Info
+## Clean Repo: Games
 
-<https://github.com/attogram/games>
+* Attogram Games supports the
+ [Clean Repo: Games](https://github.com/attogram/clean-repo-games) project.
