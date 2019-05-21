@@ -68,8 +68,9 @@ and some web musical instruments:
 
 * Optional customization is easy with the `_build/custom/` directory
 * Customize games list: copy `_build/games.php` to `_build/custom/games.php` and edit
-* Customize page header: copy `_build/templates/header.php` to `_build/custom/header.php` and edit
-* Customize page footer: copy `_build/templates/footer.php` to `_build/custom/footer.php` and edit
+* Customize title and headline: copy `_build/config.php` to `_build/custom/config.php` and edit
+* Customize HTML page header: copy `_build/templates/header.php` to `_build/custom/header.php` and edit
+* Customize HTML page footer: copy `_build/templates/footer.php` to `_build/custom/footer.php` and edit
 * Customize CSS: copy `_build/templates/css.css` to `_build/custom/css.css` and edit
 * Rebuild with `php build.php install`
 

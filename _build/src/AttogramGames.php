@@ -1,4 +1,8 @@
 <?php
+/**
+ * Attogram Games
+ * https://github.com/attogram/games
+ */
 declare(strict_types = 1);
 
 namespace Attogram\Games;
@@ -21,7 +25,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '3.2.5';
+    const VERSION = '3.3.0';
 
     /** @var string */
     private $title;
@@ -63,18 +67,21 @@ class AttogramGames
         global $argc;
 
         $this->title = 'Attogram Games Website';
-        $this->verbose("\n{$this->title} Builder v" . self::VERSION);
+        $this->verbose("\n{$this->title} Builder v" . self::VERSION );
+        $this->verbose('');
         if ($argc === 1) {
             $this->verbose('Usage: php build.php [options]');
             $this->verbose('Options:');
             $this->verbose('    install  - Install games (git clone, build steps, write index.html)');
             $this->verbose('    update   - Update games (git pull, build steps, write index.html)');
-            $this->verbose('    embed    - Also write embeddable menu file games.html');
+            $this->verbose('    embed    - write embeddable menu file games.html');
+            $this->verbose('    index    - write index.html');
 
             return;
         }
         $this->initOptions();
         $this->initDirectories();
+        $this->initConfig();
         $this->initGamesList();
         if ($this->enableInstall) {
             $this->installGames();
@@ -97,6 +104,8 @@ class AttogramGames
         $this->verbose('UPDATES: ' . ($this->enableUpdate ? 'Enabled' : 'Disabled'));
         $this->enableEmbed = in_array('embed', $argv) ? true : false;
         $this->verbose('WRITE EMBED: ' . ($this->enableEmbed ? 'Enabled' : 'Disabled'));
+        $this->verbose('WRITE INDEX: Enabled'); // always write index.html
+        $this->verbose('');
     }
 
     /**
@@ -124,6 +133,35 @@ class AttogramGames
 
         $this->logoDirectory = $this->homeDirectory . '_logo' . DIRECTORY_SEPARATOR;
         $this->verbose('LOGO: ' . $this->logoDirectory);
+        $this->verbose('');
+    }
+
+    /**
+     * @throws Exception
+     */
+    private function initConfig()
+    {
+        global $title, $headline;
+        $configFile = 'config.php';
+
+        $configuration = is_readable($this->customDirectory . $configFile)
+            ? $this->customDirectory . $configFile
+            : $this->buildDirectory . $configFile;
+        $this->verbose('CONFIGURATION: ' . $configuration);
+        if (!is_readable($configuration)) {
+            throw new Exception('CONFIGURATION NOT FOUND: ' . $configuration);
+        }
+        /** @noinspection PhpIncludeInspection */
+        require_once $configuration;
+
+        $this->title = (!empty($title) && is_string($title))
+            ? $title
+            : $this->title;
+        $this->headline = (!empty($headline) && is_string($headline))
+            ? $headline
+            : $this->title;
+        $this->verbose('PAGE TITLE: ' . $this->title);
+        $this->verbose('PAGE HEADLINE: ' . htmlentities($this->headline));
     }
 
     /**
@@ -131,31 +169,24 @@ class AttogramGames
      */
     private function initGamesList()
     {
-        global $games, $title, $headline;
+        global $games;
 
         $gamesFile = 'games.php';
-        $gamesConfigFile = is_readable($this->customDirectory . $gamesFile)
+        $gamesList = is_readable($this->customDirectory . $gamesFile)
             ? $this->customDirectory . $gamesFile
             : $this->buildDirectory . $gamesFile;
-        $this->verbose('GAMES CONFIG: ' . $gamesConfigFile);
-        if (!is_readable($gamesConfigFile)) {
-            throw new Exception('GAMES CONFIG NOT FOUND: ' . $gamesConfigFile);
+        $this->verbose('GAMES LIST: ' . $gamesList);
+        if (!is_readable($gamesList)) {
+            throw new Exception('GAMES LIST NOT FOUND: ' . $gamesList);
         }
         /** @noinspection PhpIncludeInspection */
-        require_once $gamesConfigFile;
+        require_once $gamesList;
 
         $this->games = (!empty($games) && is_array($games))
             ? $games
             : [];
-        $this->title = (!empty($title) && is_string($title))
-            ? $title
-            : $this->title;
-        $this->headline = (!empty($headline) && is_string($headline))
-            ? $headline
-            : $this->title;
         $this->verbose('GAMES COUNT: ' . count($this->games));
-        $this->verbose('PAGE TITLE: ' . $this->title);
-        $this->verbose('PAGE HEADLINE: ' . htmlentities($this->headline));
+        $this->verbose('');
     }
 
     private function installGames()

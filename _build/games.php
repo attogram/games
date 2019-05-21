@@ -1,13 +1,11 @@
 <?php
-// Attogram Games Website Configuration
+/**
+ * Attogram Games
+ * https://github.com/attogram/games
+ *
+ * The Ordered List of Games
+ */
 
-// <title> - text only, no HTML
-$title = 'Attogram Games';
-
-// <h1> - text and/or HTML
-$headline = 'Attogram Games';
-
-// The Ordered List of Games
 $games = [
     'hextris-lite' => [
         'name'    => 'Hextris',

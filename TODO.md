@@ -1,7 +1,6 @@
 # Future Developments
 
 * build steps: check `game['require']` requirements exists or skip game
-* mv config for `$title` and `$headline` to own file, rm from games.php
 * Create /about.html page during build
 * .htaccess 404, 503 setup
 * add .favicon
