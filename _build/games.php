@@ -38,7 +38,6 @@ $games = [
         'index'   => 'play/',
         'mobile'  => true,
         'desktop' => true,
-        // @TODO - need clean repo fork - rm google analytics and tags
     ],
     'klotski' => [
         'name'    => 'Klotski',
@@ -54,7 +53,6 @@ $games = [
         'git'     => 'https://github.com/particle-clicker/particle-clicker.git',
         'mobile'  => true,
         'desktop' => true,
-        // @TODO - need clean repo fork - rm google analytics
     ],
     'life' => [
         'name'    => 'Life',
@@ -69,7 +67,6 @@ $games = [
         'git'     => 'https://github.com/iamkun/tower_game.git',
         'mobile'  => true,
         'desktop' => true,
-        // @TODO - need clean repo fork - rm google analytics
     ],
     'EightQueens' => [
         'name'    => 'Eight Queens',
@@ -92,7 +89,6 @@ $games = [
         'git'     => 'https://github.com/attogram/HexGL-lite.git',
         'mobile'  => false,
         'desktop' => true,
-        // @TODO - need clean repo fork - rm google analytics, use local favicons
     ],
     'html5-asteroids' => [
         'name'    => 'Asteroids',
@@ -186,9 +182,8 @@ $games = [
         'git'     => 'https://github.com/alunix/RagingGardensFB.git',
         'mobile'  => false,
         'desktop' => true,
-        // @TODO - need clean repo - rm facebook calls
     ],
-        'underrun' => [
+    'underrun' => [
         'name'    => 'Underrun',
         'tag'     => 'run &amp; fight',
         'git'     => 'https://github.com/phoboslab/underrun.git',
@@ -204,22 +199,12 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
-    'phaser-cat' => [
-        'name'    => 'Phaser Cat',
-        'tag'     => 'fighting feline',
-        'git'     => 'https://github.com/DaxChen/phaser-cat.git',
-        'require' => ['yarn'],
-        'build'   => ['yarn install', 'yarn run deploy'],
-        'mobile'  => false,
-        'desktop' => true,
-    ],
     'html5-hearts' => [
         'name'    => 'Hearts',
         'tag'     => 'card game',
         'git'     => 'https://github.com/yyjhao/html5-hearts.git',
         'mobile'  => false,
         'desktop' => true,
-        // @TODO - need clean repo fork - rm google analytics
     ],
     'mah-jongg' => [
         'name'    => 'Mah-jongg',
@@ -248,7 +233,6 @@ $games = [
         'git'     => 'https://github.com/mrcoles/javascript-piano.git',
         'mobile'  => true,
         'desktop' => true,
-        // @TODO - need clean repo fork - rm twitter codes
     ],
     'virtual-piano' => [
         'name'    => 'Piano V',

@@ -37,7 +37,6 @@ of the following games:
 * pacman-lite - <https://github.com/attogram/pacman-lite>
 * Paint Run 2 - <https://github.com/ahl389/paint-run2>
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
-* Phaser Cat - <https://github.com/DaxChen/phaser-cat> _(requires yarn)_
 * The Pond Lite - <https://github.com/attogram/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
 * Snakisms - <https://github.com/pippinbarr/SNAKISMS.git> _(branch: clean)_
