@@ -228,7 +228,7 @@ $games = [
         'name'    => 'The House',
         'tag'     => 'Explore your home',
         'git'     => 'https://github.com/arturkot/the-house-game.git',
-        'mobile'  => false,
+        'mobile'  => true,
         'desktop' => true,
     ],
     'javascript-piano' => [
