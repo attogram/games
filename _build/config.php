@@ -6,8 +6,8 @@
  * Website Configuration
  */
 
-// <title> - text only, no HTML
+// Title - for <title> - text only, no HTML
 $title = 'Attogram Games';
 
-// <h1> - text and/or HTML
+// Headline - text and/or HTML
 $headline = 'Attogram Games';

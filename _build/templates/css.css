@@ -2,7 +2,7 @@ body { background-color: lightslategray; font-family: sans-serif; margin: 0; }
 a, a:visited { color: darkblue; text-decoration: none; }
 a:hover { background-color: greenyellow; color: black; }
 img { border: 1px solid darkgrey; }
-.headline { background-color: black; color: honeydew; font-size: 145%; font-weight: bold; margin: 0; text-align: center; }
+.headline { background-color: black; color: honeydew; font-size: 130%; font-weight: bold; margin: 0; text-align: center; }
 .list { display: flex; flex-wrap: wrap; margin: 10px; }
 .game { background-color: white; border: 1px solid black; margin: 5px; padding: 10px 5px 0 5px; text-align: center; width: 118px;}
 .game:hover{ background-color: greenyellow; }

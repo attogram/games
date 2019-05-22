@@ -31,9 +31,7 @@ of the following web games:
 * HTML5 Hearts - <https://github.com/yyjhao/html5-hearts>
 * The House - <https://github.com/arturkot/the-house-game>
 * Hyperspace Garbage Collection - <https://github.com/razh/game-off-2013>
-* Klotski - <https://github.com/SimonHung/Klotski>
 * Life - <https://github.com/copy/life>
-* Lode Runner Total Recall - <https://github.com/SimonHung/LodeRunner_TotalRecall>
 * Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * NS-Shaft - <https://github.com/iPel/NS-SHAFT>
@@ -47,13 +45,19 @@ of the following web games:
 * Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
 * Underrun - <https://github.com/phoboslab/underrun>
-* Wolf3d - <https://github.com/jseidelin/wolf3d>
 
 and some web musical instruments:
 
 * Chordomatic - <https://github.com/kiprobinson/chordomatic>
 * Javascript Piano - <https://github.com/mrcoles/javascript-piano>
 * Virtual Piano - <https://github.com/otanim/virtual-piano>
+
+## Inclusion Critera
+
+Eligibility requirements for game inclusion:
+
+* The game must be explicitly licensed under a Open Source license.
+* The game must be playable via a web browser.
 
 ## Installation
 
