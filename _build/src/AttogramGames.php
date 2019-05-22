@@ -25,7 +25,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '4.0.1';
+    const VERSION = '4.0.2';
 
     /** @var string */
     private $title;
@@ -247,22 +247,24 @@ class AttogramGames
      */
     private function initTemplates()
     {
-        $cssFile = 'css.css';
-        $this->css = is_readable($this->customDirectory . $cssFile)
-            ? file_get_contents($this->customDirectory . $cssFile)
-            : file_get_contents($this->templatesDirectory . $cssFile);
-
-        $headerFile = 'header.html';
-        $this->header = is_readable($this->customDirectory . $headerFile)
-            ? file_get_contents($this->customDirectory . $headerFile)
-            : file_get_contents($this->templatesDirectory . $headerFile);
+        $this->css = $this->getTemplate('css.css');
+        $this->header = $this->getTemplate('header.html');
         $this->header = $this->transposeTemplate($this->header);
-
-        $footerFile = 'footer.html';
-        $this->footer = is_readable($this->customDirectory . $footerFile)
-            ? file_get_contents($this->customDirectory . $footerFile)
-            : file_get_contents($this->templatesDirectory . $footerFile);
+        $this->footer = $this->getTemplate('footer.html');
         $this->footer = $this->transposeTemplate($this->footer);
+    }
+
+    /**
+     * @param string $file
+     * @return string
+     */
+    private function getTemplate(string $file): string
+    {
+        $custom = is_readable($this->customDirectory . $file)
+            ? file_get_contents($this->customDirectory . $file)
+            : file_get_contents($this->templatesDirectory . $file);
+
+        return $custom ?? '';
     }
 
     /**
@@ -270,7 +272,7 @@ class AttogramGames
      * @return string
      * @throws Exception
      */
-    private function transposeTemplate(string $template)
+    private function transposeTemplate(string $template): string
     {
         $template = str_replace('{{CSS}}', $this->css, $template);
         $template = str_replace('{{TITLE}}', $this->title, $template);
