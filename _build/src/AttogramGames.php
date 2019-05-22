@@ -7,7 +7,6 @@ declare(strict_types = 1);
 
 namespace Attogram\Games;
 
-use DateTime;
 use Exception;
 
 use function chdir;
@@ -26,7 +25,7 @@ use function system;
 
 class AttogramGames
 {
-    const VERSION = '4.0.0';
+    const VERSION = '4.0.1';
 
     /** @var string */
     private $title;
