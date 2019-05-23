@@ -1,10 +1,12 @@
-body { background-color: lightslategray; font-family: sans-serif; margin: 0; }
+body { font-family: sans-serif; margin: 0; background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424); background-color: #131313; background-size: 20px 20px; }
 a, a:visited { color: darkblue; text-decoration: none; }
 a:hover { background-color: greenyellow; color: black; }
 img { border: 1px solid darkgrey; }
-.headline { background-color: black; color: honeydew; font-size: 130%; font-weight: bold; margin: 0; text-align: center; }
-.list { display: flex; flex-wrap: wrap; margin: 10px; }
+.headline { background-color: rgba(0, 0, 0, 0.60); color: honeydew; font-size: 120%; font-weight: bold; margin: 0; text-align: center; }
+.list { display: flex; flex-wrap: wrap; justify-content: center; margin: 0; }
 .game { background-color: white; border: 1px solid black; margin: 5px; padding: 10px 5px 0 5px; text-align: center; width: 118px;}
 .game:hover{ background-color: greenyellow; }
 .platform { background-color: transparent; color: grey; font-size: small; padding: 2px; text-align: right; }
-footer { color: darkslategrey; font-family: monospace; font-size: small; font-style: italic; padding: 20px; }
+footer { background-color: rgba(0, 0, 0, 0.70); color: slategrey; font-family: monospace; font-size: small; font-style: italic; padding: 20px; }
+footer a, footer a:visited { color: lightblue; }
+footer a:hover { background-color: darkblue; }
