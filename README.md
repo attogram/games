@@ -47,7 +47,7 @@ of the following web games:
 
 and some web playgrounds:
 
-* Colorful Life - <https://github.com/attogram/colorful-life-lite>
+* Colorful Life - <https://github.com/jaxry/colorful-life>
 * Life - <https://github.com/copy/life>
 
 and some web musical instruments:

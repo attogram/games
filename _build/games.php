@@ -235,7 +235,7 @@ $games = [
         'name'    => 'Colorful Life',
         'tag'     => 'life with color',
         'license' => 'GPL-3.0',
-        'git'     => 'https://github.com/attogram/colorful-life-lite.git',
+        'git'     => 'https://github.com/jaxry/colorful-life.git',
         'mobile'  => true,
         'desktop' => true,
     ],
