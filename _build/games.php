@@ -56,15 +56,6 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
-    'EightQueens' => [
-        'name'    => 'Eight Queens',
-        'tag'     => 'chess puzzle',
-        'license' => 'MIT',
-        'git'     => 'https://github.com/attogram/EightQueens.git',
-        'branch'  => 'gh-pages',
-        'mobile'  => true,
-        'desktop' => true,
-    ],
     'hexgl-lite' => [
         'name'    => 'HexGL',
         'tag'     => 'racing pod',
@@ -181,20 +172,21 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
-    'life' => [
-        'name'    => 'Life',
-        'tag'     => 'conway\'s game',
-        'license' => 'BSD-2-Clause',
-        'git'     => 'https://github.com/copy/life.git',
-        'mobile'  => true,
-        'desktop' => true,
-    ],
     'html5-hearts' => [
         'name'    => 'Hearts',
         'tag'     => 'card game',
         'license' => 'BSD-3-Clause',
         'git'     => 'https://github.com/yyjhao/html5-hearts.git',
         'mobile'  => false,
+        'desktop' => true,
+    ],
+    'EightQueens' => [
+        'name'    => 'Eight Queens',
+        'tag'     => 'chess puzzle',
+        'license' => 'MIT',
+        'git'     => 'https://github.com/attogram/EightQueens.git',
+        'branch'  => 'gh-pages',
+        'mobile'  => true,
         'desktop' => true,
     ],
     'chess' => [
@@ -237,6 +229,27 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+
+    // Playgrounds
+    'colorful-life' => [
+        'name'    => 'Colorful Life',
+        'tag'     => 'life with color',
+        'license' => 'GPL-3.0',
+        'git'     => 'https://github.com/attogram/colorful-life-lite.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
+    'life' => [
+        'name'    => 'Life',
+        'tag'     => 'conway\'s game',
+        'license' => 'BSD-2-Clause',
+        'git'     => 'https://github.com/copy/life.git',
+        'mobile'  => true,
+        'desktop' => true,
+    ],
+
+
+    // Musical Instruments
     'javascript-piano' => [
         'name'    => 'Piano J',
         'tag'     => 'synthy javascript',

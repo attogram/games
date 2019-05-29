@@ -17,7 +17,7 @@ and free to play!
 The Attogram Games website builder automates the installation
 of the following web games:
 
-* 2048 Lite - <https://github.com/attogram/2048-lite>
+* 2048 - <https://github.com/attogram/2048-lite>
 * 3d.city - <https://github.com/lo-th/3d.city>
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
@@ -25,26 +25,30 @@ of the following web games:
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
 * Eight Queens - <https://github.com/attogram/EightQueens> _<sup>(branch: gh-pages)</sup>_
 * Fire 'n Ice - <https://github.com/eugenioenko/fire-n-ice>
-* HexGL Lite - <https://github.com/attogram/HexGL-lite>
-* Hextris Lite - <https://github.com/attogram/hextris-lite>
+* HexGL - <https://github.com/attogram/HexGL-lite>
+* Hextris - <https://github.com/attogram/hextris-lite>
 * HTML5 Asteroids - <https://github.com/dmcinnes/HTML5-Asteroids>
 * HTML5 Hearts - <https://github.com/yyjhao/html5-hearts>
 * The House - <https://github.com/arturkot/the-house-game>
 * Hyperspace Garbage Collection - <https://github.com/razh/game-off-2013>
-* Life - <https://github.com/copy/life>
 * Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * NS-Shaft - <https://github.com/iPel/NS-SHAFT>
-* pacman-lite - <https://github.com/attogram/pacman-lite>
+* pacman - <https://github.com/attogram/pacman-lite>
 * Paint Run 2 - <https://github.com/ahl389/paint-run2> _<sup>(branch: gh-pages)</sup>_
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
-* The Pond Lite - <https://github.com/attogram/pond-lite>
+* The Pond - <https://github.com/attogram/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
 * Snakisms - <https://github.com/pippinbarr/SNAKISMS> _<sup>(branch: clean)</sup>_
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
 * Tower - <https://github.com/iamkun/tower_game>
 * Twisty Polyhedra - <https://github.com/aditya-r-m/twisty-polyhedra>
 * Underrun - <https://github.com/phoboslab/underrun>
+
+and some web playgrounds:
+
+* Colorful Life - <https://github.com/attogram/colorful-life-lite>
+* Life - <https://github.com/copy/life>
 
 and some web musical instruments:
 
