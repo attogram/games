@@ -1,24 +1,24 @@
 {
-  "name": "attogram/games",
+  "name": "ikra58064686/games",
   "description": "Your own games website, filled with open source goodness!",
   "type": "project",
   "license": "MIT",
   "require": {
     "php": "^7.0"
   },
-  "homepage": "https://github.com/attogram/games",
+  "homepage": "https://github.com/ikra58064686/games",
   "support": {
     "docs": "https://fosiper.com/games/",
-    "issues": "https://www.patreon.com/attogram"
+    "issues": "https://www.patreon.com/ikra58064686"
   },
   "authors": [{
-    "name": "Attogram Project",
-    "homepage": "https://github.com/attogram",
+    "name": "ikra58064686 Project",
+    "homepage": "https://github.com/ikra58064686",
     "role": "Developer"
   }],
   "autoload": {
     "psr-4": {
-      "Attogram\\Games\\": "_build/src/"
+      "ikra58064686\\Games\\": "_build/src/"
     }
   }
 }
