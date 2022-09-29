@@ -2,7 +2,7 @@
 
 Your own games website, filled with open source goodness!
 
-[![Games Website](https://raw.githubusercontent.com/attogram/attogram-docs/master/games/games.png)](https://github.com/attogram/games)
+[![Games Website](https://raw.githubusercontent.com/attogram/ikra58064686-docs/master/games/games.png)](https://github.com/ikra58064686/games)
 
 The Attogram Games website builder is an easy way to setup
 a complete games website.  Every game included is open source
@@ -10,23 +10,23 @@ and free to play!
 
 * Live Demo: **<https://fosiper.com/games/>**
 
-* Main Repository: **<https://github.com/attogram/games>**
+* Main Repository: **<https://github.com/ikra58064686/games>**
 
 ## The Games
 
-The Attogram Games website builder automates the installation
+The ikra58064686 Games website builder automates the installation
 of the following web games:
 
-* 2048 - <https://github.com/attogram/2048-lite>
+* 2048 - <https://github.com/ikra58064686/2048-lite>
 * 3d.city - <https://github.com/lo-th/3d.city>
 * Chess - <https://github.com/attogram/chess>
 * Classic Pool Game - <https://github.com/henshmi/Classic-Pool-Game>
 * Clumsy Bird - <https://github.com/ellisonleao/clumsy-bird>
 * Dead Valley - <https://github.com/dmcinnes/dead-valley>
-* Eight Queens - <https://github.com/attogram/EightQueens> _<sup>(branch: gh-pages)</sup>_
+* Eight Queens - <https://github.com/ikra58064686/EightQueens> _<sup>(branch: gh-pages)</sup>_
 * Fire 'n Ice - <https://github.com/eugenioenko/fire-n-ice>
 * HexGL - <https://github.com/attogram/HexGL-lite>
-* Hextris - <https://github.com/attogram/hextris-lite>
+* Hextris - <https://github.com/ikra58064686/hextris-lite>
 * HTML5 Asteroids - <https://github.com/dmcinnes/HTML5-Asteroids>
 * HTML5 Hearts - <https://github.com/yyjhao/html5-hearts>
 * The House - <https://github.com/arturkot/the-house-game>
@@ -34,10 +34,10 @@ of the following web games:
 * Mah-jongg - <https://github.com/tiansh/tjmj>
 * Missile Game - <https://github.com/bwhmather/missile-game>
 * NS-Shaft - <https://github.com/iPel/NS-SHAFT>
-* pacman - <https://github.com/attogram/pacman-lite>
+* pacman - <https://github.com/ikra58064686/pacman-lite>
 * Paint Run 2 - <https://github.com/ahl389/paint-run2> _<sup>(branch: gh-pages)</sup>_
 * Particle Clicker - <https://github.com/particle-clicker/particle-clicker>
-* The Pond - <https://github.com/attogram/pond-lite>
+* The Pond - <https://github.com/ikra58064686/pond-lite>
 * Raging Gardens - <https://github.com/alunix/RagingGardensFB>
 * Snakisms - <https://github.com/pippinbarr/SNAKISMS> _<sup>(branch: clean)</sup>_
 * Tap Tap Tap - <https://github.com/MahdiF/taptaptap>
@@ -67,7 +67,7 @@ Eligibility requirements for game inclusion:
 
 * You need `git` and `php` to install the Games Website
 * Install the Games Website into a web accessible directory:
-  * `git clone https://github.com/attogram/games.git games`
+  * `git clone https://github.com/ikra58064686/games.git games`
 * Run the build script:
   * `cd games/_build`
   * `php build.php install`
@@ -85,12 +85,12 @@ Eligibility requirements for game inclusion:
 
 ## License
 
-* The Attogram Games website builder is an open source project licensed under the MIT License.
-* The Attogram Games website builder automates the inclusion of many open source games,
+* The ikra58064686 Games website builder is an open source project licensed under the MIT License.
+* The ikra58064686 Games website builder automates the inclusion of many open source games,
   each with its own license.
 * See each individual game directory for more information.
 
 ## Clean Repo: Games
 
-* Attogram Games supports the
- [Clean Repo: Games](https://github.com/attogram/clean-repo-games) project.
+* ikra58064686 Games supports the
+ [Clean Repo: Games](https://github.com/ikra58064686/clean-repo-games) project.
