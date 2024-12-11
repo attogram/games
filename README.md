@@ -60,7 +60,7 @@ and some web musical instruments:
 
 Eligibility requirements for game inclusion:
 
-* The game must be explicitly licensed under a Open Source license.
+* The game must be explicitly licensed under an Open Source license.
 * The game must be playable via a web browser.
 
 ## Installation
