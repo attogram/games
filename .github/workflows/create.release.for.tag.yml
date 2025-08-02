@@ -24,7 +24,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          RELEASE_BODY="Attogram Games$CURRENT_TAG\n\nRepo: https://github.com/${{ github.repository }}\n"
+          RELEASE_BODY="Attogram Games $CURRENT_TAG\n\nRepo: https://github.com/${{ github.repository }}\n"
           echo "RELEASENOTES<<EOF" >> $GITHUB_ENV
           echo -e "$RELEASE_BODY" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
@@ -33,7 +33,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.CURRENT_TAG }}
-          name: "Ollama Bash Lib ${{ env.CURRENT_TAG }}"
+          name: "Attogram Games ${{ env.CURRENT_TAG }}"
           body: ${{ env.RELEASENOTES }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
