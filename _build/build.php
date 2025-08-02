@@ -1,6 +1,7 @@
 <?php
 /**
- * Attogram Games Website Builder
+ * Attogram Games Website Builder v1.0.0
+ *
  * https://github.com/attogram/games
  */
 
