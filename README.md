@@ -8,6 +8,14 @@ The Attogram Games website builder is an easy way to setup
 a complete games website.  Every game included is open source
 and free to play!
 
+![Release](https://img.shields.io/github/v/release/attogram/games?style=flat)
+![License](https://img.shields.io/github/license/attogram/games?style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/attogram/games?style=flat)
+![GitHub stars](https://img.shields.io/github/stars/attogram/games?style=flat)
+![GitHub watchers](https://img.shields.io/github/watchers/attogram/games?style=flat)
+![Forks](https://img.shields.io/github/forks/attogram/games?style=flat)
+![Issues](https://img.shields.io/github/issues/attogram/games?style=flat)
+
 * Live Demo: **<https://fosiper.com/games/>**
 
 * Main Repository: **<https://github.com/attogram/games>**
