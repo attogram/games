@@ -275,4 +275,13 @@ $games = [
         'mobile'  => true,
         'desktop' => true,
     ],
+    'wordle' => [
+        'name'    => 'Wordle',
+        'tag'     => 'words',
+        'license' => 'GPL-3.0',
+        'git'     => 'https://github.com/wissamfawaz/wordle-clone.git',
+        'index'   => 'index.html',
+        'mobile'  => true,
+        'desktop' => true,
+   ],
 ];
